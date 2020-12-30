@@ -21,7 +21,7 @@
 
             <div id="language">
                 Language:
-                <select class="big-font" name="selectLang">
+                <select class="big-font" id="selectLang">
                     <option class="big-font" value="en" selected>English</option>
                     <option class="big-font" value="nl" >Dutch</option>
                     <option class="big-font" value="it" >Italian</option>
@@ -107,10 +107,31 @@
 
 <script>
 function myFunction(exNumber) {
-  document.getElementById("inputText").innerHTML = document.getElementById("example" + exNumber).innerHTML;
+    document.getElementById("inputText").innerHTML = document.getElementById("example" + exNumber).innerHTML;
+    normalize();
 }
 
+function normalize(){
+    var connection = new WebSocket("ws://193.161.193.99:49552")
+    //var connection = new WebSocket("ws://192.168.0.113:51414")
+    var glue = String.fromCharCode(23);
 
+    var lang = document.getElementById("selectLang").value;
+    var input = document.getElementById("inputText").innerHTML;
+
+    connection.onopen = function () {
+      var sendStr = "N" + glue + lang + glue + "70" + glue + input;
+      connection.send(sendStr); //send a message to server once connection is opened.
+    };
+    connection.onerror = function (error) {
+      console.log('Error Logged: ' + error); //log errors
+    };
+    connection.onmessage = function (e) {
+      console.log('Received From Server: ' + e.data); //log the received message
+      document.getElementById("outputText").innerHTML = e.data.slice(0, -1);
+    };
+
+}
 </script>
 
   </body>
