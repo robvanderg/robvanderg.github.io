@@ -1,6 +1,4 @@
 # BEGIN Force HTTP
-RewriteEngine On
-RewriteCond %{SERVER_PORT} 443
-RewriteRule ^(.*)$ https://robvanderg.github.io/monoise/$1 [R=301,L]
+requires_channel http
 # END Force HTTP
 

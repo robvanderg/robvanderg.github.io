@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteCond %{HTTP} off 
+RewriteRule ^(monoise) https://%{HTT_HOST}%{REQUEST_URI} [R=301,L]
+
