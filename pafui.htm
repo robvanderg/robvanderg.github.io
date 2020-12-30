@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Parsing Algorithms for Uncertain Input</title>
+<link rel=stylesheet href="css/main.css" type="text/css">
+</head>
+<body>
+<div id="pictures">
+<a href="https://www.nuance.com">
+<img width="248" height="92" alt="Nuance Foundation Logo" title="Nuance Foundation" src="pics/nuance_foundation_logo.png" />
+</a>
+<a href="http://www.let.rug.nl/rob/">
+<img width="127" height="149" class="float_right" alt="Rob van der Goot" title="Rob van der Goot" src="pics/rob_van_der_goot.jpg" />
+</a>
+<a href="http://www.let.rug.nl/vannoord/">
+<img width="127" height="149" class="float_right" alt="Gertjan van Noord" title="Gertjan van Noord" src="pics/gertjan_van_noord.png" />
+</a>
+</div>
+<div id="content">
+<h1>
+Parsing Algorithms for Uncertain Input
+</h1>
+<p>
+Welcome on the webpage for the Parsing Algorithms for Uncertain Input project.
+</p>
+<p>
+This project is carried out by <a href="http://www.let.rug.nl/rob/index.htm">Rob van der Goot</a>, supervised by <a href="http://www.let.rug.nl/vannoord/">Gertjan van Noord</a> and funded by the <a href="https://www.nuance.com/">Nuance Foundation</a>.
+</p>
+<h2>
+Project Description
+</h2>
+<p>
+The automated analysis of natural language is an important ingredient for future applications which require the ability to understand natural language.
+For carefully edited texts current algorithms now obtain good results.
+However, for user generated content such as tweets and contributions to Internet fora, these methods are not adequate - for a variety of reasons including spelling mistakes, grammatical mistakes, unusual tokenization, partial utterances, interruptions.
+Likewise, the analysis of spoken language faces enormous challenge.
+One important aspect in which current methods break downs that they take the input very literal.
+Disfluencies, small mistakes or unexpected interruptions in the input often lead to serious problems.
+In contrast, humans understand such utterances without problems and are often not even aware of a spelling mistake or a grammatical mistake in the input.
+</p>
+<p>
+We propose to study a model of language analysis in which the purpose of the parser is to provide the analysis of the 'intended' utterance, which obviously is closely related to the observed input, but might be slighdy different.
+The relation between the observed sentence and the intended sentence is modeled by a kernel function on input string pairs.
+Such a kernel function accounts for different kinds of noise.
+The kernel function might model errors such as disfluencies, false starts, word swaps, etc.
+More concretely, this kernel function can be thought of as a weighted finite-state transducer, mapping an observed input to a weight.
+Finite state automaton representing a probability distribution met possible intended input.
+The parser then is supposed to pick the best parse out of the set of parses of all passible inputs - taking into account the various probabilities.
+Note that there is an obvious similarity with parsing word graphs (word lattices) as output of a speech recognizer, as well as with some earlier techniques in ill-formed input parsing.
+The current model combines and generalizes these ideas.
+The study will focus on questions of the following types, can we efficiently compute such an analysis (taking into account a variety of possible formalizations), and what type of disfluencies, noise, mistakes, etc., in the input can be effectively modeled in this approach,
+</p>
+<h4>
+Demo:
+</h4>
+<p>
+Try an online demo of state-of-art normalization: <a href="http://www.let.rug.nl/rob/monoise/">MoNoise Demo</a>
+</p>
+
+<h4> Workshop:
+</h4>
+<p>The website of the final project workshop: <a href="robustness">ROBustness in Parsing</a>
+
+<h4>
+Publications:
+</h4>
+
+<ul>
+<li>Rob van der Goot. 2019. <i>Normalization and Parsing Algorithms for Uncertain Input. </i>PhD Thesis.<br> [<a href="doc/thesis.pdf">thesis</a> | <a href="doc/thesis_pres.pdf">slides</a> | <a href="doc/thesis.sh">code</a> ] </li>
+
+<li>Rob van der Goot and Gertjan van Noord. 2018. <i>Modeling Input Uncertainty in A Neural Network Dependency Parser. </i>In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP).<br> [<a href="doc/emnlp2018.pdf">paper</a> | <a href="doc/emnlp_poster.pdf">poster</a> | <a href="https://bitbucket.org/robvanderg/normpar">code</a> | <a href="doc/emnlp2018_guidelines.pdf">appendix</a> | <a href="doc/emnlp2018.bib">bib</a>] </li>
+
+<li>Rob van der Goot, Rik van Noord and Gertjan van Noord. 2018. <i>A Taxonomy for In-depth Evaluation of Normalization for User Generated Content. </i>In Proceedings of the Eleventh International Conference on Language Resources and Evaluation. <br> [<a href="doc/lrec2018.pdf">paper</a> | <a href="https://bitbucket.org/robvanderg/normtax">data</a> | <a href="doc/lrec2018.bib">bib</a>] </li>
+
+<li>Malvina Nissim, Lasha Abzianidze, Kilian Evang, Rob van der Goot, Hessel Haagsma, Barbara Plank and Martijn Wieling. 2017. <i>Sharing is Caring: The Future of Shared Tasks.</i> To appear in Computational Linguistics journal. <br> [<a href="http://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00304">paper</a> | <a href="https://bitbucket.org/robvanderg/sharing">data</a> | <a href="doc/sharing.bib">bib</a>]
+
+<li>Rob van der Goot and Gertjan van Noord. 2017. <i>MoNoise: Modeling Noise Using a Modular Normalization System.</i> To appear in Computational Linguistics in the Netherlands Journal<br> [<a href="doc/clin27.pdf">paper</a> | <a href="doc/clin27_pres.pdf">slides</a> | <a href="https://bitbucket.org/robvanderg/monoise">code</a> | <a href="doc/clin27.bib">bib</a>]</li>
+
+<li>Rob van der Goot, Barbara Plank and Malvina Nissim. 2017. <i>To Normalize, or Not to Normalize: The Impact of Normalization on Part-of-Speech Tagging. </i>In Proceedings of the 3th Workshop on Noisy User-generated Text. <br> [<a href="doc/wnut17.pdf">paper</a> | <a href="doc/wnut17_pres.pdf">slides</a> | <a href="https://github.com/bplank/wnut-2017-pos-norm">code</a> | <a href="doc/wnut17.bib">bib</a>] </li>
+<li>Rob van der Goot and Gertjan van Noord. 2017. <i>Parser Adaptation for Social Media by Integrating Normalization. </i> In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics. <br> [<a href="doc/acl17.pdf">paper</a> | <a href="doc/acl17_poster.pdf">poster</a> | <a href="doc/acl17_pres.pdf">slides</a> | <a href="data/acl17.tar.gz">code</a> | <a href="doc/acl17.bib">bib</a>] </li>
+
+<li>Joachim Daiber and Rob van der Goot. 2016. <i>The Denoised Web Treebank: Evaluating Dependency Parsing under Noisy Input Conditions. </i>In Proceedings of the Tenth International Conference on Language Resources and Evaluation. <br> [<a href="doc/denoised_web_treebank.pdf">paper</a> | <a href="doc/lrec2016poster.pdf">poster</a> | <a href="http://jodaiber.github.io/DenoisedWebTreebank/">data and code</a> | <a href="doc/denoised_web_treebank.bib">bib</a>] </li>
+
+<li>Rob van der Goot. 2016. <i>Normalizing Social Media Texts by Combining Word Embeddings and Edit Distances in a Random Forest Regressor.</i> In Normalisation and Analysis of Social Media Texts Workshop. <br> [<a href="doc/normsome2016.pdf">paper</a> | <a href="doc/normsomepres2016.pdf">slides</a> | <a href="https://bitbucket.org/robvanderg/errcor">code</a> | <a href="doc/normsome2016.bib">bib</a>]</li>
+
+<li>Rob van der Goot and Gertjan van Noord. 2015. <i>ROB: Using Semantic Meaning to Recognize Paraphrases.</i> In Proceedings of the 9th International Workshop on Semantic Evaluation. <br> [<a href="doc/semeval2015.pdf">paper</a> | <a href="pic/sem15_web.jpg">poster</a> | <a href="https://bitbucket.org/robvanderg/sem15">code</a> | <a href="doc/semeval2015.bib">bib</a>]</li>
+
+</ul>
+</div>
+</body>
+</html>
+
