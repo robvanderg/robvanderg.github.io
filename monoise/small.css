@@ -1,0 +1,186 @@
+body{
+    min-width:600px;
+    padding-left:10%;
+font-size:20px;
+}
+
+.fill{
+    display:block;
+    width:200px;
+    float:left;
+}
+
+
+
+#footer{
+    float:left;
+    width:95%;
+    min-width:450px;
+    margin-top:35px;
+    padding-top:35px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:justify;
+
+}
+
+#content{
+    float:left;
+    width:95%;
+    min-width:450px;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:justify;
+}
+
+#tweets{
+    float:left;
+    width:95%;
+    min-width:450px;
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+#language{
+    margin-left:20px;
+    float: left;
+    margin-top:8px;
+    font-size:35px;
+}
+.big-font{    
+font-size:35px;
+}
+#slider{
+    font-size:35px;
+    float: left;
+    margin-left:40px;
+}
+
+#button{
+    padding-top:50px;
+    text-align:center;
+}
+
+#feedback{
+    width:400px;
+    height:20px;
+    margin-top:25px;
+    text-align:right;
+    float:right;
+}
+
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    float:left;
+    margin-left:-20px;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; 
+    border-right:25px solid #E6ECF0; 
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    float:right;
+    margin-right:-20px;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid lightblue;
+}
+
+textarea.styled{
+    resize: none;
+    width:600px;
+    font-size:35px;
+}
+.hline{
+margin-top:320px;
+}
+
+.textBubble{
+    margin-top:30px;
+    width:640px;
+    height:220px;
+    background-color: black;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    padding-top:20px;
+}
+
+.text{
+    margin-top:-5px;
+    padding:15px;
+    padding-top:0px
+}
+
+.answer{
+    float:right;
+    background-color:lightblue;
+}
+
+.question{
+    background-color:#E6ECF0;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+.float_right{
+    padding-top:25px;
+    padding-left:35px;
+    margin-left:35px;
+}
+
+.tweet{
+    float:left;
+    margin:5px;
+    border-style: solid;
+    border-color:#E6ECF0;
+    background-color:#fff;
+    text-align:left;
+    width:375px;
+}
+
+h3{
+    font-size:50px;
+}
+.profPic{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    float:left;
+    margin:5px;
+    margin-right:15px;
+}
+
+.profLink{
+margin:0px;
+padding:0px;
+margin-top:7px;
+display:block;
+float:left;
+ text-decoration:none;
+    font-size:35px;
+color: #000;
+}
+.profLink:visited{
+color: #000;
+}
+.profLink:hover{
+color: #2b7bb9;
+}
+.profName{
+margin:0px;
+padding:0px;
+margin-left:15px;
+    font-size:35px;
+}
+
+
+
