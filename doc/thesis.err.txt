@@ -1,0 +1,1 @@
+It is not mentioned whether the `wrong' or `correct' version of precision/recall is used in Table 5.1 (p. 80). This is the `incorrect' version, where a word in need of normalization which is normalized to the wrong candidate is penalized twice. The actual scores are slightly higher (see Appendix C).

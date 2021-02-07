@@ -112,8 +112,8 @@ function myFunction(exNumber) {
 }
 
 function normalize(){
-    var connection = new WebSocket("ws://193.161.193.99:49552")
-    //var connection = new WebSocket("ws://192.168.0.113:51414")
+    //var connection = new WebSocket("ws://193.161.193.99:49552")
+    var connection = new WebSocket("wss://192.168.0.113:8448")
     var glue = String.fromCharCode(23);
 
     var lang = document.getElementById("selectLang").value;

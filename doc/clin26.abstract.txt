@@ -1,0 +1,7 @@
+GroRef: Rule-Based Coreference Resolution for Dutch
+
+We have adapted Stanford’s multi-pass sieve coreference resolution system for
+Dutch. Our experiments prove that this rule-based system works robustly on
+Dutch, for different domains. Because no training data is needed, it is a
+well-suited approach for low-resource languages.
+

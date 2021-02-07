@@ -1,0 +1,70 @@
+Lexical Normalization for Dutch Social Media Texts
+
+Lexical normalization is the task of translating ill-formed or non-standard
+text to a more standard register. This can be helpful for many natural language
+processing pipelines, since they are usually trained on standard texts. These
+natural language processing systems simply break down when they encounter the
+noisy text from social media domains. Below we show an example of a normalized
+Dutch tweet:
+
+tgaat    goed , vdg      rustig aaan .
+Het gaat goed , vandaag  rustig aan  .
+
+There is already some previous work on normalization for Flemish (De Clercq et
+al 2013; Schulz et al, 2016). On this dataset, the performance of a
+state-of-the-art normalization model(van der goot and van Noord, 2017) is much
+lower compared to the English corpora: 42.5% vs. 86.4%. Upon inspection of the
+different corpora this is due to the fact that this corpus also includes
+transformation of some Flemish words into Dutch, and the difference in size of
+the training data.  But even when using the same amount of training data, the
+performance difference remains.
+
+Besides this, the corpus also makes no distinction between punctuation and
+normalization edits; this corpus actually contains 1,322 tokenization
+replacements and only 708 normalization replacements. This results in
+tokenization being far more important for the final evaluation. On top of that,
+the corpus is not publicly available and capitalization use is not corrected.
+
+We will annotate a new dataset of 1,000 noisy sentences taken from the SoNaR
+corpus (Oostdijk et al, 2013) with a normalization layer. This can be used to
+train a normalization model and confirm if Dutch is really a more difficult
+language to normalize. 150 sentences will be annotated by two annotators to
+obtain an inter-annotator agreement. Also enabling inspection of the type of
+disagreements.
+
+We will train the existing normalization model MoNoise (van der Goot and van
+Noord, 2017).  This normalization model is modular, because the normalization
+task comprises of different normalization replacements. The most important
+modules to generate candidates are:
+- Aspell: lexical and phonetic edit distances
+- Lookup list: generated from the training data 
+- Word embeddings trained on Dutch tweets data collected between 2012-2016,
+  using the same method as described in Tjong Kim Sang and van den Bosch
+  (2013): the top-n closest words in the embedding space are used as candidates
+
+The model uses features from the generation modules as well as some additional
+features. From the additional features, the N-gram features are by far the
+best predictor, these include unigram and bigram probabilities from both
+standard and non-standard texts. A random forest classifier is used to predict
+the best normalization candidate based on these features. At the conference, we
+will to present a live demo of the normalization model.
+
+Bibliography
+    Sarah Schulz, Guy De Pauw, Orphée De Clercq, Bart Desmet, Véronique Hoste,
+Walter Daelemans, and Lieve Macken. (2016) Multimodular text normalization of
+Dutch user-generated content. ACM Transactions on Intelligent Systems
+Technology, 7(4):61:1–61:22.
+    Orphée De Clercq, Sarah Schulz, Bart Desmet, Els Lefever, Véronique Hoste.
+(2013) Normalization of Dutch user-generated content. Proceedings of the
+International Conference Recent Advances in Natural Language Processing RANLP
+2013.
+    Oostdijk, N., Reynaert, M., Hoste, V., Schuurman, I. (2013) The
+Construction of a 500 Million Word Reference Corpus of Contemporary Written
+Dutch in: Essential Speech and Language Technology for Dutch: Results by the
+STEVIN-programme.
+    Erik Tjong Kim Sang and Antal van den Bosch. Dealing with big data: The
+case of twitter. Computational Linguistics in the Netherlands Journal, 3
+    Rob van der Goot and Gertjan van Noord. 2017. Monoise: Modeling noise using
+a modular normalization system. Computational Linguistics in the Netherlands
+Journal, 7
+

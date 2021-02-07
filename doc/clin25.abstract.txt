@@ -1,0 +1,33 @@
+A new automatic spelling correction model to improve parsability of noisy content
+
+To improve the parsing of noisy content (here: Tweets), a new automatic
+spelling correction model is proposed that normalizes input before handing it
+to the parser. Spelling correction is done in three steps: finding errors,
+generating solutions and ranking the generated solutions.
+
+Finding errors Normally, finding errors is done by comparing tokens against a
+dictionary. A more elaborate approach uses n-grams to estimate word
+probabilities. If the probabilities of n-grams around a certain word are very
+low, this probably indicates an error.
+
+Generating solutions Most spelling correctors use a modified version of the
+edit distance to find the correct words/phrases. Aspell includes an efficient
+and effective algorithm for this, which combines the normal edit distance with
+the double metaphone algorithm (L. Philips, 2000). The generation process
+should be adapted to the domain of application. Because our test data
+originates from Twitter, we assume that people tend to use shorter variants of
+words. This justifies a modification of the costs of insertion and deletion in
+the Aspell code.
+
+Ranking solutions In previous work ranking is based on edit distance and
+context probability(ie. M Schierle, 2008). To utilize more estimators for the
+ranking, a logistic regression model is trained. The features used are: 
+- Edit distance: as calculated by Aspell, using the modified costs.
+- Different n-gram probabilities: uni- bi- and tri-gram probabilities are
+  included.
+- Parse probability: The parse probability of the best parse of the Stanford
+  parser.
+
+In the presentation, we will present the model, as well as experimental
+results.
+

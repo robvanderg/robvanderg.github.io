@@ -1,0 +1,48 @@
+Lexical Normalization for Neural Network Parsing
+
+Whereas parser performance on news texts keeps getting closer to human
+performance, parsers still perform drastically worse out-of-domain. Multiple
+approaches have already been explored for domain adaptation; up-training,
+weighing of training data and integrating disfluency detection are some common
+approaches. In this work we will focus on another approach: normalization. More
+concretely, we examine different approaches on integrating normalization into a
+neural network dependency parser. We will focus on Twitter data; we annotated a
+small treebank using the Universal Dependencies format for evaluation purposes.
+
+Our baseline parser is the UUParser(de Lhoneux et al, 2017), which is an
+Arc-Hybrid BiLSTM parser.  This parser exploits character embeddings, and
+includes an option to initialize with pre-trained word embeddings. We use
+word2vec to train word embeddings on a big Twitter corpus.  Both the character
+embeddings and the pre-trained model increased the performance of the
+parser. In a domain adaptation setup, where we train on Wall Street
+Journal and test on Twitter, the performance improvement is even bigger. This
+is probably mainly an effect of solving the unknown word problem, which is also
+adressed by a normalization-based approach.  This leads to our main research
+question: can we make use of normalization to increase performance beyond the
+use of character level models and pre-trained word embeddings?
+
+We use an existing normalization model, which does normalization on the word
+level. It generates candidates using the Aspell spell checker, word embeddings
+and a lookup list. Features are directly taken from the generation step and
+supplemented with N-gram probabilities. A random forest classifier is then
+trained to predict the probability that a candidate belongs to the `correct'
+class; this enables the system to output a top-n list of candidates and their
+probabilities.
+
+When using normalization as a straightforward pre-processing component, we
+observe a small increase in LAS. However, the normalization component makes
+mistakes, these propagate directly to the parser. And even if we would have
+access to a perfect normalization sequence, it might still be informative to
+take the original token into account during parsing. To fully exploit the
+potential of the normalization model we combine the vectors of the top-n
+normalization candidates into one vector. We weight the vector of each
+candidate by the probably from the normalization model, and then sum the
+vectors of all candidates.It should be noted that this approach can also be
+generalized to other neural network parsers, and even to other tasks.
+
+In our initial experiments normalization improved parser performance, even when
+using charactel embeddings, and pre-trained word embeddings.  The integration
+of multiple normalization candidates improved performance even further,
+indicating that the top-n candidates are also informative. More in-depth
+evaluation will be included in the presentation.
+

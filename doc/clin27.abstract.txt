@@ -1,0 +1,29 @@
+Towards Domain Adaptation for Dutch Social Media Text Through Normalization
+
+When processing data from less canonical domains, current natural language
+processing systems trained on canonical (news) data perform poorly. One way of
+resolving this problem is to normalize the non-canonical data to more canonical
+text before processing. Some examples at for this approach include include
+Tjong Kim Sang (2016) and the CLIN27 shared task. But instead of focusing on
+historical text, we will focus on the social media domain. There are already
+numerous normalization systems for English (eg. Baldwin et al., 2015).
+
+For this purpose, we introduce a newly annotated corpus of 1,000 normalized
+Dutch Tweets. We hope that this resource can stimulate further research in this
+direction. Additionally we will introduce the first results on this corpus with
+our own normalization system for Dutch. The output of this normalization system
+can be used in a pipeline for pos tagging, parsing and other natural language
+processing tasks.
+
+Our normalization model uses word embeddings trained on Twitter and the spell
+checker Aspell to generate normalization candidates. Features from the
+generation are then combined with features from 2 different n-gram language
+models. One model learned from the source domain (social media), and one from a
+more canonical domain(Google n-grams). We combine these features in a binary
+random forest classifier. We can then use the confidence score from the
+classifier as a score to rank possible candidates.
+
+The performance of the normalization system compared to inter annotator
+agreement will be discussed at the presentation.
+
+

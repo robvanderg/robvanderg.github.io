@@ -1,0 +1,46 @@
+Parsing Social Media Texts by Using Normalization
+
+The noisy nature of the social media domain introduces many problems for
+existing NLP models, including parsing. Constituency parsers trained on
+newswire treebanks achieve an in-domain F1 score of well above 90. An
+experiment we conducted on a small Twitter treebank revealed the magnitude
+of this domain-adaptation problem, the F1 score for this domain drops below
+70.
+
+We propose to narrow this performance gap by integrating normalization into the
+parsing process. Firstly we exploit a straightforward use of a normalization
+model for parsing, meaning we simply normalize an input sentence before
+parsing. This results in a performance improvement of 1.7% F1 score. Previous
+work has reported similar effects using automatic normalization, and higher
+gains by using manually annotated  normalization.
+
+To exploit the full potential of the normalization model, we propose to integrate
+the normalization into the parsing model. In the traditional setup, errors made
+by the normalization model are directly propogated to the parser. In our
+setup we let the normalization model generate a ranked list of possible
+normalization candidates. The parser can then parse this word graph using
+the parsing as intersection algorithm(Bar-Hillel, 1961).
+
+To gain more control on the effect of the use of the normalization we introduce
+a weight given to the normalization probability. We show that the probability
+from the normalization should be given a relatively higher weight compared to
+the probability from the parser. Additionally we test how many normalization
+candidates the parser needs to reach an optimal performance. Surprisingly, the
+parser reaches its best performance around six candidates. Even though the
+normalization system rarely finds a correct normalization candidate beyond the
+second candidate. A manual analysis reveals that wrong normalization candidates
+are often syntactically similar to the original token, and can thus lead to a
+better syntactic derivation.
+
+Integrating the normalization leads to an improvement of 2.7%, significantly
+higher compared to using normalization as pre-processing. Using gold pos tags
+the parser performance increases even twice as much. This could be considered a
+theoretical upper-bound of the performance gain of using normalization.
+Possible future work includes using a lexicalized parser, in which the
+normalization can have a bigger impact on the search space, and improving
+normalization using syntactic information. Our proposed model can also be
+complemented with other methods to improve the parser performance even further,
+think about: ensemble parser, product grammars, training data filtering and
+uptraining
+
+
