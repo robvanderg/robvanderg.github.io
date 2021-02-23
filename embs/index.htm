@@ -1,63 +1,6 @@
-
-
-
-
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body bgcolor=lightblue>
-        <nav></nav>
-        <header>
-        </header>
-        <div class="analogie" style="margin: 100px auto; padding:15px;">
-            <center>
-            <h2>Unconstrained Analogies</h2>
-            <p>With this demo, you can solve the classic analogy task, which is often used to evaluate/showcase the strength of word embeddings. The analogy task consists of a query in the form of <i>A is to B as C is to</i>, and has to predict <i>D</i> (e.g. man is to king as woman is to .. queen). In word embeddings, this is often done by calculating the cosine distance between the concepts. However, usually the input words are specifically excluded from the output. In this demo we do not use this restriction, and thus A, B or C can be returned.</p>
-
-            <p>We include three sets of pretrained embeddings. The <a href="https://code.google.com/archive/p/word2vec/">GoogleNews embeddings</a>, reddit embeddings from <a href="https://arxiv.org/abs/1904.04047">Manzini et al</a> (w2v_0), and embeddings re-trained on the same reddit data, but with the default word2vec settings.</p>
-
-            <p>Pick an example, or try your own analogy below!</p>
-            <hr>
-            </br> 
-            <form action="#" method="post">
-                Examples:
-                <select name="selectExamples" onchange="this.form.submit()">
-                    <option value="empty" ></option>
-                    <option value="example1" >man is to king as woman is to </option>
-                    <option value="example2" >Athens is to Greece as Luxembourg is to</option>
-                    <option value="example3" >he doctor she</option>
-                    <option value="example4" >black criminal caucasian</option>
-                    <option value="example5" >asian engineer black</option>
-                </select>
-                </br>
-                </br>
-                <input type="text" name="word1" value=> is to
-                <input type="text" name="word2" value=> as
-                <input type="text" name="word3" value=> is to ...<br><br>
-                <select name="selectNum">
-                    <option value="1" >1</option>
-                    <option value="2" >2</option>
-                    <option value="5" >5</option>
-                    <option value="10" >10</option>
-                    <option value="20" >20</option>
-                    <option value="50" selected>50</option>
-                    <option value="100" >100</option>
-                </select>
-                <select name="selectEmbs">
-                    <option value="google" selected>GoogleNews</option>
-                    <option value="reddit_w2v_0" >Reddit (w2v_0)</option>
-                    <option value="reddit_retrained" >Reddit</option>
-                    <option value="bricki" >Brickipedia</option>
-                </select>
-                <input type="submit" name="SubmitText"> <br><br>
-            </form>
-             
-        </div>
-    </body>
-</html>
-
-
+<head>
+  <meta http-equiv="refresh" content="0; URL=http://itu.dk/people/robv/monoise/" />
+</head>
+<body>
+  <p>This demo is moved to: <a href="http://itu.dk/people/robv/embs/">http://itu.dk/people/robv/monoise/</a>.</p>
+</body>
