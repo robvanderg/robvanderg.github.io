@@ -106,7 +106,7 @@ evaluate. This is mainly an algorithmic project, as existing sequence labelers c
     <li><a href="https://www.aclweb.org/anthology/N19-1077.pdf">Viable Dependency Parsing as Sequence Labeling</a></li>
 </ul>
 
-
+<!--
 <h3>Dialogue acts classification for social media data</h3>
 <p>Dialogue acts classify the intended goal of a textual utterance. Dialogue acts have mostly been studied in the context of telephone conversations. However, when sharing utterances on social media, people generally also have an intended goal (perhaps not always, so a MISC column should be considered).</p>
 
@@ -115,7 +115,7 @@ evaluate. This is mainly an algorithmic project, as existing sequence labelers c
     <li><a href="https://web.stanford.edu/~jurafsky/ws97/manual.august1.html">Definition of the task</a></li>
     <li>John Langshaw Austin. How to Do Things with Words</li>
     <li><a href="http://faculty.nps.edu/cmartell/NPSChat.htm">NPSChat corpus</a></li>
-</ul>
+</ul>-->
 
 <h3>Effect of sociodemographic factors on language use</h3>
 Recent work has shown that including the origin of a text instance can improve
@@ -160,8 +160,9 @@ Existing tools:
 -->
 
 
+<!--
 <h3>Machine translation of social media data</h3>
-<p>While performance of machine translation keeps increasing, the current models do not perform well on non-standard (i.e. social media) text. One solution to this problem would be to transform this data a `normal' form (e.g. by using <a href="http://www.robvandergoot.com/monoise">MoNoise</a>) before translating it.</p>
+<p>While performance of machine translation keeps increasing, the current models do not perform well on non-standard (i.e. social media) text. One solution to this problem would be to transform this data a `normal' form (e.g. by using <a href="../monoise">MoNoise</a>) before translating it.</p>
 
 <p>Relevant reading:</p>
 <ul>
@@ -169,7 +170,7 @@ Existing tools:
     <li><a href="https://www.aclweb.org/anthology/N13-1050.pdf">A Beam-Search Decoder for Normalization of Social Media Text with Application to Machine Translation</a></li>
     <li><a href="Microblogs as Parallel Corpora">Microblogs as Parallel Corpora</a></li>
     <li><a href="https://www.aclweb.org/anthology/W19-5303.pdf">Findings of the First Shared Task on Machine Translation Robustness</a>
-</ul>
+</ul>-->
 
 
 <h3>Low-resource dependency parsing</h3>
@@ -194,7 +195,41 @@ Existing tools:
 </ul>
 -->
 
+<h3>Language identification for many languages</h3>
 
+<p>Language identification is a standard NLP task, which is often considered to be solved. However, most current classifiers only support around 100 languages, or are not publicly available. This project makes use of the <a href="http://www.cs.cmu.edu/~ralf/langid.html">LTI LangID Corpus</a>, and asks the question: how do modern neural network approaches compare to simple character-based classifiers for language classification (with &#62;1300 languages). Relevant previous work:</p>
+
+<ul>
+    <li><a href="https://www.aclweb.org/anthology/D14-1069.pdf">Non-linear Mapping for Improved Identification of 1300+ Languages</a></li>
+    <li><a href="https://www.aclweb.org/anthology/D18-1030.pdf">A Fast, Compact, Accurate Model for Language Identification of Codemixed Text</a></li>
+    <li><a href="https://www.aclweb.org/anthology/2020.coling-main.579.pdf">Language ID in the Wild: Unexpected Challenges on the Path to a Thousand-Language Web Text Corpus</a></li>
+<ul>
+
+<h3>Multi-lingual lexical normalization</h3>
+<p>Lexical normalization is the task of converting social media language to its canoical equivalent. A traditional machine learning still holds the state-of-the-art. More information on:</p>
+
+<ul>
+    <li>Website for dataset: <a href="http://noisy-text.github.io/2021/multi-lexnorm.html">Multi-LexNorm</a></li>
+    <li><a href="https://www.aclweb.org/anthology/P19-3032.pdf">MoNoise: A Multi-lingual and Easy-to-use Lexical Normalization Tool</a></li>
+    <li><a href="https://www.aclweb.org/anthology/W15-4319.pdf">Shared Tasks of the 2015 Workshop on Noisy User-generated Text: Twitter Lexical Normalization and Named Entity Recognition</a></li>
+</ul>
+
+<h3>Tokenization of social media data</h3>
+<p>In many NLP benchmarks, tokenized texts are assumed as input to our models. For standard domains, tokenization can be considered a solved problem, however, for social media text tokenization is non-trivial. The goal of this project is to create a multi-lingual corpus and model for this task. Steps include:</p>
+
+<ul>
+    <li>Finding the original utterances of <a href="http://noisy-text.github.io/2021/multi-lexnorm.html">Multi-LexNorm</a></li>
+    <li>Create a gold standard dataset based on the original and the tokenized data.</li>
+    <li>Evaluate existing tokenizers and train your own.</li>
+</ul>
+
+Some related work:
+
+<ul>
+    <li><a href="https://www.aclweb.org/anthology/Q18-1030.pdf">Universal Word Segmentation: Implementation and Interpretation</a></li>
+    <li><a href="https://github.com/myleott/ark-twokenize-py/blob/master/twokenize.py">twokenize</a></li>
+    <li><a href="https://www.nltk.org/_modules/nltk/tokenize/casual.html#TweetTokenizer">nltk.TweetTokenizer</a></li>
+</ul>
             </div>
         </div>
     </body>
