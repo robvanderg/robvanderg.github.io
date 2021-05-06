@@ -41,7 +41,7 @@
     <li>Removed duplicates with (note that this stores intermediate results in /dev/shm, which should be quite large):</li>
 <div class="code">sort -T /dev/shm | uniq</div>
     <li>trained word2vec with the following settings:</li>
-<div class="code">./word2vec/word2vec -train nl.txt  -output id.bin -size 400 -window 5 -cbow 0 -binary 1 -threads 45</div>
+<div class="code">./word2vec/word2vec -train nl.txt  -output nl.bin -size 400 -window 5 -cbow 0 -binary 1 -threads 45</div>
 </ul>
 
 <p>You might notice that I did not do any tokenization. This is not because I forgot. This is done because any consistent errors in tokenization would lead to specific words being excluded from the vocabulary.</p>
