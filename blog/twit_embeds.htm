@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <title>Rob van der Goot</title>
+         <link rel="stylesheet" media="screen and (min-width: 1000px)" href="../css/big.css" />
+         <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../css/small.css"/>
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+     </head>
+     <body>
+         <div id="wrapper">
+             <div id="menu">
+                <div id="menuText">
+                Menu
+                </div>
+                 <div id="buttonWrapper">
+                     <a class="button" href="../">Home</a>
+                     <a class="button" href="../papers/">Papers</a>
+                     <a class="button" href="../cv/">CV</a>
+                     <a class="button" href="../datasets/">Datasets</a>
+                     <a class="button" href="../demos/">Demos</a>
+                     <a class="button" href="../blog/">blog</a>
+                     <a class="button" href="../thesisProjects/">Thesis Projects</a>
+                 </div>
+             </div>
+             <div id="content">
+
+<h2>Multi-lingual Twitter word embeddings</h2>
+
+<p>Since I have started to work on Twitter data, word embeddings have proven to be very useful. In the last two years, word embeddings have mostly been replaced by contextualized transformer based embeddings. For multi-lingual twitter embeddings I refer to <a href="https://arxiv.org/pdf/2104.12250.pdf">Barbieri et al.</a> (also available on <a href="https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base">huggingface</a>). However, there are still many cases where word embeddings are preferable, because of their efficiency, or because they still result in better performance. Yes, they sometimes are still not outperformed, for example for the task of lexical normalization (<a href="https://www.aclweb.org/anthology/P19-3032.pdf">SOTA</a>).</p>
+
+<p>I have prepared word embeddings for all languages included in the <a href="http://noisy-text.github.io/2021/multi-lexnorm.html">Multi-LexNorm shared task</a>. The procedure was as follows:</p>
+
+<ul>
+    <li>Download tweets between 2012-2020 from <a href="https://archive.org/details/twitterstream">archive.org</a></li>
+    <li>Used the <a href="https://fasttext.cc/docs/en/language-identification.html">Fasttext language classifier</a> for language identification. Empirical results looked much better as the Twitter provided language labels.</li>
+    <li>For the code-switched language pairs, I have simply concatenated both mono-lingual datasets, as it is non-trivial to filter for code-switched data.</li>
+    <li>Cleaned usernames and url's to make the vocabulary smaller, and anonymize. Used the following command:</li>
+<div class="code">sed -r 's/@[^ 	][^ 	]*/<USER>/g' | sed -r 's/(http[s]?:\/[^ ]*|www\.[^ ]*)/<URL>/g' </div>
+    <li>Removed duplicates with: sort | uniq</li>
+    <li>trained word2vec with the following settings:</li>
+<div class="code">./word2vec/word2vec -train nl.txt  -output id.bin -size 400 -window 5 -cbow 0 -binary 1 -threads 45</div>
+</ul>
+
+<p>You might notice that I did not do any tokenization. This is not because I forgot. This is done, because any consistent errors in tokenization would lead to specific words being excluded from the vocabulary.</p>
+
+
+<p>The results of this procedure are hosted on: http://www.itu.dk/people/robv/data/embeds/</p>
+
+<p>Besides the embeddings, I have also counter uni- and bi-gram frequencies on the same data. I have used a minimum frequency of 3. Results of this are shared on: http://www.itu.dk/people/robv/data/ngrams/</p>
+
+            </div>
+        </div>
+    </body>
+</html>
+
