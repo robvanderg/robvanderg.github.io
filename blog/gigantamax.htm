@@ -65,7 +65,7 @@ XLM-r (because it is more costly to train).</p>
 
 <img src="gigantamax.png">
 
-Results are shown in the plot above (LAS over all dev-sets). The red and green
+<p>Results are shown in the plot above (LAS over all dev-sets). The red and green
 line are cut off because our machine crashed and it did not seem worth it to
 restart them. We tried our original learning rate (0.0001) as well as a small
 one (0.00001), motivated by the fact that we have more epochs and more steps
@@ -74,14 +74,14 @@ the figure. We used 16000 warmup steps. The models without noam/warmup in their
 name use the MaChAmp default (slanted triangular), and clearly outperform the
 other schedulers. Furthermore, one clear takeaway is that our models trained
 for 20 epochs are performing equally well as the ones that are trained for 40
-or 80 epochs. 
+or 80 epochs.</p>
 
-Even though this small hyperparameter-tuning is not exhaustive (it is very
+<p>Even though this small hyperparameter-tuning is not exhaustive (it is very
 costly to train these huge models, there are 1,136,897 sentences in the
 training data), it shows that slanted triangular is a robust learning rate
 scheduler, and that training for 20 epochs is a (lucky) optimal. We release
 some of our complete models at: <a
-href="https://github.com/machamp-nlp/machamp/blob/master/docs/models.md">https://github.com/machamp-nlp/machamp/blob/master/docs/models.md</a>
+href="https://github.com/machamp-nlp/machamp/blob/master/docs/models.md">https://github.com/machamp-nlp/machamp/blob/master/docs/models.md</a></p>
 
             </div>
         </div>
