@@ -64,7 +64,7 @@ href="https://github.com/huggingface/transformers/blob/master/src/transformers/m
 Face</a>, <a
 href="https://github.com/allenai/allennlp/blob/main/allennlp/data/token_indexers/pretrained_transformer_indexer.py#L138">AllenNLP</a>)
 
-<p>However, a collegue (<a href="https://personads.me/">Maximilian
+<p>However, a colleague (<a href="https://personads.me/">Maximilian
 Müller-Eberstein</a>) stumbled upon performance difference during a
 reproducability study when varying the values of the segment ID's. When he
 changed the implementation of previous work that used segment ID's of 1 for
@@ -77,7 +77,7 @@ wherease others say: <a
 href="https://github.com/BramVanroy/bert-for-inference/blob/master/introduction-to-bert.ipynb">"the
 segmentation embedding is of no importance"</a>.</p>
 
-<p>To change the segment id's to one in <a
+<p>To change the segment id's to 1 in <a
 href="https://machamp-nlp.github.io/">MaChAmp</a>, only <a
 href="https://github.com/machamp-nlp/machamp/blob/master/machamp/models/machamp_model.py#L72">one
 line of code</a> has to be added in its forward pass:</p> <div class="code">
