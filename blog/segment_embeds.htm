@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <title>Rob van der Goot</title>
+         <link rel="stylesheet" media="screen and (min-width: 1000px)" href="../css/big.css" />
+         <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../css/small.css"/>
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+     </head>
+     <body>
+         <div id="wrapper">
+             <div id="menu">
+                <div id="menuText">
+                Menu
+                </div>
+                 <div id="buttonWrapper">
+                     <a class="button" href="../">Home</a>
+                     <a class="button" href="../papers/">Papers</a>
+                     <a class="button" href="../cv/">CV</a>
+                     <a class="button" href="../datasets/">Datasets</a>
+                     <a class="button" href="../demos/">Demos</a>
+                     <a class="button" href="../blog/">Blog</a>
+                     <a class="button" href="../thesisProjects/">Thesis Projects</a>
+                 </div>
+             </div>
+             <div id="content">
+
+    <h2>On segment embeddings in Bert embeddings</h2>
+
+<p> The input to BERT's transformer layers are word embeddings which are built
+up from 3 parts: the word embedding, position embedding, and the segment
+embedding. These are then passed through N transformer layers etc. etc. (there
+are many good explanations available on bert models). In this post, we will
+focus on segment embeddings. The creation of these word embeddings is nicely
+summarized in the original BERT paper (<a
+href="https://www.aclweb.org/anthology/N19-1423.pdf">Devlin et al.
+2019</a>):</p>
+
+<img src="bert.png">
+
+<p>To enable the model to learn about the relation between sentences, the
+training procedure of BERT includes the next sentence prediction task. During
+training, they include a binary next sentence prediction task, where they feed
+the original sentence and its subsequent sentence or the original sentence and
+a random sentence (50-50). To inform the model which parts belong the the
+original sentence, and which belong to the "candidate next sentence", segment
+ID's are included (also called token_type_ids in code). These ID's are either 0
+for the original input and 1 for the "candidate next sentence", and are
+provided on the word level.</p>
+
+<p>When using a pre-trained BERT model, the input segment ID's have to be
+provided. When tackling a task that concerns two inputs, for example paraphrase
+detection, where we have to decide whether two sentence have (roughly) the same
+meaning, the segment ID's are obvious: the words from the first sentence will
+have 0's and the words from the second sentence will be assigned 1's</p>
+
+<p>For single sentence tasks (e.g. classification), or word-level tasks, it
+seems obvious to use a value of 0 for the input words. This is also the default
+setting in the original implementation (<a
+href="https://github.com/google-research/bert/blob/master/run_classifier.py#L439">BERT</a>),
+as well as in commonly used NLP toolkits (<a
+href="https://github.com/huggingface/transformers/blob/master/src/transformers/models/bert/tokenization_bert.py#L313">Hugging
+Face</a>, <a
+href="https://github.com/allenai/allennlp/blob/main/allennlp/data/token_indexers/pretrained_transformer_indexer.py#L138">AllenNLP</a>)
+
+<p>However, a collegue (<a href="https://personads.me/">Maximilian
+Müller-Eberstein</a>) stumbled upon performance difference during a
+reproducability study when varying the values of the segment ID's. When he
+changed the implementation of previous work that used segment ID's of 1 for
+dependency parsing to 0, he experienced rather large performance drops. So, I
+decided to take a closer look at segment ID's for inputs consisting only of one
+utterance. When searching for this on the web, we've found that some people use
+1 on purpose (<a
+href="https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/#23-segment-id">tutorial</a>),
+wherease others say: <a
+href="https://github.com/BramVanroy/bert-for-inference/blob/master/introduction-to-bert.ipynb">"the
+segmentation embedding is of no importance"</a>.</p>
+
+<p>To change the segment id's to one in <a
+href="https://machamp-nlp.github.io/">MaChAmp</a>, only <a
+href="https://github.com/machamp-nlp/machamp/blob/master/machamp/models/machamp_model.py#L72">one
+line of code</a> has to be added in its forward pass:</p> <div class="code">
+tokens['tokens']['type_ids'] = torch.ones_like(tokens['tokens']['type_ids'])
+</div>
+
+<p>To evaluate the effect of this "parameter", we trained MaChAmp with 0's as
+well as with 1's as segment embeddings on the UD treebank selection of <a
+href="https://www.aclweb.org/anthology/D18-1291.pdf">Smith et al. (2018)</a> as
+well as on the single sentence glue tasks.</p>
+
+
+            </div>
+        </div>
+    </body>
+</html>
+
