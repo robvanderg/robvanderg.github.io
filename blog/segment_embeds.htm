@@ -84,17 +84,18 @@ line of code</a> has to be added in its forward pass:</p> <div class="code">
 tokens['tokens']['type_ids'] = torch.ones_like(tokens['tokens']['type_ids'])
 </div>
 
-<p>To evaluate the effect of this "parameter", we trained MaChAmp with 0's as
-well as with 1's as segment embeddings on the UD treebank selection of <a
+<p>To evaluate the effect of this "parameter", we trained MaChAmp with default
+settings except that we use all 0's or all 1's as segment embeddings on the UD
+treebank selection of <a
 href="https://www.aclweb.org/anthology/D18-1291.pdf">Smith et al. (2018)</a>.
-In the graph below, we plot the difference in performance (LAS) when using 1's minus
-using 0's. In other words, positive scores indicate that using 1's for 
+In the graph below, we plot the difference in performance (LAS) when using 1's
+minus using 0's. In other words, positive scores indicate that using 1's for
 segment embeddings performs better than using 0's.</p>
 
 <img src="line.large.png">
 
 <p>Results show that especially in the earlier epochs, the difference is rather 
-large.</p>
+large. Indicating that somehow 1's are beneficial for quick learning.</p>
 
 
             </div>
