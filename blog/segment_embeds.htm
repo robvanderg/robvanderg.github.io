@@ -86,8 +86,15 @@ tokens['tokens']['type_ids'] = torch.ones_like(tokens['tokens']['type_ids'])
 
 <p>To evaluate the effect of this "parameter", we trained MaChAmp with 0's as
 well as with 1's as segment embeddings on the UD treebank selection of <a
-href="https://www.aclweb.org/anthology/D18-1291.pdf">Smith et al. (2018)</a> as
-well as on the single sentence glue tasks.</p>
+href="https://www.aclweb.org/anthology/D18-1291.pdf">Smith et al. (2018)</a>.
+In the graph below, we plot the difference in performance (LAS) when using 1's minus
+using 0's. In other words, positive scores indicate that using 1's for 
+segment embeddings performs better than using 0's.</p>
+
+<img src="line.large.png">
+
+<p>Results show that especially in the earlier epochs, the difference is rather 
+large.</p>
 
 
             </div>
