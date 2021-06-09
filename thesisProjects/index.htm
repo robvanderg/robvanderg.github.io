@@ -173,7 +173,7 @@ Existing tools:
 </ul>-->
 
 
-<h3>Low-resource dependency parsing</h3>
+<!--<h3>Low-resource dependency parsing</h3>
 <p>Dependency parsing is the task of finding the syntactic relations between words in a sentence. For more information I refer to the <a href="https://universaldependencies.org/">UD page</a>, which contains data annotated for this task for over 70 languages. </p>
 
 <p>Very high scores have been obtained for this task (&gt; 95%), however this is all done by supervised parsers, which are trained on large amounts of annotated data. I am generally interested in doing natural language processing for less-resourced situations (languages/domains). Yes, this topic is less concrete as the previous one, contact me for more concrete ideas. Some interesting recent work:</p>
@@ -182,7 +182,7 @@ Existing tools:
     <li><a href="https://www.aclweb.org/anthology/D19-1102/">A systematic comparison of methods for low-resource dependency parsing on genuinely low-resource languages</a></li>
     <li><a href="https://www.aclweb.org/anthology/D19-6118/">Cross-lingual Parsing with Polyglot Training and Multi-treebank Learning: A Faroese Case Study</a></li>
     <li><a href="https://www.aclweb.org/anthology/W19-7713/">How to Parse Low-Resource Languages: Cross-Lingual Parsing, Target Language Annotation, or Both?</a></li>
-</ul>
+</ul>-->
 
 <!--
 <h3>Contextualized representations for word graphs</h3>
@@ -194,6 +194,19 @@ Existing tools:
     <li>Could also be more advanced, when parsing full word-graphs. Then insertion/deletion/splitting of words can be included.</li>
 </ul>
 -->
+
+<h3>Dependency parsing of Danish social media data</h3>
+Dependency parsing is the task of finding the syntactic relations between words in a sentence. <a href="https://web.stanford.edu/~jurafsky/slp3/14.pdf">Chapter 14</a> of the Speech and Language Processing book contains a nice introduction to this topic. Many different languages and domains have been covered by the recent <a href="https://universaldependencies.org/">Universal Dependencies project</a>. However, for language types not covered performance is generally lower. Recently, we have collected some non-canonical data samples: <a href="https://www.aclweb.org/anthology/2020.coling-main.583.pdf">DaN+</a>, for which it is uncertain how well current methods would perform.
+
+The goal of this project would be to annotate a small sample of Danish social media data to evaluate parsers. Then, a variety of approaches of adapting the parser could be studied, including the ones mentioned below:
+
+<ul>
+    <li><a href="https://www.aclweb.org/anthology/2021.adaptnlp-1.6.pdf">Challenges in Annotating and Parsing Spoken, Code-switched, Frisian-Dutch Data</a></li>
+    <li><a href="https://www.aclweb.org/anthology/D19-6118.pdf">Cross-lingual Parsing with Polyglot Training and Multi-treebank Learning: A Faroese Case Study</a></li>
+    <li><a href="https://www.aclweb.org/anthology/D19-1102.pdf">A systematic comparison of methods for low-resource dependency parsing on genuinely low-resource languages</a></li>
+    <li><a href="https://www.aclweb.org/anthology/W19-7713.pdf">How to Parse Low-Resource Languages: Cross-Lingual Parsing, Target Language Annotation, or Both?</a></li>
+    <li><a href="https://www.aclweb.org/anthology/D18-1542.pdf">Modeling Input Uncertainty in Neural Network Dependency Parsing</a></li>
+</ul>
 
 <h3>Language identification for many languages</h3>
 

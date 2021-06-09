@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <title>Rob van der Goot</title>
+         <link rel="stylesheet" media="screen and (min-width: 1000px)" href="../css/big.css" />
+         <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../css/small.css"/>
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+     </head>
+     <body>
+         <div id="wrapper">
+             <div id="menu">
+                <div id="menuText">
+                Menu
+                </div>
+                 <div id="buttonWrapper">
+                     <a class="button" href="../">Home</a>
+                     <a class="button" href="../papers/">Papers</a>
+                     <a class="button" href="../cv/">CV</a>
+                     <a class="button" href="../datasets/">Datasets</a>
+                     <a class="button" href="../demos/">Demos</a>
+                     <a class="button" href="../blog/">Blog</a>
+                     <a class="button" href="../thesisProjects/">Thesis Projects</a>
+                 </div>
+             </div>
+             <div id="content">
+
+    <h2>Citations of original datasets</h2>
+
+    <p>Recent works in NLP tasks have propsed new benchmarks for specific tasks which are combined of previously created datasets. Examples include GLUE, superGLUE, EXTREME, UD, LinCE, GLUECoS and there are probably many more for other tasks I am less familiar with. One critisism for these type of dataset collections is that they discourage people who use them to cite the original sources of the data. Citations are commonly provided in the paper that describes the release of these dataset collections and/or on their website. However, in many cases it takes some effort to collect them, specifically to get the correct (anthology) ones, and/or to find the paper at all. For this reason, I leave here the best citations I could find for both GLUE and UD, to save time for myself in the future, and perhaps also someone else:</p>
+
+    <ul>
+	<li><a href="https://github.com/machamp-nlp/machamp/blob/master/docs/cites.tar.gz">UD</a></li>
+	<li><a href="glue.txt">GLUE</a></li>
+    </ul>
+
+    <p>In UD, they include a citation to the data with all the authors in one joint publication, which is another solution to this problem. However I wanted to evaluate a parser on as many UD datasets as possible, and I started to request the datasets that are hosted without words in them (UD_English-ESL, UD_French-FTB, UD_Hindi_English-HIENCS, UD_Japanese-BCCWJ/, UD_Arabic-NYUAD/, UD_Mbya_Guarani-Dooley). For some of them I signed a contract stating that I have to cite their individual papers. I found this unfair compared to the other ~200 treebanks, which is why I have decided to collected them all.</p>
+
+    <p>On a final note, I would urge all people who create such a benchmark to put the recent citations, clearly divided by dataset prominently on their website, as it is only fair to give credit to the original authors. I hope that the presentation of the data for our recently introduced dataset collection <a href="http://noisy-text.github.io/2021/multi-lexnorm.html">MultiLexNorm</a> is better in this sense.</p>
+
+            </div>
+        </div>
+    </body>
+</html>
+
