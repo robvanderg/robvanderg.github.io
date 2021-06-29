@@ -29,6 +29,55 @@
 <h2>Thesis project topics.</h2>
 <p> Contact me if you are interested in any of these (robv@itu.dk).</p>
 
+<h3>Tokenization of social media data</h3>
+<p>In many NLP benchmarks, tokenized texts are assumed as input to our models. For standard domains, tokenization can be considered a solved problem, however, for social media text tokenization is non-trivial. The goal of this project is to create a multi-lingual corpus and model for this task. Steps include:</p>
+
+<ul>
+    <li>Finding the original utterances of <a href="http://noisy-text.github.io/2021/multi-lexnorm.html">Multi-LexNorm</a></li>
+    <li>Create a gold standard dataset based on the original and the tokenized data.</li>
+    <li>Evaluate existing tokenizers and train your own.</li>
+</ul>
+
+Some related work:
+
+<ul>
+    <li><a href="https://www.aclweb.org/anthology/Q18-1030.pdf">Universal Word Segmentation: Implementation and Interpretation</a></li>
+    <li><a href="https://github.com/myleott/ark-twokenize-py/blob/master/twokenize.py">twokenize</a></li>
+    <li><a href="https://www.nltk.org/_modules/nltk/tokenize/casual.html#TweetTokenizer">nltk.TweetTokenizer</a></li>
+</ul>
+
+<h3>Language identification for many languages</h3>
+
+<p>Language identification is a standard NLP task, which is often considered to be solved. However, most current classifiers only support around 100 languages, or are not publicly available. This project makes use of the <a href="http://www.cs.cmu.edu/~ralf/langid.html">LTI LangID Corpus</a>, and asks the question: how do modern neural network approaches compare to simple character-based classifiers for language classification (with &#62;1300 languages). Relevant previous work:</p>
+
+<ul>
+    <li><a href="https://www.aclweb.org/anthology/D14-1069.pdf">Non-linear Mapping for Improved Identification of 1300+ Languages</a></li>
+    <li><a href="https://www.aclweb.org/anthology/D18-1030.pdf">A Fast, Compact, Accurate Model for Language Identification of Codemixed Text</a></li>
+    <li><a href="https://www.aclweb.org/anthology/2020.coling-main.579.pdf">Language ID in the Wild: Unexpected Challenges on the Path to a Thousand-Language Web Text Corpus</a></li>
+</ul>
+
+<h3>Multi-lingual lexical normalization</h3>
+<p>Lexical normalization is the task of converting social media language to its canoical equivalent. A traditional machine learning still holds the state-of-the-art (as opposed to deep learning), and most approaches are language specific. However, recently a dataset with 12 languages was introduced. More information on:</p>
+
+<ul>
+    <li>Website for dataset: <a href="http://noisy-text.github.io/2021/multi-lexnorm.html">Multi-LexNorm</a></li>
+    <li><a href="https://www.aclweb.org/anthology/P19-3032.pdf">MoNoise: A Multi-lingual and Easy-to-use Lexical Normalization Tool</a></li>
+    <li><a href="https://www.aclweb.org/anthology/W15-4319.pdf">Shared Tasks of the 2015 Workshop on Noisy User-generated Text: Twitter Lexical Normalization and Named Entity Recognition</a></li>
+</ul>
+
+<h3>Dependency parsing of Danish social media data</h3>
+Dependency parsing is the task of finding the syntactic relations between words in a sentence. <a href="https://web.stanford.edu/~jurafsky/slp3/14.pdf">Chapter 14</a> of the Speech and Language Processing book contains a nice introduction to this topic. Many different languages and domains have been covered by the recent <a href="https://universaldependencies.org/">Universal Dependencies project</a>. However, for language types not covered performance is generally lower. Recently, we have collected some non-canonical data samples: <a href="https://www.aclweb.org/anthology/2020.coling-main.583.pdf">DaN+</a>, for which it is uncertain how well current methods would perform.
+
+The goal of this project would be to annotate a small sample of Danish social media data to evaluate parsers. Then, a variety of approaches of adapting the parser could be studied, including the ones mentioned below:
+
+<ul>
+    <li><a href="https://www.aclweb.org/anthology/2021.adaptnlp-1.6.pdf">Challenges in Annotating and Parsing Spoken, Code-switched, Frisian-Dutch Data</a></li>
+    <li><a href="https://www.aclweb.org/anthology/D19-6118.pdf">Cross-lingual Parsing with Polyglot Training and Multi-treebank Learning: A Faroese Case Study</a></li>
+    <li><a href="https://www.aclweb.org/anthology/D19-1102.pdf">A systematic comparison of methods for low-resource dependency parsing on genuinely low-resource languages</a></li>
+    <li><a href="https://www.aclweb.org/anthology/W19-7713.pdf">How to Parse Low-Resource Languages: Cross-Lingual Parsing, Target Language Annotation, or Both?</a></li>
+    <li><a href="https://www.aclweb.org/anthology/D18-1542.pdf">Modeling Input Uncertainty in Neural Network Dependency Parsing</a></li>
+</ul>
+
 <h3>Active learning for POS tagging</h3>
 <p>POS tagging is the task of classifying words into their syntactic category:</p>
 
@@ -195,54 +244,7 @@ Existing tools:
 </ul>
 -->
 
-<h3>Dependency parsing of Danish social media data</h3>
-Dependency parsing is the task of finding the syntactic relations between words in a sentence. <a href="https://web.stanford.edu/~jurafsky/slp3/14.pdf">Chapter 14</a> of the Speech and Language Processing book contains a nice introduction to this topic. Many different languages and domains have been covered by the recent <a href="https://universaldependencies.org/">Universal Dependencies project</a>. However, for language types not covered performance is generally lower. Recently, we have collected some non-canonical data samples: <a href="https://www.aclweb.org/anthology/2020.coling-main.583.pdf">DaN+</a>, for which it is uncertain how well current methods would perform.
 
-The goal of this project would be to annotate a small sample of Danish social media data to evaluate parsers. Then, a variety of approaches of adapting the parser could be studied, including the ones mentioned below:
-
-<ul>
-    <li><a href="https://www.aclweb.org/anthology/2021.adaptnlp-1.6.pdf">Challenges in Annotating and Parsing Spoken, Code-switched, Frisian-Dutch Data</a></li>
-    <li><a href="https://www.aclweb.org/anthology/D19-6118.pdf">Cross-lingual Parsing with Polyglot Training and Multi-treebank Learning: A Faroese Case Study</a></li>
-    <li><a href="https://www.aclweb.org/anthology/D19-1102.pdf">A systematic comparison of methods for low-resource dependency parsing on genuinely low-resource languages</a></li>
-    <li><a href="https://www.aclweb.org/anthology/W19-7713.pdf">How to Parse Low-Resource Languages: Cross-Lingual Parsing, Target Language Annotation, or Both?</a></li>
-    <li><a href="https://www.aclweb.org/anthology/D18-1542.pdf">Modeling Input Uncertainty in Neural Network Dependency Parsing</a></li>
-</ul>
-
-<h3>Language identification for many languages</h3>
-
-<p>Language identification is a standard NLP task, which is often considered to be solved. However, most current classifiers only support around 100 languages, or are not publicly available. This project makes use of the <a href="http://www.cs.cmu.edu/~ralf/langid.html">LTI LangID Corpus</a>, and asks the question: how do modern neural network approaches compare to simple character-based classifiers for language classification (with &#62;1300 languages). Relevant previous work:</p>
-
-<ul>
-    <li><a href="https://www.aclweb.org/anthology/D14-1069.pdf">Non-linear Mapping for Improved Identification of 1300+ Languages</a></li>
-    <li><a href="https://www.aclweb.org/anthology/D18-1030.pdf">A Fast, Compact, Accurate Model for Language Identification of Codemixed Text</a></li>
-    <li><a href="https://www.aclweb.org/anthology/2020.coling-main.579.pdf">Language ID in the Wild: Unexpected Challenges on the Path to a Thousand-Language Web Text Corpus</a></li>
-</ul>
-
-<h3>Multi-lingual lexical normalization</h3>
-<p>Lexical normalization is the task of converting social media language to its canoical equivalent. A traditional machine learning still holds the state-of-the-art. More information on:</p>
-
-<ul>
-    <li>Website for dataset: <a href="http://noisy-text.github.io/2021/multi-lexnorm.html">Multi-LexNorm</a></li>
-    <li><a href="https://www.aclweb.org/anthology/P19-3032.pdf">MoNoise: A Multi-lingual and Easy-to-use Lexical Normalization Tool</a></li>
-    <li><a href="https://www.aclweb.org/anthology/W15-4319.pdf">Shared Tasks of the 2015 Workshop on Noisy User-generated Text: Twitter Lexical Normalization and Named Entity Recognition</a></li>
-</ul>
-
-<h3>Tokenization of social media data</h3>
-<p>In many NLP benchmarks, tokenized texts are assumed as input to our models. For standard domains, tokenization can be considered a solved problem, however, for social media text tokenization is non-trivial. The goal of this project is to create a multi-lingual corpus and model for this task. Steps include:</p>
-
-<ul>
-    <li>Finding the original utterances of <a href="http://noisy-text.github.io/2021/multi-lexnorm.html">Multi-LexNorm</a></li>
-    <li>Create a gold standard dataset based on the original and the tokenized data.</li>
-    <li>Evaluate existing tokenizers and train your own.</li>
-</ul>
-
-Some related work:
-
-<ul>
-    <li><a href="https://www.aclweb.org/anthology/Q18-1030.pdf">Universal Word Segmentation: Implementation and Interpretation</a></li>
-    <li><a href="https://github.com/myleott/ark-twokenize-py/blob/master/twokenize.py">twokenize</a></li>
-    <li><a href="https://www.nltk.org/_modules/nltk/tokenize/casual.html#TweetTokenizer">nltk.TweetTokenizer</a></li>
-</ul>
             </div>
         </div>
     </body>
