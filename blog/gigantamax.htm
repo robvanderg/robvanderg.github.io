@@ -64,17 +64,17 @@ XLM-r (because it is more costly to train).</p>
 
 <img src="gigantamax.png">
 
-<p>Results are shown in the plot above (LAS over all dev-sets), for all results, 
-dataset smoothing was enabled (0.5, as in the MaChAmp paper). The red and green
-line are cut off because our machine crashed and it did not seem worth it to
-restart them. We tried our original learning rate (0.0001) as well as a small
-one (0.00001), motivated by the fact that we have more epochs and more steps
-(because of the larger datasize) to converge. This is denoted with .smallLR in
-the figure. We used 16000 warmup steps. The models without noam/warmup in their
-name use the MaChAmp default (slanted triangular), and clearly outperform the
-other schedulers. Furthermore, one clear takeaway is that our models trained
-for 20 epochs are performing equally well as the ones that are trained for 40
-or 80 epochs.</p>
+<p>Results are shown in the plot above (x-axis: LAS over all dev-sets, y-axis:
+epochs), for all results, dataset smoothing was enabled (0.5, as in the MaChAmp
+paper). The red and green line are cut off because our machine crashed and it
+did not seem worth it to restart them. We tried our original learning rate
+(0.0001) as well as a small one (0.00001), motivated by the fact that we have
+more epochs and more steps (because of the larger datasize) to converge. This
+is denoted with .smallLR in the figure. We used 16000 warmup steps. The models
+without noam/warmup in their name use the MaChAmp default (slanted triangular),
+and clearly outperform the other schedulers. Furthermore, one clear takeaway is
+that our models trained for 20 epochs are performing equally well as the ones
+that are trained for 40 or 80 epochs.</p>
 
 <p>Even though this small hyperparameter-tuning is not exhaustive (it is very
 costly to train these huge models, there are 1,136,897 sentences in the
