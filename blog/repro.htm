@@ -122,9 +122,15 @@ python3 scripts/4.test.eval.py
 </pre>
 </div>
 
+<p>
 Note that I didn't put any comments in the file, as the file names are quite
 self-explanatory in this case. Furthermore, it should be noted that in practice
-I almost never run the whole runAll.sh script, I just use it as a reference
+I almost never run the whole runAll.sh script, I just use it as a reference. 
+In general, I do not need scripts beyond the number 9, so it is not necessary to
+prefix the numbers. In cases where this does happen its usually because many of
+them contain a high level of redundancy and they should be merged, or because there
+are old experiments that are not used in the final paper, I would suggest to
+save those elsewhere to keep the scripts folder concise.</p>
 
 <h3>Other tricks</h3>
 <p>I often separate the code for running the experiments and the code for
@@ -157,7 +163,7 @@ python3 scripts/1.mt.predict.py
 </pre>
 </div>
 
-For SLURM-based environments the following could be used instead:
+<p>For SLURM-based environments the following could be used instead:</p>
 
 
 <div class="code">
