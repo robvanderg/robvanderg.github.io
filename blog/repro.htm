@@ -64,6 +64,7 @@ for the rest of the scripts to run. This script is typically called 0.prep.sh, a
 looks something like:</p>
 
 <div class="code">
+<pre>
 # get and clean data
 wget https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3424/ud-treebanks-v2.7.tgz
 tar -zxvf ud-treebanks-v2.7.tgz
@@ -76,6 +77,7 @@ cd mtp
 git reset --hard 7fd68fc105a3308cc1344b37c5ac425c0facd258
 pip3 install -r requirements.txt
 cd ../
+</pre>
 </div>
 
 <p>
@@ -142,6 +144,7 @@ a script that generates the commands necessary to train the models. The relevant
 part of runAll.sh could then be rewritten to something like:</p>
 
 <div class="code">
+<pre>
 function run {
     $1 > $2.sh
     parallel -j $3 < $2.sh
@@ -151,12 +154,14 @@ function run {
 
 run "python3 scripts/1.mt.train.py" "1.mt.train"
 python3 scripts/1.mt.predict.py
+</pre>
 </div>
 
 For SLURM-based environments the following could be used instead:
 
 
 <div class="code">
+<pre>
 function run {
     $1 > $2.sh
     python3 scripts/slurm.py $2.sh $2 24
@@ -166,6 +171,7 @@ function run {
 
 run "python3 scripts/1.mt.train.py" "1.mt.train"
 python3 scripts/1.mt.predict.py
+</pre>
 </div>
 
 <p>Note that in this example, the slurm.py script has no number, as it can be
