@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <title>Rob van der Goot</title>
+         <link rel="stylesheet" media="screen and (min-width: 1000px)" href="../css/big.css" />
+         <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../css/small.css"/>
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+     </head>
+     <body>
+         <div id="wrapper">
+             <div id="menu">
+                <div id="menuText">
+                Menu
+                </div>
+                 <div id="buttonWrapper">
+                     <a class="button" href="../">Home</a>
+                     <a class="button" href="../papers/">Papers</a>
+                     <a class="button" href="../cv/">CV</a>
+                     <a class="button" href="../datasets/">Datasets</a>
+                     <a class="button" href="../demos/">Demos</a>
+                     <a class="button" href="../blog/">Blog</a>
+                     <a class="button" href="../thesisProjects/">Thesis Projects</a>
+                 </div>
+             </div>
+             <div id="content">
+
+<h2>Rob's approach to replicability</h2>
+
+<p>In my opinion, replicability is a very important factor of any research done (and it should be included in the 
+reviewing process, but that's another discussion). To clarify, I use the following definition of replicability:</p>
+
+<div id="code">replicability: reproduce exact results with access to same code/data+annotations (narrower than reproducability)
+reproducibility: reproduce conclusion in a *similar* setup</div>
+
+<p>
+As opposed to reproducibility: 
+</p>
+
+<div id="code">reproducibility: reproduce conclusion in a *similar* setup</div>
+
+<p>
+During my early career, I realized that even after cleaning my code, it is very
+hard to replicate the exact results reported in my papers for someone else, or
+even for myself a couple months later. Hence, I came up with a simple system to
+improve this in future projects. I have now been using more-or-less the same
+system for 5 years, and since then many colleagues/collaborators have expressed
+that even though this method does not guarantee getting the exact same scores,
+it is a nice, easy-to-use approach to replicability that gets you a long way.
+In my experience it is also an approach that does not cost time (in fact it
+saved me loads of time instead). It should be noted that this method is not a 
+full solution, and orthogonal measures are encouraged (i.e. sharing the output
+of models, versions of software used etc.) Below I will explain the two parts of this
+approach, the scripts folder, and the runAll.sh script.
+</p>
+
+<h3>The scripts folder</h3>
+<p>
+In the scripts folder, I include only the scripts necessary to re-run
+experiments, the key to keeping this folder comprehensible is to divide the
+scripts into experiments, and numbering them. In practice, I use the number 
+0 for preparation scripts, that download data and other code that is necessary
+for the rest of the scripts to run. This script is typically called 0.prep.sh, and
+looks something like:</p>
+
+<div class="code">
+# get and clean data
+wget https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3424/ud-treebanks-v2.7.tgz
+tar -zxvf ud-treebanks-v2.7.tgz
+python3 scripts/0.resplit.py
+python3 mtp/scripts/misc/cleanconl.py newsplits-v2.7/*/*conllu
+
+# get machamp
+git clone https://bitbucket.org/ahmetustunn/mtp.git
+cd mtp
+git reset --hard 7fd68fc105a3308cc1344b37c5ac425c0facd258
+pip3 install -r requirements.txt
+cd ../
+</div>
+
+<p>
+If the preparation is more complicated it can of course be scattered across
+multiple scripts instead, like <a href="https://bitbucket.org/robvanderg/xsid/src/master/scripts/">here</a>
+</p>
+
+<p>The rest of the scripts is then divided per experiment, which could for
+example be one number per model, dataset, or type of analysis. Which division
+fits best depends on the structure of you paper/experiment. I find it easiest
+to order them chronologically based on the paper. Besides numbering the
+experiments, I also usually try to name them, and if there are multiple scripts
+per experiments, I even make sub-names.  The full name of the first
+experiment-script could for example be 1.mt.train.py, if the first step is to
+train a machine translation (mt) system.  If we then need to also run a
+prediction step, the next script would be called 1.mt.predict.py. </p>
+
+<h3>runAll.sh</h3>
+<p>For small/simple projects, the above scripts folder will probably be self
+explanatory. However, for larger projects, it quickly becomes infeasable to
+remember how all these scripts were invoked exactly. Hence, I always keep a
+runAll.sh script, which is like a diary for running scripts. Here I put the
+exact commands that I have ran to get to the results reported in the paper. 
+An example of a runAll.sh script:
+</p>
+
+<div class="code">
+./scripts/0.prep.sh
+
+python3 scripts/1.mt.train.py
+python3 scripts/1.mt.predict.py
+
+python3 scripts/2.machamp.train.py
+python3 scripts/2.machamp.predict.py
+
+python3 scripts/3.analysis.oovs.py
+python3 scripts/3.analysis.learningCurve.py
+python3 scripts/3.analysis.ablation.py
+
+python3 scripts/4.test.eval.py
+</div>
+
+Note that I didn't put any comments in the file, as the file names are quite
+self-explanatory in this case. Furthermore, it should be noted that in practice
+I almost never run the whole runAll.sh script, I just use it as a reference
+
+<h3>Other tricks</h3>
+<p>I often separate the code for running the experiments and the code for
+generating tables/graphs. Yes, I would also strongly suggest to have code for
+generating tables, as it saves a lot of time (and boring work), and is less
+error-prone compared to manually entering the values in the report. For
+generating the graphs and tables I then make a scripts/genAll.sh script. This
+genAll.sh script is generally very simple: <a
+href="https://bitbucket.org/robvanderg/normtax/src/master/scripts/genAll.sh">Example</a>.
+</p>
+
+<p>In many cases, it would take too long to run all the commands sequentially, 
+so it is highly beneficial to run code parallel to save time. In the 
+example above, this could for example be the case for 1.mt.train.py, where 
+multiple machine translation models are trained. In this case, I tend to write
+a script that generates the commands necessary to train the models. The relevant 
+part of runAll.sh could then be rewritten to something like:</p>
+
+<div class="code">
+function run {
+    $1 > $2.sh
+    parallel -j $3 < $2.sh
+}
+
+./scripts/0.prep.sh
+
+run "python3 scripts/1.mt.train.py" "1.mt.train"
+python3 scripts/1.mt.predict.py
+</div>
+
+For SLURM-based environments the following could be used instead:
+
+
+<div class="code">
+function run {
+    $1 > $2.sh
+    python3 scripts/slurm.py $2.sh $2 24
+}
+
+./scripts/0.prep.sh
+
+run "python3 scripts/1.mt.train.py" "1.mt.train"
+python3 scripts/1.mt.predict.py
+</div>
+
+<p>Note that in this example, the slurm.py script has no number, as it can be
+useful for multiple experiments. I try to keep the number of unnumbered scripts
+as small as possible though. With the slurm.py script from: <a
+href="https://github.com/machamp-nlp/machamp/blob/master/scripts/misc/slurm.py">https://github.com/machamp-nlp/machamp/blob/master/scripts/misc/slurm.py</a></p>
+
+<p>For more examples of how this strategy could be used, you can check out most
+of the code links on my <a href="../papers/">list of papers</a>.</p>
+
+
+            </div>
+        </div>
+    </body>
+</html>
+
