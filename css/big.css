@@ -24,8 +24,8 @@ th{
     margin: 0px;
     padding: 0px;
     padding-top:50px;
-    padding-bottom: 100%;
-    margin-bottom: -100%;
+    padding-bottom: 1000%;
+    margin-bottom: -1000%;
 }
 
 #menu p{
