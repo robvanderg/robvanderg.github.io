@@ -56,6 +56,49 @@ Some related work:
     <li><a href="https://www.aclweb.org/anthology/2020.coling-main.579.pdf">Language ID in the Wild: Unexpected Challenges on the Path to a Thousand-Language Web Text Corpus</a></li>
 </ul>
 
+
+<h3>The effect of translationese on slot and intent detection</h3>
+The tasks of slot and intent detection is a crucial component of digital assisnents. Intent detection aims to find the goal of an utterance, and slot detection finds relevant entities. An example of this task:
+
+<table>
+  <tr>
+    <th>Add</th>
+    <th>reminder </th>
+<th>to </th>
+<th>swim </th>
+<th>at </th>
+<th>11am </th>
+<th>tomorrow</th>
+    </tr>
+    <tr>
+    <th></th>
+    <th> </th>
+<th> </th>
+<th>B-TODO </th>
+<th> </th>
+<th>B-DATETIME </th>
+<th>I-DATETIME</th>
+</tr>
+<tr>
+<th>Intent</th>
+<th>add-reminder</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+</tr>
+</table>
+
+Recently, two big multi-lingual datasets have been introduced (multiAtis, and xSID). However, these datasets consist of data translated from English. Translationese is known to be different from spontaneous language. This project aims to estimate the effect of this difference. By generating a small sample of native non-English data (for example Danish), and evaluating this against the xSID data.
+
+Here you can find the xSID paper, and an investigation on translationese for machine translation evaluation:
+<ul>
+    <li><a href="https://aclanthology.org/2021.naacl-main.197.pdf">From Masked Language Modeling to Translation: Non-English Auxiliary Tasks Improve Zero-shot Spoken Language Understanding</a></li>
+    <li><a href="https://aclanthology.org/W19-5208.pdf">The Effect of Translationese in Machine Translation Test Sets</a></li>
+</ul>
+
+
 <h3>Multi-lingual lexical normalization</h3>
 <p>Lexical normalization is the task of converting social media language to its canoical equivalent. A traditional machine learning still holds the state-of-the-art (as opposed to deep learning), and most approaches are language specific. However, recently a dataset with 12 languages was introduced. More information on:</p>
 
