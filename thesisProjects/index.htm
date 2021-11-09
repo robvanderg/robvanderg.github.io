@@ -198,6 +198,50 @@ evaluate. This is mainly an algorithmic project, as existing sequence labelers c
     <li><a href="https://www.aclweb.org/anthology/N19-1077.pdf">Viable Dependency Parsing as Sequence Labeling</a></li>
 </ul>
 
+
+<h3>Strategies for Morphological Tagging</h3>
+<p>Morphological tagging is the task of assigning labels to a sequence of tokens that describe them morphologically.  
+This means that one word can have 0-n labels. There has been a variety of architectures proposed to solve this task, 
+however it is unclear which method works best in which situation. </p>
+
+<p>In this project you can make use of the <a
+href="https://universaldependencies.org/">Universal Dependencies</a> data,
+which has annotation for morphological tags for many languages. You can use the
+<a href="https://machamp-nlp.github.io/">MaChAmp</a> toolkit, or implement a
+BiLSTM tagger yourself, and evaluate at least the three most common
+strategies:</p>
+
+<ul>
+    <li>Predict the concatenation of the tags as one label (same as POS tagging, but with more labels)</li>
+    <li>Predict morphological tags as a sequence (like machine translation)</li>
+    <li>View the task as a multilabel prediction problem (Get a probability for each label, and set a cutoff threshold)</li>
+</ul>
+
+<p>Related reading:</p>
+<ul>
+    <li><a href="https://aclanthology.org/W19-4226/">The SIGMORPHON 2019 Shared Task: Morphological Analysis in Context and Cross-Lingual Transfer for Inflection</a></li>
+    <li><a href="https://aclanthology.org/W19-4206">Multi-Team: A Multi-attention, Multi-decoder Approach to Morphological Analysis.</a></li>
+</ul>
+
+<h3>Can humans recognize NLP domains?</h3>
+<p>In natural language processing, we often assume that the origin/platform of
+a text is its domain. These "domains" are then used to evaluate cross-domain
+performance. However, in many cases the domain or genre of a text might not be
+so clear-cut.  Even tough theoretical frameworks have been proposed, it is
+unclear whether domain properties can be identified from an utterance directly.
+In this project, we ask: How well can humans identify which domain a sentence
+is taken from?, and how does this compare to automatic models?, existing
+datasets such as the <a
+href="https://proceedings.neurips.cc/paper/2015/file/250cf8b51c773f3f8dc8b4be867a9a02-Paper.pdf">AG
+News corpus</a> or the <a href="https://universaldependencies.org/">Universal
+Dependencies</a> data can be used for this project.</p>
+
+<p>Related reading:</p>
+<ul>
+    <li><a href="https://bplank.github.io/papers/konvens2016.pdf">What to do about non-standard (or non-canonical) language in NLP</a></li>
+<ul>
+
+
 <!--
 <h3>Dialogue acts classification for social media data</h3>
 <p>Dialogue acts classify the intended goal of a textual utterance. Dialogue acts have mostly been studied in the context of telephone conversations. However, when sharing utterances on social media, people generally also have an intended goal (perhaps not always, so a MISC column should be considered).</p>
