@@ -28,7 +28,8 @@
 
 <h2>Multilingual Twitter word embeddings</h2>
 
-<p>Since I have started to work on Twitter data, word embeddings have proven to be very useful. In the last two years, word embeddings have mostly been replaced by contextualized transformer based embeddings. For multi-lingual contextual twitter embeddings I refer to <a href="https://arxiv.org/pdf/2104.12250.pdf">Barbieri et al.</a> (also available on <a href="https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base">huggingface</a>). However, there are still many cases where word embeddings are preferable, because of their efficiency, or because they still result in better performance. Yes, they sometimes are still not outperformed, for example for the task of lexical normalization (<a href="https://www.aclweb.org/anthology/P19-3032.pdf">SOTA</a>).</p>
+<p>Since I have started to work on Twitter data, word embeddings have proven to be very useful. In the last two years, word embeddings have mostly been replaced by contextualized transformer based embeddings. For multi-lingual contextual twitter embeddings I refer to <a href="https://arxiv.org/pdf/2104.12250.pdf">Barbieri et al.</a> (also available on <a href="https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base">huggingface</a>). However, there are still many cases where word embeddings are preferable, because of their efficiency.
+</p>
 
 <p>I have prepared word embeddings for all languages included in the <a href="http://noisy-text.github.io/2021/multi-lexnorm.html">Multi-LexNorm shared task</a>. The procedure was as follows:</p>
 
@@ -162,11 +163,11 @@
     </tr>
 </table>
 
-<p>The results of this procedure are hosted on: <a href="http://www.itu.dk/people/robv/data/embeds/">http://www.itu.dk/people/robv/data/embeds/</a></p>
+<p>The results of this procedure are hosted on: <a href="http://www.itu.dk/people/robv/data/monoise/">http://www.itu.dk/people/robv/data/monoise/</a>, note that smaller/older versions for most languages can be found on: <a href="http://www.itu.dk/people/robv/data/monoise/-old">http://www.itu.dk/people/robv/data/monoise-old</a></p>
 
 <p>When using <a href="https://pypi.org/project/gensim/">Gensim</a>, there can be unicode incompatabilities in some of these models, set unicode_errors='ignore' when loading the embeddings. Thanks to <a href="https://groups.google.com/g/multilexnorm/c/UTElCV6va4s">Elijah Rippeth</a> for this addition.</p>
 
-<p>Besides the embeddings, I have also counted uni- and bi-gram frequencies on the same data. I have used a minimum frequency of 3. Results of this are shared on: <a href="http://www.itu.dk/people/robv/data/ngrams/">http://www.itu.dk/people/robv/data/ngrams/</a></p>
+<p>Besides the embeddings, I have also counted uni- and bi-gram frequencies on the same data with a minimum frequency of 3. They are saved in binary format, and can be extracted using the following code: <a href="https://bitbucket.org/robvanderg/utils/src/master/ngrams/">https://bitbucket.org/robvanderg/utils/src/master/ngrams/</a>.
 
             </div>
         </div>
