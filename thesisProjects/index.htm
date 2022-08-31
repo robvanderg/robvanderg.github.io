@@ -49,9 +49,9 @@ Some related work:
     <li><a href="https://www.nltk.org/_modules/nltk/tokenize/casual.html#TweetTokenizer">nltk.TweetTokenizer</a></li>
 </ul>
 
-<h3>Language identification for many languages</h3>
+<h3>Efficient Language identification for many languages</h3>
 
-<p>Language identification is a standard NLP task, which is often considered to be solved. However, most current classifiers only support around 100 languages, or are not publicly available. This project makes use of the <a href="http://www.cs.cmu.edu/~ralf/langid.html">LTI LangID Corpus</a>, and asks the question: how do modern neural network approaches compare to simple character-based classifiers for language classification (with &#62;1300 languages). Relevant previous work:</p>
+<p>Language identification is a standard NLP task, which is often considered to be solved. However, most current classifiers only support around 100 languages, or are not publicly available. This project makes use of the <a href="http://www.cs.cmu.edu/~ralf/langid.html">LTI LangID Corpus</a>(with &#62;1300 languages), and asks the question: how can we efficiently handle such a large label space, and such a wide variety in input-features. Relevant previous work:</p>
 
 <ul>
     <li><a href="https://www.aclweb.org/anthology/D14-1069.pdf">Non-linear Mapping for Improved Identification of 1300+ Languages</a></li>
@@ -59,6 +59,13 @@ Some related work:
     <li><a href="https://www.aclweb.org/anthology/2020.coling-main.579.pdf">Language ID in the Wild: Unexpected Challenges on the Path to a Thousand-Language Web Text Corpus</a></li>
 </ul>
 
+<h3>Massive Multi-task Learning</h3>
+<p>Multiple recent papers have shown the effectivenes of massive multi-task learning. In this paradigm, we take a pre-trained language model, retrain it on as many NLP tasks as we can find, and use the resulting weight for our final model training. However, most of these works make use of a sequence-to-sequence architecture, instead of an autoencoder (e.g. BERT) model. The paper below does an introductory study for semantically oriented tasks with 7 datasets (19 tasks), and shows mixed results. This project aims to extend this study (note that SemEval shares ~10 datasets each year), and evaluate the effect of this scaling.</p>
+
+<ul>
+    <li><a href="https://aclanthology.org/2022.semeval-1.233.pdf">MaChAmp at SemEval-2022 Tasks 2, 3, 4, 6, 10, 11, and 12: Multi-task
+Multi-lingual Learning for a Pre-selected Set of Semantic Datasets</a></li>
+</ul>
 
 <h3>The effect of translationese on slot and intent detection</h3>
 <p>The tasks of slot and intent detection is a crucial component of digital assisnents. Intent detection aims to find the goal of an utterance, and slot detection finds relevant entities. An example of this task:</p>
@@ -103,12 +110,11 @@ Some related work:
 
 
 <h3>Multi-lingual lexical normalization</h3>
-<p>Lexical normalization is the task of converting social media language to its canoical equivalent. A traditional machine learning still holds the state-of-the-art (as opposed to deep learning), and most approaches are language specific. However, recently a dataset with 12 languages was introduced. More information on:</p>
+<p>Lexical normalization is the task of converting social media language to its canonical equivalent. Most literature on this problem is only tackling this task for one language. But in 2021, MultiLexNorm was introduced; including normalization datasets for 13 language variants. A wide variety of models was evaluated on this new benchmark, however all of these trained a single model for each language. However, at least three of these models can be used in a multi-lingual or cross-lingual setup, which could enable more efficiency, performance and transfer to new language for which no annotated data is available.
 
 <ul>
+    <li><a href="https://aclanthology.org/2021.wnut-1.55.pdf">MultiLexNorm: A Shared Task on Multilingual Lexical Normalization</a></li>
     <li>Website for dataset: <a href="http://noisy-text.github.io/2021/multi-lexnorm.html">Multi-LexNorm</a></li>
-    <li><a href="https://www.aclweb.org/anthology/P19-3032.pdf">MoNoise: A Multi-lingual and Easy-to-use Lexical Normalization Tool</a></li>
-    <li><a href="https://www.aclweb.org/anthology/W15-4319.pdf">Shared Tasks of the 2015 Workshop on Noisy User-generated Text: Twitter Lexical Normalization and Named Entity Recognition</a></li>
 </ul>
 
 <h3>Dependency parsing of Danish social media data</h3>
@@ -174,6 +180,8 @@ The goal of this project would be to annotate a small sample of Danish social me
     <td>?</td>
   </tr>
 </table>
+
+<p>Update 2022: Note that this project was done last year, and was published (<a href="https://aclanthology.org/2021.calcs-1.9.pdf">Much Gracias: Semi-supervised Code-switch Detection for Spanish-English: How far can we get?</a>). But there are still extensions that could be interesting: how can we identify named entities (often considered a separate class), or how can we scale to identify any number of language at once?</p>
 
 <p> Related reading:</p>
 <ul>
