@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <title>Rob van der Goot</title>
+         <link rel="stylesheet" media="screen and (min-width: 1000px)" href="../css/big.css" />
+         <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../css/small.css"/>
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+     </head>
+     <body>
+         <div id="wrapper">
+             <div id="menu">
+                <div id="menuText">
+                Menu
+                </div>
+                 <div id="buttonWrapper">
+                     <a class="button" href="../">Home</a>
+                     <a class="button" href="../papers/">Papers</a>
+                     <a class="button" href="../cv/">CV</a>
+                     <a class="button" href="../datasets/">Datasets</a>
+                     <a class="button" href="../demos/">Demos</a>
+                     <a class="button" href="../blog/">Blog</a>
+                     <a class="button" href="../thesisProjects/">Thesis Projects</a>
+                 </div>
+             </div>
+             <div id="content">
+
+<h2>An empirical comparison of multi-lingual language models</h2>
+<p>There is a larger and larger variety of language models available, making it
+harder to pick the right one.  The most widely useful language models are the
+massive multi-lingual ones, as one can do easy multi-lingual training, and even
+cross-lingual they have shown to perform well. I have evaluated all the
+multi-lingual (> 20 languages) pre-trained language models I could find on two
+popular NLP benchmarks; GLUE and UD. I have used MaChAmp v0.4 beta for these
+experiments, with default settings (tuned on mBERT and XLM-large).
+
+<p>
+I selected subsets from both datasets to make running these experiments
+feasable. For UD I used the subset from https://aclanthology.org/D18-1291/. For
+GLUE the main constraint was training time (and gpu-size), we used: CoLA, QNLI,
+RTE, SST-2 STS-B. Note that this is not an extensive study, but just a quick
+try-out; the LM is tuned on two of the language models and the selection of
+task might not representative, reported scores are over a single run.
+</p>
+
+The language models I found were:
+<div class="code">
+<pre>
+multiRegressive = ['Helsinki-NLP/opus-mt-mul-en', 'bigscience/bloom-560m', 'facebook/mbart-large-50', 'facebook/mbart-large-50-many-to-many-mmt', 'facebook/mbart-large-50-many-to-one-mmt', 'facebook/mbart-large-50-one-to-many-mmt', 'facebook/mbart-large-cc25', 'facebook/mgenre-wiki', 'facebook/nllb-200-distilled-600M', 'facebook/xglm-564M', 'facebook/xglm-564M', 'google/byt5-base', 'google/byt5-small', 'google/canine-c', 'google/canine-s', 'google/mt5-base', 'google/mt5-small', 'sberbank-ai/mGPT']
+multiAutoencoder = ['Peltarion/xlm-roberta-longformer-base-4096', 'bert-base-multilingual-cased', 'bert-base-multilingual-uncased', 'cardiffnlp/twitter-xlm-roberta-base', 'distilbert-base-multilingual-cased', 'google/rembert', 'microsoft/infoxlm-base', 'microsoft/infoxlm-large', 'microsoft/mdeberta-v3-base', 'setu4993/LaBSE', 'studio-ousia/mluke-base', 'studio-ousia/mluke-base-lite', 'studio-ousia/mluke-large', 'studio-ousia/mluke-large-lite', 'xlm-mlm-100-1280', 'xlm-roberta-base', 'xlm-roberta-large']
+too_large = ['facebook/xlm-roberta-xxl', 'facebook/xlm-roberta-xl', 'google/byt5-xxl', 'google/mt5-xxl', 'google/mt5-xl', 'google/byt5-xl', 'google/byt5-large', 'google/mt5-large', 'facebook/nllb-200-1.3B', 'facebook/nllb-200-3.3B', 'facebook/nllb-200-distilled-1.3B']
+</pre>
+</div>
+
+<p>Experiments are run on 32gb v100 GPU's. We excluded language models with an average score
+lower than .7 for UD and .8 for GLUE. We sorted the language models first by type (regressive/autoencoder), and
+then alphabetically, so that the language models with multiple versions appear next to each other.</p>
+
+<img src="lms-ud.png">
+
+<p>There are some surprises in these graphs, the lite version of mLUKE large is the best for UD, but note that it is trained on 25 languages opposed to many others who have around 100. Unfortunately, I am not familiar with the lite version and couldn't find any documentation, please get in touch with me if you know more. We can also see that the commonly used xlm-r large still performs well (on par with mLUKE large and infoXLM). Altough the original authors discourage the use of uncased mBERT, it outperforms mBERT in this setup (as previously shown in http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.152.pdf). 
+</p>
+
+<img src="lms-glue.png">
+<p>For the GLUE tasks, mDeBERTa outperforms the other by quite some margin. Also here the uncased version of mBERT outperform the cased version. The differences are larger on these dataset, as it is a smaller sample, and we only included the smaller sets of this benchmark. </p>
+
+            </div>
+        </div>
+    </body>
+</html>
+
