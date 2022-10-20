@@ -69,12 +69,13 @@ th{
     margin-bottom: -100%;
     max-width:1000px;
     margin-top:50px;
-    margin-left:20px;
 }
 
 .code{
     font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace; 
     font-size:15px;
+    margin: 20px;
+    max-width:1000px;
     padding-top:15px;
     padding-bottom:15px;
 }
