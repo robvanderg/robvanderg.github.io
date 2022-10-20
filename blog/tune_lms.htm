@@ -57,12 +57,12 @@ too_large = ['facebook/xlm-roberta-xxl', 'facebook/xlm-roberta-xl', 'google/byt5
 lower than .7 for UD and .8 for GLUE. We sorted the language models first by type (regressive/autoencoder), and
 then alphabetically, so that the language models with multiple versions appear next to each other.</p>
 
-<img src="lms-ud.png">
+<img width="600" src="lms-ud.png">
 
 <p>There are some surprises in these graphs, the lite version of mLUKE large is the best for UD, but note that it is trained on 25 languages opposed to many others who have around 100. Unfortunately, I am not familiar with the lite version and couldn't find any documentation, please get in touch with me if you know more. We can also see that the commonly used xlm-r large still performs well (on par with mLUKE large and infoXLM). Altough the original authors discourage the use of uncased mBERT, it outperforms mBERT in this setup (as previously shown in http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.152.pdf). 
 </p>
 
-<img src="lms-glue.png">
+<img width="400" src="lms-glue.png">
 <p>For the GLUE tasks, mDeBERTa outperforms the other by quite some margin. Also here the uncased version of mBERT outperform the cased version. The differences are larger on these dataset, as it is a smaller sample, and we only included the smaller sets of this benchmark. </p>
 
 <p> Code for these experiments is available on https://bitbucket.org/robvanderg/tune-lms/</p>
