@@ -29,11 +29,11 @@
 <h2>An empirical comparison of multi-lingual language models</h2>
 <p>There is a larger and larger variety of language models available, making it
 harder to pick the right one.  The most widely useful language models are the
-massive multi-lingual ones, as one can do easy multi-lingual training, and even
+massive multi-lingual ones, as they enable easy multi-lingual model, and even
 cross-lingual they have shown to perform well. I have evaluated all the
 multi-lingual (> 20 languages) pre-trained language models I could find on two
 popular NLP benchmarks; GLUE and UD. I have used MaChAmp v0.4 beta for these
-experiments, with default settings (tuned on mBERT and XLM-large).
+experiments, with default settings (tuned on mBERT and XLM-r large).
 
 <p>
 I selected subsets from both datasets to make running these experiments
@@ -57,11 +57,11 @@ then alphabetically, so that the language models with multiple versions appear n
 
 <img width="700" src="lms-ud.png">
 
-<p>There are some surprises in these graphs, the lite version of mLUKE large is the best for UD, but note that it is trained on 25 languages opposed to many others who have around 100. Unfortunately, I am not familiar with the lite version and couldn't find any documentation, please get in touch with me if you know more. We can also see that the commonly used xlm-r large still performs well (on par with mLUKE large and infoXLM). Altough the original authors discourage the use of uncased mBERT, it outperforms mBERT in this setup (as previously shown in <a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.152.pdf">van der Goot et al, 2022</a>). 
+<p>There are some surprises in these graphs, the lite version of mLUKE large is the best for UD, but note that it is trained on 25 languages opposed to many others who have around 100. Unfortunately, I am not familiar with the lite version and couldn't find any documentation, please get in touch with me if you know more. We can also see that the commonly used XLM-r large still performs well (on par with mLUKE large and infoXLM). Altough the original authors discourage the use of uncased mBERT, it outperforms mBERT in this setup (as previously shown in <a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.152.pdf">van der Goot et al, 2022</a>). 
 </p>
 
 <img width="700" src="lms-glue.png">
-<p>For the GLUE tasks, mDeBERTa outperforms the others by quite some margin. Also here the uncased version of mBERT outperform the cased version. The differences are larger on these dataset, as it is a smaller sample, and we only included the smaller sets of this benchmark. Unsurprisingly, the autoregressive models underperform on both of these benchmarks, altough mBART still performed somewhat competitive onUD.</p>
+<p>For the GLUE tasks, mDeBERTa outperforms the others by a large margin. Also here the uncased version of mBERT outperform the cased version. The differences are larger on these dataset, as it is a smaller sample, and we only included the smaller sets of this benchmark. Unsurprisingly, the autoregressive models underperform on both of these benchmarks (as they are trained with a sequence to sequence objective), altough mBART still performed somewhat competitive on UD.</p>
 
 <p> Code for these experiments is available on <a href="https://bitbucket.org/robvanderg/tune-lms/">https://bitbucket.org/robvanderg/tune-lms/</a></p>
 
