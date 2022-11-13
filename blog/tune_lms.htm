@@ -57,7 +57,19 @@ then alphabetically, so that the language models with multiple versions appear n
 
 <img width="700" src="lms-ud.png">
 
-<p>There are some surprises in these graphs, the lite version of mLUKE large is the best for UD, but note that it is trained on 25 languages opposed to many others who have around 100. Unfortunately, I am not familiar with the lite version and couldn't find any documentation, please get in touch with me if you know more. We can also see that the commonly used XLM-r large still performs well (on par with mLUKE large and infoXLM). Altough the original authors discourage the use of uncased mBERT, it outperforms mBERT in this setup (as previously shown in <a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.152.pdf">van der Goot et al, 2022</a>). 
+<p>The mLUKE (<a href="https://aclanthology.org/2020.emnlp-main.523.pdf">Yamada
+et al. 2020</a>) embeddings do very well in this experiment. They are
+pretrained on both word and entities. In the lite versions of LUKE, the entity
+embeddings are removed to save memory, performance should be highly similar if
+the entity embeddings are not used (altough in our case mLUKE lite does
+slightly better).  Besides the difference in training objective, performance
+could also be higher due to smaller amount of languages used (25, whereas most
+others have around 100), this has shown to have an effect on performance (<a href="https://aclanthology.org/2020.acl-main.747.pdf">Conneau et al. 2020</a>).  We can also see that the commonly used XLM-r large
+still performs well (on par with mLUKE large and infoXLM). Altough the original
+authors discourage the use of uncased mBERT, it outperforms mBERT in this setup
+(as previously shown in <a
+href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.152.pdf">van
+der Goot et al, 2022</a>). 
 </p>
 
 <img width="700" src="lms-glue.png">
