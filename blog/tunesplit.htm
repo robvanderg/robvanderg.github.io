@@ -47,7 +47,7 @@ issue, I have counted for 100 random papers from ACL 2010 and 2020 how many
 runs on each test set where made in each paper. The results confirm a clear
 trend; in 2020, many more test-runs were made per paper.</p>
 
-<img width="700" src="boxplot.png">
+<img width="300" src="boxplot.png">
 
 <p>The solution I proposed in my <a href"https://aclanthology.org/2021.emnlp-main.368.pdf">2021 EMNLP paper</a>, was to use a tune
 split, which we can use to tune the model (i.e. early stopping and/or model
@@ -94,7 +94,7 @@ and found that 20 epochs and a learning rate of 1e-04 result in a good balance
 between efficiency and performance.</p>
 
 
-<img width="700" src="lr.png">
+<img width="600" src="lr.png">
 Learning rate values with slanted triangular scheduler and a cut_frac of 0.3 and a decay factor of 0.38 (default in MaChAmp).
 
 
