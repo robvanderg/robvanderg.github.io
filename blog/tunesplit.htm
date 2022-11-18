@@ -84,7 +84,7 @@ I propose to drop this special status.</p>
 <p>In practice, I usually use the default hyperparameters of MaChAmp, which uses a
 slanted triangular learning rate scheduler. I already always disabled early
 stopping, as the learning rate is dynamic (see the image below), it is never
-save to assume that performance has converged. Besides, the decreasing trend of
+safe to assume that performance has converged. Besides, the decreasing trend of
 the learning rate lowers the chance of overfitting, so actually just taking the
 model of the last epoch is an easy and relatively safe option here. Note
 though, that the number of epochs should now probably be tuned. We inspected
