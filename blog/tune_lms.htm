@@ -73,7 +73,14 @@ der Goot et al, 2022</a>).
 </p>
 
 <img width="700" src="lms-glue.png">
-<p>For the GLUE tasks, mDeBERTa outperforms the others by a large margin. Also here the uncased version of mBERT outperform the cased version. The differences are larger on these dataset, as it is a smaller sample, and we only included the smaller sets of this benchmark. Unsurprisingly, the autoregressive models underperform on both of these benchmarks (as they are trained with a sequence to sequence objective), altough mBART still performed somewhat competitive on UD.</p>
+<p>For the GLUE tasks, mDeBERTa outperforms the others by a large margin. Also
+here the uncased version of mBERT outperform the cased version. The differences
+are larger on these datasets, as it is a smaller sample, and we only included
+the smaller sets of this benchmark. The original multi-lingual BERT models do
+remarkably well on GLUE, ranking 2nd and third. Unsurprisingly, the
+autoregressive models underperform on both of these benchmarks (as they are
+trained with a sequence to sequence objective), altough mBART still performed
+somewhat competitive on UD.</p>
 
 <p> Code for these experiments is available on <a href="https://bitbucket.org/robvanderg/tune-lms/">https://bitbucket.org/robvanderg/tune-lms/</a></p>
 
