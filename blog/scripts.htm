@@ -26,10 +26,24 @@
              </div>
              <div id="content">
 
+<h2>Detect script in python</h2>
+For analysis purposes, I wanted to divide the UD data based on script.
+However, I had a hard time finding a script to automatically detect the script
+of text (partially due to the word "script" being ambiguous). So, I wrote the
+following code excerpt, which uses the unicode scripts definitions.
 
-<div class="code">
+<pre>
+  <code>
+import os
+
 class ScriptFinder():
     def __init__(self):
+        """
+        Class that loads the scripts definitions from Unicode; it automatically
+        downloads them to a text file, and saves them in an ordered list of lists
+        (triples). Where each script is represented as a beginning index, end 
+        index and name.
+        """
         ranges = []
         if not os.path.isfile('scripts/Scripts.txt'):
             os.system('mkdir -p scripts')
@@ -51,6 +65,21 @@ class ScriptFinder():
         self.ranges = sorted(ranges)
 
     def find_char(self, char):
+        """
+        Return the script of a single character, if a string
+        is passed, it returns the script of the first character.
+
+        Parameters
+        ----------
+        char: char
+            The character to find the script of, if this is a string
+            the first character is used.
+    
+        Returns
+        -------
+        script: str
+            The name of the script, or None if not found
+        """
         if len(char) > 1:
             char = char[0]
         char_idx = ord(char)
@@ -63,6 +92,23 @@ class ScriptFinder():
         return None
 
     def guess_script(self, text):
+        """
+        Guess the script of a piece of text, it first counts
+        how many characters are in each script, and then returns
+        the most frequent one. It ignores the None and Common 
+        (punctuation) classes of unicode.
+
+        Parameters
+        ----------
+        text: str
+            The input text
+
+        Returns
+        -------
+        script: str
+            Name of the script
+
+        """
         classes = {}
         for char in text:
             cat = self.find_char(char)
@@ -75,6 +121,9 @@ class ScriptFinder():
             return None
         main_class = sorted(classes.items(), key=lambda x: x[1], reverse=True)[0][0]
         return main_class
+  </code>
+</pre>
+
 </div>
             </div>
         </div>
