@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <title>Rob van der Goot</title>
+         <link rel="stylesheet" media="screen and (min-width: 1000px)" href="../css/big.css" />
+         <link rel="stylesheet" media="screen and (max-width: 1000px)" href="../css/small.css"/>
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+     </head>
+     <body>
+         <div id="wrapper">
+             <div id="menu">
+                <div id="menuText">
+                Menu
+                </div>
+                 <div id="buttonWrapper">
+                     <a class="button" href="../">Home</a>
+                     <a class="button" href="../papers/">Papers</a>
+                     <a class="button" href="../cv/">CV</a>
+                     <a class="button" href="../datasets/">Datasets</a>
+                     <a class="button" href="../demos/">Demos</a>
+                     <a class="button" href="../blog/">Blog</a>
+                     <a class="button" href="../thesisProjects/">Thesis Projects</a>
+                 </div>
+             </div>
+             <div id="content">
+
+
+<h2>Robs opinion on which metric to use for classification tasks</h2>
+<p>In my opinion the wrong metrics are used, even in some prominent benchmarks.
+This seems to be mainly due to the misundertanding that for datasets/tasks with
+unbalanced class-distribution, macro-F1 is always the correct metric. I
+disagree with this heuristic. What is more important is to ask yourself: do I
+care most about all classes being found correctly, or do I care more about the
+number of correct instances. Furthermore, accuracy has the benefit of being
+more interpretable, having a value of 0.66 just means we got 66% of all
+instances correct, but for F1 this is less obvious, it could be recall = .6 and
+precision is .6, but they could also be .5 and 1.0. Of course, we do need to
+include the majority baseline for interpretation of accuracy. Another strange
+combination I see too often is a binary task with macro-F1; it should be noted
+here that an error for class A is automatically also an error in class B (an FP
+for A becomes a FN for B), which is probably not desired (note that SKLearn gives
+a warning for this).</p>
+
+<p>After discussing with some of my collegues (mostly <a
+href="https://elisabassignana.github.io/">Elisa</a> and <a
+href="https://christianhardmeier.rax.ch/">Christian</a>), and mostly agreeing
+to disagree, I have came up with a decision tree (shown below). It should be
+noted that this is subjective (if I didn't make this clear enough yet).</p>
+
+
+<img width="300" src="metrics.png">
+
+            </div>
+        </div>
+    </body>
+</html>
+
