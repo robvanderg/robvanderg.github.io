@@ -8,64 +8,67 @@ title: "Home"
 
 {{ content }}
 
-Welcome
--------
+<h2>Welcome</h2>
+<p>Welcome on my homepage!, I am Rob van der Goot, and am currently working as an assistant professor at the IT University of Copenhagen</p>
 
-Welcome on my homepage!, I am Rob van der Goot, and am currently working as an assistant professor at the IT University of Copenhagen
+<h2>Research interests</h2>
+<p>My main research interest is robustness in natural language processing. This includes the processing of non-standard language varieties, low-resource languages and any setting were only little training data is available. My expertise is mostly on syntactic tasks.</p>
 
-Research interests
-------------------
+<h2>Office hours</h2>
+<p>14:00-15:00 in 3A08 (ITU)</p>
 
-My main research interest is robustness in natural language processing. This includes the processing of non-standard language varieties, low-resource languages and any setting were only little training data is available. My expertise is mostly on syntactic tasks.
+<h2>News</h2>
+<input
+  type="checkbox"
+  id="toggle_news"
+  class="toggle_collapse"
+  hidden
+  aria-hidden="true"
+>
+<ul>
+    <li>24-10-2022: Best paper award for project I supervised at WNUT 2022: <a href="https://aclanthology.org/2022.wnut-1.20.pdf">Increasing Robustness for Cross-domain Dialogue Act Classification on Social Media Data.</a></li>
+    <li>22-10-2021: Invited talk at MilaNLP</li>
+    <li>12-10-2021: Outstanding reviewer @ <a href="https://2021.aclweb.org/blog/reviewer-list/">ACL2021</a></li>
+    <li>23-04-2021: Received outstanding paper award for <a href="https://machamp-nlp.github.io/">MaChAmp</a> @EACL2021</li>
+    <li>01-02-2021: I will be assistant professor at ITU from 01-09-2021!</li>
+    <li>10-01-2021: The <a href="http://noisy-text.github.io/2021/multi-lexnorm.html">shared task on Multi-lingual lexical normalization</a> has started</li>
+    <li>12-01-2021: There is now a <a href="https://arxiv.org/abs/2006.01175">code switched version of MoNoise</a>, for normalizing two languages simultaneously.</li>
 
-Office hours
-------------
 
-14:00-15:00 in 3A08 (ITU)
+    <li >30-09-2020: Proud to have supervised Anders Giovanni Møller, with a shared first place on the WNUT 2021 shared task on identifying informative COVID-19 tweets! <a href="https://en.itu.dk/about-itu/press/news-from-itu/2020/noisy-text-uk">News article</a>.</li>
+    <li class="collapseAfter">01-09-2020: Started hosting research intern Anouck Braggaar, who is going to work on low-resource dependency parsing</li>
+    <li>24-04-2020: Included in <a href="https://tinyletter.com/thecopulaandthebit/letters/the-copula-and-the-bit-35-list-of-lisz-of-lsits">The Copula and the Bit</a></li>
+    <li>23-04-2020: Interview on Omrop Fryslan about how Frisians abroad survive COVID-19.</li>
+    <li>05-01-2020: First Danish models, and improved Dutch model available for; thanks to respectively Amanda Jørgensen and Youri Schuur. More information on the Dutch normalization available in Youri's <a href="doc/normalization_dutch.pdf">thesis</a></li>
+    <li>13-12-2019: Italian models are now available for <a href="../monoise/">MoNoise</a>; including better handling of capitalization, if you update, please download the new models.</li>
+    <li>11-12-2019: Hosting visitor Ahmet Üstün in context of the Cost Action <a href="https://www.cost.eu/actions/CA18231/">Multi3Generation</a></li>
+    <li>02-09-2019: Started as a postdoc at ITU!</li>
+    <li>23-06-2019: My recent work with Malvina Nissim and Rik van Noord was discussed on <a href="http://lineardigressions.com/episodes/2019/6/23/revisiting-biased-word-embeddings">Linear Digressions</a></li>
+    <li>23-05-2019: Happy to share that I am hired as a Postdoc at the ITU, under supervision of Barbara Plank!</li>
+    <li>15-04-2019: I ''Won'' the most reviews at <a href="https://naacl2019.org/blog/kudos-reviewers/">NAACL 2019</a></li>
+    <li>04-04-2019: PhD Defence</li>
+    <li>03-04-2019: Workshop <a href="robustness/">ROBustness in Parsing</a></li>
+    <li>30-03-2019: Interviewed by De Taalstaat (Radio 1), listen <a href="http://robvander.github.io/incl/taalstaat.mp3">here</a> (Dutch)</li>
+</ul>
+<label for="toggle_news" hidden aria-hidden="true"></label>
 
-News
-----
-
-*   24-10-2022: Best paper award for project I supervised at WNUT 2022: [Increasing Robustness for Cross-domain Dialogue Act Classification on Social Media Data.](https://aclanthology.org/2022.wnut-1.20.pdf)
-*   22-10-2021: Invited talk at MilaNLP
-*   12-10-2021: Outstanding reviewer @ [ACL2021](https://2021.aclweb.org/blog/reviewer-list/)
-*   23-04-2021: Received outstanding paper award for [MaChAmp](https://machamp-nlp.github.io/) @EACL2021
-*   01-02-2021: I will be assistant professor at ITU from 01-09-2021!
-*   10-01-2021: The [shared task on Multi-lingual lexical normalization](http://noisy-text.github.io/2021/multi-lexnorm.html) has started
-*   12-01-2021: There is now a [code switched version of MoNoise](https://arxiv.org/abs/2006.01175), for normalizing two languages simultaneously.
-*   30-09-2020: Proud to have supervised Anders Giovanni Møller, with a shared first place on the WNUT 2021 shared task on identifying informative COVID-19 tweets! [News article](https://en.itu.dk/about-itu/press/news-from-itu/2020/noisy-text-uk).
-*   01-09-2020: Started hosting research intern Anouck Braggaar, who is going to work on low-resource dependency parsing
-*   24-04-2020: Included in [The Copula and the Bit](https://tinyletter.com/thecopulaandthebit/letters/the-copula-and-the-bit-35-list-of-lisz-of-lsits)
-*   23-04-2020: Interview on Omrop Fryslan about how Frisians abroad survive COVID-19.
-*   05-01-2020: First Danish models, and improved Dutch model available for; thanks to respectively Amanda Jørgensen and Youri Schuur. More information on the Dutch normalization available in Youri's [thesis](doc/normalization_dutch.pdf)
-*   13-12-2019: Italian models are now available for [MoNoise](../monoise/); including better handling of capitalization, if you update, please download the new models.
-*   11-12-2019: Hosting visitor Ahmet Üstün in context of the Cost Action [Multi3Generation](https://www.cost.eu/actions/CA18231/)
-*   02-09-2019: Started as a postdoc at ITU!
-*   23-06-2019: My recent work with Malvina Nissim and Rik van Noord was discussed on [Linear Digressions](http://lineardigressions.com/episodes/2019/6/23/revisiting-biased-word-embeddings)
-*   23-05-2019: Happy to share that I am hired as a Postdoc at the ITU, under supervision of Barbara Plank!
-*   15-04-2019: I ''Won'' the most reviews at [NAACL 2019](https://naacl2019.org/blog/kudos-reviewers/)
-*   04-04-2019: PhD Defence
-*   03-04-2019: Workshop [ROBustness in Parsing](robustness/)
-*   30-03-2019: Interviewed by De Taalstaat (Radio 1), listen [here](http://robvander.github.io/incl/taalstaat.mp3) (Dutch)
-
-Roles
------
-
-Co-supervisor of the following amazing PhD students (reverse chronological order, as suggested by Elisa):
-
-*   [Elisa Bassignana](https://elisabassignana.github.io/)
-*   [Mike Zhang](https://jjzha.github.io/)
-*   [Max Müller-Eberstein](https://personads.me/vitae/me.html)
+<h2>Roles</h2>
+<p>Co-supervisor of the following amazing PhD students (reverse chronological order, as suggested by Elisa):</p>
+<ul>
+    <li><a href="https://elisabassignana.github.io/">Elisa Bassignana</a></li>
+    <li><a href="https://jjzha.github.io/">Mike Zhang</a></li>
+    <li><a href="https://personads.me/vitae/me.html">Max Müller-Eberstein</a></li>
+</ul>
 
 I am also:
+<ul>
+    <li>Lead of <a href="https://nlpnorth.github.io/">NLP-North</a></li>
+    <li>Member of the HPC committee at ITU</li>
+    <li>Member of the HPC committee at the AI Pioneer Center</li>
+</ul>
 
-*   Lead of [NLP-North](https://nlpnorth.github.io/)
-*   Member of the HPC committee at ITU
-*   Member of the HPC committee at the AI Pioneer Center
 
-Contact
--------
-
-robv@itu.dk
+<h2>Contact</h2>
+<p>robv@itu.dk</p>
 
 
