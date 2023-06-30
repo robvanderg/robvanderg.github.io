@@ -13,7 +13,6 @@ tags:
 In the MultiLexNorm shared task (WNUT 2021), we made a first attempt at homogenising multiple lexical normalization datasets in a variety of languages into one standard. This project was started to improve the evaluation and comparison of existing lexical normalization models, as well as pushing the focus to a larger variety of languages. We defined lexical normalization as the task of "transforming an utterance into its standard form, word by word, including both one-to-many (1-n) and many-to-one (n-1) replacements." An example of an utterance annotated for this task would be:
 
 | most | social | pple | r   | troublsome |
-| --- | --- | --- | --- | --- |
 | most | social | people | are | troublesome |
 
 More examples and information about MultiLexNorm can be found on the [task website](http://noisy-text.github.io/2021/multi-lexnorm.html) and [overview paper](http://noisy-text.github.io/2021/multi-lexnorm.html/).

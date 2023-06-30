@@ -33,9 +33,8 @@ You might notice that I did not do any tokenization. This is not because I forgo
 
 The sizes of the files, and the number of characters, words and tweets are:
 
-|     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |
 | Language | Code | Chars | Words. | Tweets | Size |
+| --- | --- | --- | --- | --- | --- |
 | Danish | da  | 159,067,945 | 26,410,783 | 2,939,931 | 152M |
 | German | de  | 4,017,217,589 | 602,955,881 | 72,054,802 | 3.8G |
 | English | en  | 183,774,280,286 | 31,463,897,778 | 2,526,522,685 | 172G |
