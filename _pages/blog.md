@@ -1,7 +1,6 @@
 ---
-permalink: /posts/
-title: "Posts"
-layout: posts
+permalink: /blog/
+title: "Blog"
 ---
 There will be posts here: 
 
