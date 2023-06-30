@@ -36,6 +36,15 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 include:
   - _pages
 
+# utterances comments
+repository: "robvanderg/robvanderg.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
