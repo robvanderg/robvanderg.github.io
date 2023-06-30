@@ -33,35 +33,17 @@ MaChAmp 0.1 had the option for seq2seq tasks with discriminative models: [Massiv
 Recent NLP models often have a maximum input size of 512 for efficiecny reasons. In a recent competition on predicting document similarity, the winning approach took the first and last 128 (sub)words of two documents to compare them. This means that the majority of the input data is not taken into account, which is probably suboptimal for performance. To exploit current models, a two layered approach can be used; first we embed the full input in multiple windows, keeping one embedding out of each of the windows, then we run a separate neural network over the output of the previous steps, leading to a single label prediction.
 
 *   [SemEval-2022 Task 8: Multilingual news article similarity](https://aclanthology.org/2022.semeval-1.155.pdf)
-1
+
 
 ### The effect of translationese on slot and intent detection
 
 The tasks of slot and intent detection is a crucial component of digital assisnents. Intent detection aims to find the goal of an utterance, and slot detection finds relevant entities. An example of this task:
 
-Add
+| Add | reminder | to | swim   | at | 11am       | tomorrow   |
+|-----|----------|----|--------|----|------------|------------|
+|     |          |    | B-TODO |    | B-DATETIME | I-DATETIME |
 
-reminder
-
-to
-
-swim
-
-at
-
-11am
-
-tomorrow
-
-B-TODO
-
-B-DATETIME
-
-I-DATETIME
-
-Intent:
-
-add-reminder
+Intent: add-reminder
 
 Recently, two big multi-lingual datasets have been introduced (multiAtis, and xSID). However, these datasets consist of data translated from English. Translationese is known to be different from spontaneous language. This project aims to estimate the effect of this difference. By generating a small sample of native non-English data (for example Danish), and evaluating this against the xSID data.
 
@@ -93,21 +75,9 @@ The goal of this project would be to annotate a small sample of Danish social me
 
 POS tagging is the task of classifying words into their syntactic category:
 
-I
-
-see
-
-the
-
-light
-
-PRON
-
-VERB
-
-DET
-
-NOUN
+| I    | see  | the | light |
+|------|------|-----|-------|
+| PRON | VERB | DET | NOUN  |
 
 Current POS tagger are usually supervised, which means they rely on human-annotated training data. This data commonly exists of thousands of sentences. To make this process less costly, one can select a more informative sample of words to rely on, and instead only annotate this subsample. Previous work (see below) has shown that competetive performance can be obtained with as little as 400 words on English news data. However, it is unclear how this transfers to other languages/domains. In this project, the first step is to evaluate the existing method on a larger sample (i.e. the [Universal Dependencies dataset](https://universaldependencies.org/)), followed by possible improvements to the model.
 
