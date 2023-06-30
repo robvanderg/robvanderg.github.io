@@ -5,7 +5,6 @@ layout: posts
 ---
 There will be posts here: 
 
-{{ content }}
 
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
