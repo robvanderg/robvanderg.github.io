@@ -68,7 +68,7 @@ plugins:
 author:
   name   : "Rob van der Goot"
   avatar : "/assets/images/bio-photo.jpg"
-  #bio    : ""
+  bio    : ""
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
@@ -80,7 +80,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/robvanderg"
     - label: "Scholar"
-      icon: "fab fa-fw fa-graduation-cap"
+      icon: "ai ai-google-scholar ai"
       url: "https://scholar.google.com/citations?user=lU4zpOEAAAAJ&hl=nl"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
