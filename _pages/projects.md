@@ -76,7 +76,6 @@ The goal of this project would be to annotate a small sample of Danish social me
 POS tagging is the task of classifying words into their syntactic category:
 
 | I    | see  | the | light |
-|------|------|-----|-------|
 | PRON | VERB | DET | NOUN  |
 
 Current POS tagger are usually supervised, which means they rely on human-annotated training data. This data commonly exists of thousands of sentences. To make this process less costly, one can select a more informative sample of words to rely on, and instead only annotate this subsample. Previous work (see below) has shown that competetive performance can be obtained with as little as 400 words on English news data. However, it is unclear how this transfers to other languages/domains. In this project, the first step is to evaluate the existing method on a larger sample (i.e. the [Universal Dependencies dataset](https://universaldependencies.org/)), followed by possible improvements to the model.
