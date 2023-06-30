@@ -1,6 +1,6 @@
 ---
 title: "Multilingual Twitter word embeddings"
-date: 2021-05-06t15:00:00-00:00
+date: 2021-05-06T15:00:00-00:00
 categories:
   - modeling
 tags:

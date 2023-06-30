@@ -1,6 +1,6 @@
 ---
 title: "Training a massively multilingual UD-parser"
-date: 2021-05-12t15:00:00-00:00
+date: 2021-05-12T15:00:00-00:00
 categories:
   - modeling
 tags:
