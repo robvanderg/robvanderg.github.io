@@ -1,0 +1,125 @@
+html,body{
+    font-size:12pt;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+th{
+    font-weight: normal;
+}
+
+
+#wrapper{
+    width:100%;
+    overflow: hidden;
+    min-height:100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#buttonWrapper {
+  margin-top:-2px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+}
+
+#buttonWrapper a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  height:25px;
+}
+
+#buttonWrapper a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#menu:hover #buttonWrapper {display: block;}
+
+#menu{
+    width:100px;
+    height:50px;
+    background-color:grey;
+}
+
+#menu p{
+    margin-top:0px;
+    padding-top:0px;
+}
+
+#menuText{
+    padding:10px;
+    font-size:26px;
+}
+
+.buttonActive{
+    background-color: #555;
+}
+
+#content{
+    float: left;
+    width: 93%;
+    margin: 20px;
+    min-height:100%;
+}
+
+.code{
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    margin: 20px;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.rl{
+    text-align:right;
+    padding-right:25px;
+}
+
+.toggle_collapse {
+  /* make it show to work across all ua's */
+  display:block;
+}
+
+.toggle_collapse, /* hide off screen */
+.toggle_collapse + *  .collapseAfter ~ * {
+  position:absolute;
+  top:-999em;
+  left:-999em;
+}
+
+.toggle_collapse:checked + *  .collapseAfter ~ * {
+  position:static;
+}
+
+.toggle_collapse + * + label {
+  display:inline-block; /* make visible for screen media */
+  color:blue;
+}
+
+.toggle_collapse + * + label:before {
+  content:"See more";
+}
+
+.toggle_collapse:checked + * + label:before {
+  content:"See less";
+}
+
+.toggle_collapse + * + label:after {
+  content:"\25BC";
+  display:inline-block;
+  padding:0.4em 0 0 0.3em;
+  vertical-align:top;
+  font-size:0.625em;
+}
+
+.toggle_collapse:checked + * + label:after {
+  content:"\25B2";
+}
+
+

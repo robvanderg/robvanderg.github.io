@@ -1,0 +1,129 @@
+html,body{
+    font-size:14pt;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+th{
+    font-weight: normal;
+}
+
+#wrapper{
+    width:100%;
+    overflow: hidden;
+    min-height:120%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu{
+    float:left;
+    width: 20%;
+    background-color: #f1f1f1;
+    margin: 0px;
+    padding: 0px;
+    padding-top:50px;
+    padding-bottom: 1000%;
+    margin-bottom: -1000%;
+}
+
+#menu p{
+    margin-top:0px;
+    padding-top:0px;
+    margin-left:-1000px;
+}
+
+#menuText{
+    height:0px;
+    margin:0px;
+    padding:0px;
+    margin-left:-9999px;
+    font-size:0px;
+}
+
+.button{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size:32pt;
+    margin-bottom:20px;
+}
+
+.button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.buttonActive{
+    background-color: #555;
+}
+
+#content{
+    float: left;
+    width: 70%;
+    margin: 20px;
+    min-height:100%;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    max-width:1000px;
+    margin-top:50px;
+}
+
+.code{
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace; 
+    font-size:15px;
+    margin: 20px;
+    max-width:1000px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.rl{
+    text-align:right;
+    padding-right:25px;
+}
+
+
+.toggle_collapse {
+  /* make it show to work across all ua's */  
+  display:block; 
+}
+
+.toggle_collapse, /* hide off screen */
+.toggle_collapse + *  .collapseAfter ~ * {
+  position:absolute;
+  top:-999em;
+  left:-999em;
+}
+
+.toggle_collapse:checked + *  .collapseAfter ~ * {
+  position:static;
+}
+
+.toggle_collapse + * + label {
+  display:inline-block; /* make visible for screen media */
+  color:blue;
+}
+
+.toggle_collapse + * + label:before {
+  content:"See more";
+}
+
+.toggle_collapse:checked + * + label:before {
+  content:"See less";
+}
+
+.toggle_collapse + * + label:after {
+  content:"\25BC";
+  display:inline-block;
+  padding:0.4em 0 0 0.3em;
+  vertical-align:top;
+  font-size:0.625em;
+}
+
+.toggle_collapse:checked + * + label:after {
+  content:"\25B2";
+}
+
