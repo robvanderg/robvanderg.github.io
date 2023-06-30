@@ -40,7 +40,6 @@ Recent NLP models often have a maximum input size of 512 for efficiecny reasons.
 The tasks of slot and intent detection is a crucial component of digital assisnents. Intent detection aims to find the goal of an utterance, and slot detection finds relevant entities. An example of this task:
 
 | Add | reminder | to | swim   | at | 11am       | tomorrow   |
-|-----|----------|----|--------|----|------------|------------|
 |     |          |    | B-TODO |    | B-DATETIME | I-DATETIME |
 
 Intent: add-reminder
