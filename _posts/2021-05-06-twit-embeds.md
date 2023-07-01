@@ -19,15 +19,21 @@ I have prepared word embeddings for all languages included in the [Multi-LexNorm
 * For the code-switched language pairs, I have simply concatenated both mono-lingual datasets, as it is non-trivial to filter for code-switched data.
 * Cleaned usernames and url's to make the vocabulary smaller, and anonymize. Used the following command:
 
+```
 sed -r 's/@\[^ \]\[^ \]*//g' | sed -r 's/(http\[s\]?:\\/\[^ \]*|www\\.\[^ \]*)//g'
+```
 
 * Removed duplicates with (note that this stores intermediate results in /dev/shm, which should be quite large):
 
+```
 sort -T /dev/shm | uniq
+```
 
 * trained word2vec with the following settings:
 
+```
 ./word2vec/word2vec -train nl.txt -output nl.bin -size 400 -window 5 -cbow 0 -binary 1 -threads 45
+```
 
 You might notice that I did not do any tokenization. This is not because I forgot. This is done because any consistent errors in tokenization would lead to specific words being excluded from the vocabulary.
 
