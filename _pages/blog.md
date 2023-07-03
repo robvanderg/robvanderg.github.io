@@ -3,7 +3,7 @@ permalink: /blog/
 title: "Blog"
 ---
 
-
+Welcome on my ``blog''!, here you will find a wide variety of useful and less useful tricks, opinions and resources.
 
 {% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
