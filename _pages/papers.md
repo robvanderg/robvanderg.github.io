@@ -8,8 +8,8 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 2023
 ----
 
-*   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Silver Syntax Pre-training for Cross-Domain Relation Extraction._ In EMNLP Findings.
-*   Mike Zhang, Rob van der Goot, and Barbara Plank. _ESCOXLM-R: Multilingual Taxonomy-driven Pre-training for the Job Market Domain._ In EMNLP.
+*   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Silver Syntax Pre-training for Cross-Domain Relation Extraction._ In ACL Findings.
+*   Mike Zhang, Rob van der Goot, and Barbara Plank. _ESCOXLM-R: Multilingual Taxonomy-driven Pre-training for the Job Market Domain._ In ACL.
 *   Lina Skerath, Paulina Toborek, Anita Zielińska, Maria Barrett, and Rob van der Goot. _Native Language Prediction from Gaze: a Reproducibility Study_ In ACL SRW  .
     \[[poster](../doc/acl-srw2023_poster.pdf) | [code](https://github.com/linaskerath/ANLP_project)\]
 *   Rob van der Goot. _MaChAmp at SemEval-2023 Tasks 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12: On the Effectiveness of Intermediate Training on an Uncurated Collection of Datasets._ In SemEval  
