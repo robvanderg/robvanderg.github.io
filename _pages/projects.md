@@ -40,6 +40,20 @@ Recent NLP models often have a maximum input size of 512 for efficiecny reasons.
 *   [SemEval-2022 Task 8: Multilingual news article similarity](https://aclanthology.org/2022.semeval-1.155.pdf)
 
 
+### Early stopping strategies
+
+When training a neural model (in NLP), it is common to use a development split
+to decide when to stop training. However, this has some downsides (see: [We
+Need to Talk About train-dev-test
+Splits](https://aclanthology.org/2021.emnlp-main.368.pdf) ). There have been
+some alternative strategies proposed for model selection/early stopping. One
+strategy is to train for a specific pre-defined number of steps, another one is
+to look at train loss. However, to the best of my knowledge, no comparison of
+these approaches has been done.
+
+*  [Active Learning Helps Pretrained Models Learn the Intended Task](https://openreview.net/pdf?id=0Ww7UVEoNue)
+*  [Model Selection for Cross-Lingual Transfer](https://aclanthology.org/2021.emnlp-main.459.pdf)
+
 ### The effect of translationese on slot and intent detection
 
 The tasks of slot and intent detection is a crucial component of digital assisnents. Intent detection aims to find the goal of an utterance, and slot detection finds relevant entities. An example of this task:
