@@ -22,6 +22,11 @@ When training an NLP model on a variety of datasets, from different sources (and
 
 These methods have shown promising results in isolated setups, but have never been consistently compared.
 
+### seq2seq versus classification models
+Recently, sequence-to-sequence (seq2seq) have become more and more powerful. A recent paper has shown that seq2seq models can perform on-par with classification models through conversion of tasks to sequence generation tasks. However, the comparison is not direct, so it would be interesting to make a more direct comparison of an auto-encoder language model versus a generative one.
+
+*  [Unleashing the True Potential of Sequence-to-Sequence Models for Sequence Tagging and Structure Parsing](https://aclanthology.org/2023.tacl-1.34.pdf)
+
 ### Discriminative multi-task learning with seq2seq models
 
 In multi-task NLP, we commonly make the decision to use a discriminative language model OR a generative language model. It is non-trivial to use a discriminative model for generation, but the other way around is relatively simple. We could take the output after encoding (or even after decoding for some tasks), and learn our classifier on top of this.
