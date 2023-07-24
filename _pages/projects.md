@@ -6,7 +6,16 @@ title: "Projects"
 Thesis project topics.
 ----------------------
 
-Below I list some research ideas that I would like to supervise for a research project/thesis. These can also be seen as research directions that I'm interested in, so if you are interested in related projects feel free to contact me as well (robv@itu.dk).
+Below I list some research ideas that I would like to supervise for a research project/thesis or collaborate on. These can also be seen as research directions that I'm interested in, so if you are interested in related projects feel free to contact me as well (robv@itu.dk).
+
+
+### Shared tasks
+For short term research projects, shared tasks can provide a nice setup. They
+introduce a new dataset, on which teams can develop models and compete. A
+popular NLP platform for shared tasks is SemEval, the 2024 tasks can be found
+on
+[https://semeval.github.io/SemEval2024/tasks](https://semeval.github.io/SemEval2024/tasks)
+
 
 ### Learn from context
 
