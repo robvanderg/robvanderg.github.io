@@ -11,7 +11,7 @@ Welcome on my ``blog''!, here you will find a wide variety of useful and less us
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="entries-{{ page.entries_layout | default: 'list' }}">
       {% for post in year.items %}
-        {% include archive-single.html type='list' %}
+        {% include archive-single-noteaser.html type='list' %}
       {% endfor %}
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
