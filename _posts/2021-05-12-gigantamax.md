@@ -15,7 +15,7 @@ To the best of my knowledge, [Udify](https://github.com/Hyperparticle/udify) ([K
 
 However, when training again on so many datasets, we were wondering whether a simpler learning rate scheduler would be better when training for 80 epochs, as very low learning rates in the later part of the training might lead to consistent improvements. We evaluated most of the schedulers available withing AllenNLP with mBERT, and finally compared the most promising settings with XLM-r (because it is more costly to train).
 
-![](../assets/images/gigantamax.png)
+![](../../assets/images/gigantamax.png)
 
 Results are shown in the plot above (x-axis: LAS over all dev-sets, y-axis: epochs), for all results, dataset smoothing was enabled (0.5, as in the MaChAmp paper). The red and green line are cut off because our machine crashed and it did not seem worth it to restart them. We tried our original learning rate (0.0001) as well as a small one (0.00001), motivated by the fact that we have more epochs and more steps (because of the larger datasize) to converge. This is denoted with .smallLR in the figure. We used 16,000 warmup steps. The models without noam/warmup in their name use the MaChAmp default (slanted triangular), and clearly outperform the other schedulers. Furthermore, one clear takeaway is that our models trained for 20 epochs are performing equally well as the ones that are trained for 40 or 80 epochs.
 
