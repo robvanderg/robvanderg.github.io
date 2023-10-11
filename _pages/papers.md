@@ -8,12 +8,12 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 2023
 ----
 
-*   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Silver Syntax Pre-training for Cross-Domain Relation Extraction._ In ACL Findings.
-*   Mike Zhang, Rob van der Goot, and Barbara Plank. _ESCOXLM-R: Multilingual Taxonomy-driven Pre-training for the Job Market Domain._ In ACL.
-*   Lina Skerath, Paulina Toborek, Anita Zielińska, Maria Barrett, and Rob van der Goot. _Native Language Prediction from Gaze: a Reproducibility Study_ In ACL SRW  .
-    \[[poster](../doc/acl-srw2023_poster.pdf) | [code](https://github.com/linaskerath/ANLP_project)\]
+*   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Silver Syntax Pre-training for Cross-Domain Relation Extraction._ In ACL Findings. \[[paper](https://aclanthology.org/2023.findings-acl.436.pdf) | [code](https://github.com/mainlp/syntax-pre-training-for-RE) | [bib](https://aclanthology.org/2023.findings-acl.436.bib)\]
+*   Mike Zhang, Rob van der Goot, and Barbara Plank. _ESCOXLM-R: Multilingual Taxonomy-driven Pre-training for the Job Market Domain._ In ACL. \[[paper](https://aclanthology.org/2023.acl-long.662.pdf) | [code](https://github.com/mainlp/escoxlmr) | [bib](https://aclanthology.org/2023.acl-long.662.bib)\]
+*   Lina Skerath, Paulina Toborek, Anita Zielińska, Maria Barrett, and Rob van der Goot. _Native Language Prediction from Gaze: a Reproducibility Study_ In ACL SRW.
+    \[[paper](https://aclanthology.org/2023.acl-srw.26.pdf) | [poster](../doc/acl-srw2023_poster.pdf) | [code](https://github.com/linaskerath/ANLP_project)\ | [bib](https://aclanthology.org/2023.acl-srw.26.bib)]
 *   Rob van der Goot. _MaChAmp at SemEval-2023 Tasks 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12: On the Effectiveness of Intermediate Training on an Uncurated Collection of Datasets._ In SemEval  
-    \[[paper](https://bitbucket.org/robvanderg/semeval2023/src/master/main.pdf) | [poster](../doc/semeval2023_poster.pdf) | [code](https://bitbucket.org/robvanderg/semeval2023/src/master/) | [tex](../doc/semeval2023.tar.gz)\]
+    \[[paper](https://aclanthology.org/2023.semeval-1.32.pdf) | [poster](../doc/semeval2023_poster.pdf) | [code](https://bitbucket.org/robvanderg/semeval2023/src/master/) | [tex](../doc/semeval2023.tar.gz) | [bib](https://aclanthology.org/2023.semeval-1.32.bib)\]
 *   Noëmi Aepli, Çagrı Çöltekin, Rob van der Goot, Tommi Jauhiainen, Mourhaf Kazzaz, Nikola Ljubešic, Kai North, Barbara Plank, Yves Scherrer, and Marcos Zampieri. _Findings of the VarDial Evaluation Campaign 2023_ In VarDial  
     \[[paper](https://aclanthology.org/2023.vardial-1.25.pdf) | [bib](https://aclanthology.org/2023.vardial-1.25.bib) | [website](https://sites.google.com/view/vardial-2023/shared-tasks#h.mj5vivaubw8r)\]
 *   Kia Kirstein Hansen and Rob van der Goot. _Cross-Domain Evaluation of POS Taggers: From Wall Street Journal to Fandom Wiki._  
