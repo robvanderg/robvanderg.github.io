@@ -8,19 +8,6 @@ Thesis project topics.
 
 Below I list some research ideas that I would like to supervise for a research project/thesis or collaborate on. These can also be seen as research directions that I'm interested in, so if you are interested in related projects feel free to contact me as well (robv@itu.dk).
 
-
-### Shared tasks
-For short term research projects, shared tasks can provide a nice setup. They
-introduce a new dataset, on which teams can develop models and compete. A
-popular NLP platform for shared tasks is SemEval, the 2024 tasks can be found
-on
-[https://semeval.github.io/SemEval2024/tasks](https://semeval.github.io/SemEval2024/tasks)
-
-
-### Learn from context
-
-Context is crucial for interpretation of language and thus also for many NLP tasks; however most tasks are tackled on the sentence level. A simple method for incorporating context is to simply add the previous sentence, previous work (e.g. [Vielsted et al.](https://aclanthology.org/2022.wnut-1.20.pdf)) has shown huge improvements with this. A more efficient and extendable method could be to include sentence embeddings in the first position(s), a variety of context size can then be easily be incorporated.
-
 ### How to learn from different sources
 
 When training an NLP model on a variety of datasets, from different sources (and with different underlying distributions), it could be informative for the model to know about the origin of the text. A variety of methods can be used to inorporate this information, including:
@@ -111,15 +98,6 @@ Related reading:
 
 *   [Simple Semi-Supervised POS Tagging](https://www.aclweb.org/anthology/W15-1511.pdf)
 
-### Conversion of NLP tasks to sequence labeling tasks
-
-Because of the continually increasing power of sequence labelers, competetive performance for complex tasks can be gained by simplifying tasks to sequence labeling problems. This lead to efficient and accurate NLP models. The main setup is: 1) find a task (I have a couple in mind already of course), 2) convert this a sequence labeling problem 3) train a sequence labeler for this conversion, 4) then convert the sequence back to the original task and evaluate. This is mainly an algorithmic project, as existing sequence labelers can be used.
-
-Succesfull examples on some NLP tasks:
-
-*   [Biomedical Event Extraction as Sequence Labeling](../doc/beesl.pdf)
-*   [Tetra-Tagging: Word-Synchronous Parsing with Linear-Time Inference](https://www.aclweb.org/anthology/2020.acl-main.557.pdf)
-*   [Viable Dependency Parsing as Sequence Labeling](https://www.aclweb.org/anthology/N19-1077.pdf)
 
 ### Tokenization of social media data
 
@@ -135,13 +113,22 @@ Some related work:
 *   [twokenize](https://github.com/myleott/ark-twokenize-py/blob/master/twokenize.py)
 *   [nltk.TweetTokenizer](https://www.nltk.org/_modules/nltk/tokenize/casual.html#TweetTokenizer)
 
-### Efficient Language identification for many languages
+### Efficient language identification for many languages
 
 Language identification is a standard NLP task, which is often considered to be solved. However, most current classifiers only support around 100 languages, or are not publicly available. This project makes use of the [LTI LangID Corpus](http://www.cs.cmu.edu/~ralf/langid.html)(with >1300 languages), and asks the question: how can we efficiently handle such a large label space, and such a wide variety in input-features. Relevant previous work:
 
 *   [Non-linear Mapping for Improved Identification of 1300+ Languages](https://www.aclweb.org/anthology/D14-1069.pdf)
 *   [A Fast, Compact, Accurate Model for Language Identification of Codemixed Text](https://www.aclweb.org/anthology/D18-1030.pdf)
 *   [Language ID in the Wild: Unexpected Challenges on the Path to a Thousand-Language Web Text Corpus](https://www.aclweb.org/anthology/2020.coling-main.579.pdf)
+
+### Cross-domain language identification
+
+Most language identification models are trained and evaluated on a single domain. A cross-domain dataset can however relatively easily be compiled, and allows for testing existing language identification models for robustness. Some existing resources for a variety of domains are listed below:
+
+*   [Accurate Language Identification of Twitter Messages](https://aclanthology.org/W14-1303.pdf)
+*   [MassiveSumm: a very large-scale, very multilingual, news summarisation dataset](https://aclanthology.org/2021.emnlp-main.797.pdf)
+*   [LTI LangID Corpus](http://www.cs.cmu.edu/~ralf/langid.html)
+*   [Fandom Wiki's](https://robvanderg.github.io/datasets/wikia/)
 
 ### Strategies for Morphological Tagging
 
