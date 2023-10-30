@@ -44,7 +44,7 @@ Talks
 -------------
 * DEIC (2023). \[[slides](../doc/deic2023.pdf)\]
 * Multi\* workshop (2023). \[[slides](../doc/multistar2023.pdf)\]
-* Research Seminars in Language Technology. University of Helsinki.  Challenges in Achieving Robustness Through Normalization and Multi-task Learning (2023). \[[slides](../doc/helsinki2023.pdf) | [video](https://unitube.it.helsinki.fi/unitube/embed.html?id=45b4b273-8045-4ba6-955e-c23f71ac40e7)\]
+* Research Seminars in Language Technology. University of Helsinki.  Challenges in Achieving Robustness Through Normalization and Multi-task Learning (2023). \[[slides](../doc/helsinki2023.pdf) \| [video](https://unitube.it.helsinki.fi/unitube/embed.html?id=45b4b273-8045-4ba6-955e-c23f71ac40e7)\]
 * Overview succesful student projects (2023). \[[slides](../doc/studentprojects2023.pdf)\]
 * RAD (2023). \[[slides](../doc/rad2023.tar.gz)\]
 * Invited talk Groningen (2022). \[[slides](../doc/groningen2022.pdf)\]
