@@ -70,6 +70,7 @@ Reviewer
 * ACL SRW
 * EACL (Area Chair)
 * EACL SRW
+* LREC/COLING
 * SemEval
 * ACL
 * NoDaLiDa

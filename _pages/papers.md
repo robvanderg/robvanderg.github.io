@@ -7,7 +7,10 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 
 2023
 ----
-
+*   Max Müller-Eberstein, Rob van der Goot, Barbara Plank, Ivan Titov. _Subspace Chronicles: How Linguistic Information Emerges, Shifts and Interacts during Language Model Training_ In EMNLP Findings.
+    \[[paper](https://arxiv.org/pdf/2310.16484.pdf) | [video](https://www.youtube.com/watch?v=tzdCfF1jfNc) | [code](https://github.com/mainlp/subspace-chronicles)\]
+*   Robert Litschko, Max Müller-Eberstein, Rob van der Goot, Leon Weber, Barbara Plank. _Establishing Trustworthiness: Rethinking Tasks and Model Evaluation._ In EMNLP.
+    \[[paper](https://arxiv.org/pdf/2310.05442.pdf)\]
 *   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Silver Syntax Pre-training for Cross-Domain Relation Extraction._ In ACL Findings. 
     \[[paper](https://aclanthology.org/2023.findings-acl.436.pdf) | [code](https://github.com/mainlp/syntax-pre-training-for-RE) | [bib](https://aclanthology.org/2023.findings-acl.436.bib)\]
 *   Mike Zhang, Rob van der Goot, and Barbara Plank. _ESCOXLM-R: Multilingual Taxonomy-driven Pre-training for the Job Market Domain._ In ACL. 
