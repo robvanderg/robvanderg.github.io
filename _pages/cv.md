@@ -40,11 +40,35 @@ Prizes
 *   Outstanding reviewer ACL 2021
 *   Participant Guinnes record of most people (361) walking 1,000 meter on ice barefoot (2013)
 
+Talks
+-------------
+* DEIC (2023). \[[slides](../doc/deic2023.pdf)\]
+* Multi\* workshop (2023). \[[slides](../doc/multistar2023.pdf)\]
+* Research Seminars in Language Technology. University of Helsinki.  Challenges in Achieving Robustness Through Normalization and Multi-task Learning (2023). \[[slides](../doc/helsinki2023.pdf) | [video](https://unitube.it.helsinki.fi/unitube/embed.html?id=45b4b273-8045-4ba6-955e-c23f71ac40e7)\]
+* Overview succesful student projects (2023). \[[slides](../doc/studentprojects2023.pdf)\]
+* RAD (2023). \[[slides](../doc/rad2023.tar.gz)\]
+* Invited talk Groningen (2022). \[[slides](../doc/groningen2022.pdf)\]
+* Groningen shared task course (2022). \[[slides](../doc/sharedtask2022.pdf)\]
+* ITU NLP workshop (2022). \[[slides](../doc/itunlp2022.pdf)\]
+* Milanlp (2021). \[[slides](../doc/milanlp2021.pdf)\]
+* Groningen MaChAmp (2021). \[[slides](../doc/groningen2021.pdf)\]
+* Mentoring EACL (2021). \[[slides](../doc/mentoring2021.pdf)\]
+* Mentoring ACL (2020). \[[slides](../doc/mentoring2021.pdf)\]
+* ROBustness in NLP (2019). \[[slides](../doc/robusntess2019.pdf)\]
+* PhD thesis (2019). \[[slides](../doc/phdthesis2019.pdf)\]
+* Interview de Taalstaat (2019, Dutch): <a href="https://www.nporadio1.nl/uitzendingen/de-taalstaat/60110a2a-292b-4895-aa02-5c3f7b3328c7/2019-03-30-de-taalstaat">
+<!--- * Welcome to ITU -->
+<!--- * Beroependag -->
+<!--- * Kroegcollege ASCI -->
+<!--- CLIN and CMC are missing: https://bitbucket.org/robvanderg/documents/src/master/website/index.htm  --!>
+
 Reviewer
 --------
 2023:
+* ARR
 * AACL
 * ACL SRW
+* EACL (Area Chair)
 * EACL SRW
 * SemEval
 * ACL

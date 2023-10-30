@@ -19,8 +19,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Noëmi Aepli, Çagrı Çöltekin, Rob van der Goot, Tommi Jauhiainen, Mourhaf Kazzaz, Nikola Ljubešic, Kai North, Barbara Plank, Yves Scherrer, and Marcos Zampieri. _Findings of the VarDial Evaluation Campaign 2023_ In VarDial  
     \[[paper](https://aclanthology.org/2023.vardial-1.25.pdf) | [bib](https://aclanthology.org/2023.vardial-1.25.bib) | [website](https://sites.google.com/view/vardial-2023/shared-tasks#h.mj5vivaubw8r)\]
 *   Kia Kirstein Hansen and Rob van der Goot. _Cross-Domain Evaluation of POS Taggers: From Wall Street Journal to Fandom Wiki._  
-    \[[paper](https://arxiv.org/pdf/2304.13989.pdf) | [data](https://github.com/kkirsteinhansen/elder-scrolls-fandom) \]  
-    
+    \[[paper](https://arxiv.org/pdf/2304.13989.pdf) | [data](https://github.com/kkirsteinhansen/elder-scrolls-fandom) \]      
 *   Kia Kirstein Hansen, Maria Barrett, Max Müller-Eberstein, Cathrine Damgaard, Trine Naja Eriksen, and Rob van der Goot. _DanTok: Domain Beats Language for Danish Social Media POS Tagging._ In NoDaLiDa  
     \[[paper](https://aclanthology.org/2023.nodalida-1.27.pdf) | [poster](../doc/nodalida2023_poster.pdf) | [code](https://github.com/kkirsteinhansen/dantok) | [bib](https://aclanthology.org/2023.nodalida-1.27.bib)\]
 *   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Multi-CrossRE A Multi-lingual Multi-Domain Dataset for Relation Extraction._ In NoDaLiDa  
@@ -33,7 +32,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
     \[[paper](https://aclanthology.org/2022.emnlp-main.527.pdf)| [video](https://personads.me/x/emnlp-2022-video) | [poster](https://personads.me/work/rsrc/2022-spectral-poster.pdf) | [code](https://github.com/mainlp/spectral-probing) | [bib](https://aclanthology.org/2022.emnlp-main.527.bib)\]
 *   Dennis Ulmer, Elisa Bassignana, Max Müller-Eberstein, Daniel Varab, Mike Zhang, Rob van der Goot, Christian Hardmeier, and Barbara Plank. _Experimental Standards for Deep Learning in Natural Language Processing Research._ In Findings of EMNLP  
     \[[paper](https://aclanthology.org/2022.findings-emnlp.196.pdf) | [video](https://www.youtube.com/watch?v=7xL0zrINx64) | [code](https://github.com/Kaleidophon/experimental-standards-deep-learning-research) | [bib](https://aclanthology.org/2022.findings-emnlp.196.pdf)\]
-*   Tanja Samardžić, Ximena Gutierrez-Vasques, Rob van der Goot, Max Müller-Eberstein, and Olga Pelloni_On Language Spaces, Scales and Cross-Lingual Transfer of UD Parsers._ In CoNLL  
+*   Tanja Samardžić, Ximena Gutierrez-Vasques, Rob van der Goot, Max Müller-Eberstein, and Olga Pelloni. _On Language Spaces, Scales and Cross-Lingual Transfer of UD Parsers._ In CoNLL  
     \[[paper](https://aclanthology.org/2022.conll-1.18.pdf) | [code](https://github.com/MorphDiv/transfer-lang) | [bib](https://aclanthology.org/2022.conll-1.18.bib)\]
 *   Marcus Vielsted, Nikolaj Wallenius and Rob van der Goot. _Increasing Robustness for Cross-domain Dialogue Act Classification on Social Media Data._ In WNUT.  
     \[[paper](https://aclanthology.org/2022.wnut-1.20.pdf) | [video](https://www.bilibili.tv/en/video/2043807653) | [slides](../doc/wnut2022.slides.pdf) | [poster](../doc/wnut2022.poster.pdf) | [code & data](https://github.com/marcusvielsted/DialogueActClassification) | [tex](../doc/wnut2022.tar.gz)\] **🏆Best paper award🏆**
