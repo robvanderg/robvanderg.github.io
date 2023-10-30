@@ -60,7 +60,7 @@ Talks
 <!--- * Welcome to ITU -->
 <!--- * Beroependag -->
 <!--- * Kroegcollege ASCI -->
-<!--- CLIN and CMC are missing: https://bitbucket.org/robvanderg/documents/src/master/website/index.htm  --!>
+<!--- CLIN and CMC are missing: https://bitbucket.org/robvanderg/documents/src/master/website/index.htm  -->
 
 Reviewer
 --------
