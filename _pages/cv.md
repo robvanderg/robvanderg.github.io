@@ -51,6 +51,7 @@ Talks
 * Groningen shared task course (2022). \[[slides](../doc/sharedtask2022.pdf)\]
 * ITU NLP workshop (2022). \[[slides](../doc/itunlp2022.pdf)\]
 * Milanlp (2021). \[[slides](../doc/milanlp2021.pdf)\]
+* SIGTYP (2021).
 * Groningen MaChAmp (2021). \[[slides](../doc/groningen2021.pdf)\]
 * Mentoring EACL (2021). \[[slides](../doc/mentoring2021.pdf)\]
 * Mentoring ACL (2020). \[[slides](../doc/mentoring2021.pdf)\]
