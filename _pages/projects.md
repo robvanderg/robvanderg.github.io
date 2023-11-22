@@ -23,11 +23,6 @@ Recently, sequence-to-sequence (seq2seq) have become more and more powerful. A r
 
 *  [Unleashing the True Potential of Sequence-to-Sequence Models for Sequence Tagging and Structure Parsing](https://aclanthology.org/2023.tacl-1.34.pdf)
 
-### Discriminative multi-task learning with seq2seq models
-
-In multi-task NLP, we commonly make the decision to use a discriminative language model OR a generative language model. It is non-trivial to use a discriminative model for generation, but the other way around is relatively simple. We could take the output after encoding (or even after decoding for some tasks), and learn our classifier on top of this.
-
-MaChAmp 0.1 had the option for seq2seq tasks with discriminative models: [Massive Choice, Ample Tasks (MaChAmp):A Toolkit for Multi-task Learning in NLP](https://aclanthology.org/2021.eacl-demos.22.pdf). In newer versions this was removed, and generative language models are now supported (just without the seq2seq task). Note that this project does not have to be implemented within the MaChAmp framework.
 
 ### Processing of long documents
 
