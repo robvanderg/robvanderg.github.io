@@ -70,21 +70,18 @@ author:
   avatar : "/assets/images/rob_van_der_goot.jpg"
   bio    : ""
   links:
-    #- label: "Website"
-    #  icon: "fas fa-fw fa-link"
-    #  url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/robvanderg"
+    - label: "Bitbucket"
+      icon: "fab fa-brands fa-bitbucket"
+      url: "https://bitbucket.org/robvanderg/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/robvanderg"
     - label: "Scholar"
       icon: "ai ai-google-scholar ai"
       url: "https://scholar.google.com/citations?user=lU4zpOEAAAAJ&hl=nl"
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-    #  url: "https://instagram.com/"
 
 footer:
   #links:
