@@ -12,7 +12,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Robert Litschko, Max Müller-Eberstein, Rob van der Goot, Leon Weber, Barbara Plank. _Establishing Trustworthiness: Rethinking Tasks and Model Evaluation._ In EMNLP.
     \[[paper](https://arxiv.org/pdf/2310.05442.pdf)\]
 *   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Silver Syntax Pre-training for Cross-Domain Relation Extraction._ In ACL Findings. 
-    \[[paper](https://aclanthology.org/2023.findings-acl.436.pdf) | [code](https://github.com/mainlp/syntax-pre-training-for-RE) | [bib](https://aclanthology.org/2023.findings-acl.436.bib)\]
+    \[[paper](https://aclanthology.org/2023.findings-acl.436.pdf) | [poster](https://elisabassignana.github.io/assets/posters/2023-ACL.pdf) | [code](https://github.com/mainlp/syntax-pre-training-for-RE) | [bib](https://aclanthology.org/2023.findings-acl.436.bib)\]
 *   Mike Zhang, Rob van der Goot, and Barbara Plank. _ESCOXLM-R: Multilingual Taxonomy-driven Pre-training for the Job Market Domain._ In ACL. 
     \[[paper](https://aclanthology.org/2023.acl-long.662.pdf) | [code](https://github.com/mainlp/escoxlmr) | [bib](https://aclanthology.org/2023.acl-long.662.bib)\]
 *   Lina Skerath, Paulina Toborek, Anita Zielińska, Maria Barrett, and Rob van der Goot. _Native Language Prediction from Gaze: a Reproducibility Study_ In ACL SRW.
@@ -26,7 +26,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Kia Kirstein Hansen, Maria Barrett, Max Müller-Eberstein, Cathrine Damgaard, Trine Naja Eriksen, and Rob van der Goot. _DanTok: Domain Beats Language for Danish Social Media POS Tagging._ In NoDaLiDa  
     \[[paper](https://aclanthology.org/2023.nodalida-1.27.pdf) | [poster](../doc/nodalida2023_poster.pdf) | [code](https://github.com/kkirsteinhansen/dantok) | [bib](https://aclanthology.org/2023.nodalida-1.27.bib)\]
 *   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Multi-CrossRE A Multi-lingual Multi-Domain Dataset for Relation Extraction._ In NoDaLiDa  
-    \[[paper](https://aclanthology.org/2023.nodalida-1.9.pdf) | [data](https://github.com/mainlp/CrossRE) | [bib](https://aclanthology.org/2023.nodalida-1.9.bib) \]
+    \[[paper](https://aclanthology.org/2023.nodalida-1.9.pdf) | [poster](https://elisabassignana.github.io/assets/posters/2023-NoDaLiDa.pdf) | [data](https://github.com/mainlp/CrossRE) | [bib](https://aclanthology.org/2023.nodalida-1.9.bib) \]
 
 2022
 ----
@@ -34,7 +34,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Max Müller-Eberstein, Rob van der Goot, and Barbara Plank. _Spectral Probing._ in EMNLP  
     \[[paper](https://aclanthology.org/2022.emnlp-main.527.pdf)| [video](https://personads.me/x/emnlp-2022-video) | [poster](https://personads.me/work/rsrc/2022-spectral-poster.pdf) | [code](https://github.com/mainlp/spectral-probing) | [bib](https://aclanthology.org/2022.emnlp-main.527.bib)\]
 *   Dennis Ulmer, Elisa Bassignana, Max Müller-Eberstein, Daniel Varab, Mike Zhang, Rob van der Goot, Christian Hardmeier, and Barbara Plank. _Experimental Standards for Deep Learning in Natural Language Processing Research._ In Findings of EMNLP  
-    \[[paper](https://aclanthology.org/2022.findings-emnlp.196.pdf) | [video](https://www.youtube.com/watch?v=7xL0zrINx64) | [code](https://github.com/Kaleidophon/experimental-standards-deep-learning-research) | [bib](https://aclanthology.org/2022.findings-emnlp.196.bib)\]
+    \[[paper](https://aclanthology.org/2022.findings-emnlp.196.pdf) | [video](https://aclanthology.org/2022.findings-emnlp.196.mp4) | [code](https://github.com/Kaleidophon/experimental-standards-deep-learning-research) | [bib](https://aclanthology.org/2022.findings-emnlp.196.bib)\]
 *   Tanja Samardžić, Ximena Gutierrez-Vasques, Rob van der Goot, Max Müller-Eberstein, and Olga Pelloni. _On Language Spaces, Scales and Cross-Lingual Transfer of UD Parsers._ In CoNLL  
     \[[paper](https://aclanthology.org/2022.conll-1.18.pdf) | [code](https://github.com/MorphDiv/transfer-lang) | [bib](https://aclanthology.org/2022.conll-1.18.bib)\]
 *   Marcus Vielsted, Nikolaj Wallenius and Rob van der Goot. _Increasing Robustness for Cross-domain Dialogue Act Classification on Social Media Data._ In WNUT.  
