@@ -7,12 +7,18 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 
 2024
 ----
-*   Rob van der Goot. _Where are we Still Split on Tokenization?_ in EACL findings \[[paper](https://aclanthology.org/2024.findings-eacl.9.pdf) | [code](https://bitbucket.org/robvanderg/tok) | [poster](../doc/eacl2024.poster.pdf) | [video](https://youtu.be/gF6NQL8oA4A) | [bib](https://aclanthology.org/2024.findings-eacl.9.bib)\]
-*   Axel Sorensen, Siyao Peng, Barbara Plank, and Rob Van Der Goot. _EEVEE: An Easy Annotation Tool for Natural Language Processing._ in LAW workshop \[[paper](https://aclanthology.org/2024.law-1.20.pdf) | [demo](https://axelsorensendev.github.io/Eevee/) | [code](https://github.com/AxelSorensenDev/Eevee) | [video](https://www.youtube.com/watch?v=HsOsfckvnQo) | [poster](../doc/law2024.poster.pdf) | [bib](https://aclanthology.org/2024.law-1.20.bib)\]
-*   Mike Zhang, Rob van der Goot, Min-Yen Kan, and Barbara Plank. _NNOSE: Nearest Neighbor Occupational Skill Extraction._ in EACL \[[paper](https://aclanthology.org/2024.eacl-long.35.pdf) | [code](https://github.com/mainlp/nnose) | [bib](https://aclanthology.org/2024.eacl-long.35.bib)\]
-*   Mike Zhang, Rob van der Goot, and Barbara Plank. _Entity Linking in the Job Market Domain._ in EACL findings \[[paper](https://aclanthology.org/2024.findings-eacl.28.pdf) | [code](https://github.com/mainlp/el_esco) | [bib](https://aclanthology.org/2024.findings-eacl.28.bib)\]
-*   Elena Senger, Mike Zhang, Rob van der Goot, and Barbara Plank. _Deep Learning-based Computational Job Market Analysis: A Survey on Skill Extraction and Classification from Job Postings._ In NLP4HR \[[paper](https://aclanthology.org/2024.nlp4hr-1.1.pdf) | [bib](https://aclanthology.org/2024.nlp4hr-1.1.bib)\]
-*   Charlie Campanella and Rob van der Goot. _Big City Bias: Evaluating the Impact of Metropolitan Size on Computational Job Market Abilities of Language Models._ In NLP4HR \[[paper](https://aclanthology.org/2024.nlp4hr-1.6.pdf) | [code](https://github.com/charlie-campanella/big-city-bias) | [bib](https://aclanthology.org/2024.nlp4hr-1.6.bib)\]
+*   Rob van der Goot. _Where are we Still Split on Tokenization?_ in EACL findings 
+    \[[paper](https://aclanthology.org/2024.findings-eacl.9.pdf) | [code](https://bitbucket.org/robvanderg/tok) | [poster](../doc/eacl2024.poster.pdf) | [video](https://youtu.be/gF6NQL8oA4A) | [bib](https://aclanthology.org/2024.findings-eacl.9.bib)\]
+*   Axel Sorensen, Siyao Peng, Barbara Plank, and Rob Van Der Goot. _EEVEE: An Easy Annotation Tool for Natural Language Processing._ in LAW workshop 
+    \[[paper](https://aclanthology.org/2024.law-1.20.pdf) | [demo](https://axelsorensendev.github.io/Eevee/) | [code](https://github.com/AxelSorensenDev/Eevee) | [video](https://www.youtube.com/watch?v=HsOsfckvnQo) | [poster](../doc/law2024.poster.pdf) | [bib](https://aclanthology.org/2024.law-1.20.bib)\]
+*   Mike Zhang, Rob van der Goot, Min-Yen Kan, and Barbara Plank. _NNOSE: Nearest Neighbor Occupational Skill Extraction._ in EACL 
+    \[[paper](https://aclanthology.org/2024.eacl-long.35.pdf) | [code](https://github.com/mainlp/nnose) | [bib](https://aclanthology.org/2024.eacl-long.35.bib)\]
+*   Mike Zhang, Rob van der Goot, and Barbara Plank. _Entity Linking in the Job Market Domain._ in EACL findings 
+    \[[paper](https://aclanthology.org/2024.findings-eacl.28.pdf) | [code](https://github.com/mainlp/el_esco) | [bib](https://aclanthology.org/2024.findings-eacl.28.bib)\]
+*   Elena Senger, Mike Zhang, Rob van der Goot, and Barbara Plank. _Deep Learning-based Computational Job Market Analysis: A Survey on Skill Extraction and Classification from Job Postings._ In NLP4HR 
+    \[[paper](https://aclanthology.org/2024.nlp4hr-1.1.pdf) | [bib](https://aclanthology.org/2024.nlp4hr-1.1.bib)\]
+*   Charlie Campanella and Rob van der Goot. _Big City Bias: Evaluating the Impact of Metropolitan Size on Computational Job Market Abilities of Language Models._ In NLP4HR 
+    \[[paper](https://aclanthology.org/2024.nlp4hr-1.6.pdf) | [code](https://github.com/charlie-campanella/big-city-bias) | [bib](https://aclanthology.org/2024.nlp4hr-1.6.bib)\]
 
 2023
 ----
