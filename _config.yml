@@ -82,12 +82,12 @@ author:
     - label: "Scholar"
       icon: "ai ai-google-scholar ai"
       url: "https://scholar.google.com/citations?user=lU4zpOEAAAAJ&hl=nl"
-    - label: "BiliBili"
-      icon: "fab fa-brands fa-bilibili"
-      url: "https://www.bilibili.tv/en/space/1954812733"
     - label: "Youtube"
       icon: "fab fa-brands fa-youtube"
       url: "https://www.youtube.com/channel/UCJSoIwAoJX0UU-yYY--1atA/videos"
+    - label: "BiliBili"
+      icon: "fab fa-brands fa-bilibili"
+      url: "https://www.bilibili.tv/en/space/1954812733"
 
 footer:
   #links:
