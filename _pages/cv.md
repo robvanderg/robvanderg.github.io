@@ -42,14 +42,14 @@ Prizes
 
 Talks
 -------------
-
+* LMU (2023). \[[slides](../doc/lmu2023.pdf)\]
 * DEIC (2023). \[[slides](../doc/deic2023.pdf) \| [video](https://deic.dk/en/news/2023-12-6/video-use-case-hpc-powered-tool-turbocharges-nlp-learning) \]
 * Multi\* workshop (2023). \[[slides](../doc/multistar2023.pdf)\]
 * Research Seminars in Language Technology. University of Helsinki.  Challenges in Achieving Robustness Through Normalization and Multi-task Learning (2023). \[[slides](../doc/helsinki2023.pdf) \| [video](https://unitube.it.helsinki.fi/unitube/embed.html?id=45b4b273-8045-4ba6-955e-c23f71ac40e7)\]
 * Overview succesful student projects (2023). \[[slides](../doc/studentprojects2023.pdf)\]
 * RAD (2023). \[[slides](../doc/rad2023.tar.gz)\]
-* Invited talk Groningen (2022). \[[slides](../doc/groningen2022.pdf)\]
-* Groningen shared task course (2022). \[[slides](../doc/sharedtask2022.pdf)\]
+* Invited talk Groningen (2023). \[[slides](../doc/groningen2023.pdf)\]
+* Groningen shared task course (2023). \[[slides](../doc/sharedtask2023.pdf)\]
 * ITU NLP workshop (2022). \[[slides](../doc/itunlp2022.pdf)\]
 * Milanlp (2021). \[[slides](../doc/milanlp2021.pdf)\]
 * SIGTYP (2021).
