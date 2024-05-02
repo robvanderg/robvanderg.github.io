@@ -1,5 +1,5 @@
 ---
-permalink: /blog/
+permalink: /blog2/
 title: "NLP"
 ---
 
