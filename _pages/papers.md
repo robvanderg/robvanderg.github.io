@@ -101,29 +101,29 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Anouck Braggaar and Rob van der Goot. _Creating a Universal Dependencies Treebank of Spoken Frisian-Dutch Code-switched Data._ In RESOURCEFUL 2020.  
     \[[paper](https://arxiv.org/pdf/2102.11152.pdf) | [slides](../doc/resourceful2020.2.slides.pdf) | [bib](../doc/resourceful2020.2.bib) | [tex](../doc/resourceful2020.2.tar.gz)\]
 *   Anders Giovanni Møller, Rob van der Goot and Barbara Plank. 2020. _NLP North at WNUT-2020 Task 2: Pre-training versus Ensembling for Detection of Informative COVID-19 English Tweets._ In WNUT.  
-    \[[paper](https://aclanthology.org/2020.wnut-1.44.pdf) | [code](https://github.com/AGMoller/noisy_text/) | [poster](../doc/wnut2020_poster.pdf) | [bib](../doc/wnut2020.bib) | [tex](../doc/wnut2020.tar.gz)\]
+    \[[paper](https://aclanthology.org/2020.wnut-1.44.pdf) | [code](https://github.com/AGMoller/noisy_text/) | [poster](../doc/wnut2020_poster.pdf) | [bib](https://aclanthology.org/2020.wnut-1.44.bib) | [tex](../doc/wnut2020.tar.gz)\]
 *   Barbara Plank, Kristian Nørgaard Jensen and Rob van der Goot. 2020. _DaN+: Danish Nested Named Entities and Lexical Normalization._ In COLING.  
-    \[[paper](https://aclanthology.org/2020.coling-main.583.pdf) | [code](https://github.com/bplank/DaNplus) | [poster](../doc/coling2020_poster.pdf) | [bib](../doc/coling2020.bib) | [tex](../doc/coling2020.tar.gz)\]
+    \[[paper](https://aclanthology.org/2020.coling-main.583.pdf) | [code](https://github.com/bplank/DaNplus) | [poster](../doc/coling2020_poster.pdf) | [bib](https://aclanthology.org/2020.coling-main.583.bib) | [tex](../doc/coling2020.tar.gz)\]
 *   Alan Ramponi, Rob van der Goot, Rosario Lombardo and Barbara Plank. 2020. _Biomedical Event Extraction as Sequence Labeling._ In EMNLP.  
-    \[[paper](https://aclanthology.org/2020.emnlp-main.431.pdf) | [code](https://github.com/cosbi-research/beesl) | [slides](../doc/emnlp2020_slides.pdf) | [video](https://slideslive.com/38939154/biomedical-event-extraction-as-sequence-labeling) | [bib](../doc/emnlp2020.bib) | [tex](../doc/emnlp2020.tar.gz)\]
+    \[[paper](https://aclanthology.org/2020.emnlp-main.431.pdf) | [code](https://github.com/cosbi-research/beesl) | [slides](../doc/emnlp2020_slides.pdf) | [video](https://slideslive.com/38939154/biomedical-event-extraction-as-sequence-labeling) | [bib](https://aclanthology.org/2020.emnlp-main.431.bib) | [tex](../doc/emnlp2020.tar.gz)\]
 *   Rob van der Goot, Alan Ramponi, Tommaso Caselli, Michele Cafagna and Lorenzo De Mattei. 2020. _Norm It! Lexical Normalization for Italian and Its Downstream Effects for Dependency Parsing._ In LREC.  
-    \[[paper](https://aclanthology.org/2020.lrec-1.769.pdf) | [code](https://bitbucket.org/robvanderg/normit) | [bib](../doc/lrec2020.1.bib) | [tex](../doc/lrec2020.1.tar.gz)\]
+    \[[paper](https://aclanthology.org/2020.lrec-1.769.pdf) | [code](https://bitbucket.org/robvanderg/normit) | [bib](https://aclanthology.org/2020.lrec-1.769.bib) | [tex](../doc/lrec2020.1.tar.gz)\]
 *   Kelly Dekker and Rob van der Goot. 2020. _Synthetic Data for English Lexical Normalization: How Close Can We Get to Manually Annotated Data?_ In LREC.  
-    \[[paper](https://aclanthology.org/2020.lrec-1.773.pdf) | [code](https://bitbucket.org/kellydekker/data-generation-lexical-normalization/) | [bib](../doc/lrec2020.2.bib) | [tex](../doc/lrec2020.2.tar.gz)\]
+    \[[paper](https://aclanthology.org/2020.lrec-1.773.pdf) | [code](https://bitbucket.org/kellydekker/data-generation-lexical-normalization/) | [bib](https://aclanthology.org/2020.lrec-1.773.bib) | [tex](../doc/lrec2020.2.tar.gz)\]
 *   Malvina Nissim, Rik van Noord and Rob van der Goot. 2020. _Fair is Better than Sensational:Man is to Doctor as Woman is to Doctor._ Computational Linguistics Journal.  
-    \[[paper](https://aclanthology.org/2020.cl-2.7.pdf) | [poster](../doc/cl2020_poster.pdf) | [code](https://bitbucket.org/robvanderg/w2v) | [bib](../doc/cl2020.bib) | [tex](../doc/cl2020.tar.gz)\]
+    \[[paper](https://aclanthology.org/2020.cl-2.7.pdf) | [poster](../doc/cl2020_poster.pdf) | [code](https://bitbucket.org/robvanderg/w2v) | [bib](https://aclanthology.org/2020.cl-2.7.bib) | [tex](../doc/cl2020.tar.gz)\]
 
 2019
 ----
 
 *   Rob van der Goot. 2019. _An In-depth Analysis of the Effect of Lexical Normalization on the Dependency Parsing of Social Media._ In WNUT.  
-    \[[paper](https://aclanthology.org/D19-5515.pdf) | [poster](../doc/wnut2019_poster.pdf) | [code](https://bitbucket.org/robvanderg/taxeval) | [bib](../doc/wnut2019.bib) | [tex](../doc/wnut2019.tar.gz)\]
+    \[[paper](https://aclanthology.org/D19-5515.pdf) | [poster](../doc/wnut2019_poster.pdf) | [code](https://bitbucket.org/robvanderg/taxeval) | [bib](https://aclanthology.org/D19-5515.bib) | [tex](../doc/wnut2019.tar.gz)\]
 *   Rob van der Goot. 2019. _MoNoise: A Multi-lingual and Easy-to-use Lexical Normalization Tool._ ACL 2019.  
-    \[[paper](https://aclanthology.org/P19-3032.pdf) | [poster](../doc/acl2019_poster.pdf) | [code](https://bitbucket.org/robvanderg/monoise/src) | [bib](../doc/acl2019.bib) | [tex](../doc/acl2019.tar.gz)\]
+    \[[paper](https://aclanthology.org/P19-3032.pdf) | [poster](../doc/acl2019_poster.pdf) | [code](https://bitbucket.org/robvanderg/monoise/src) | [bib](https://aclanthology.org/P19-3032.bib) | [tex](../doc/acl2019.tar.gz)\]
 *   Ahmet Üstün, Rob van der Goot, Gosse Bouma and Gertjan van Noord. 2019. _Multi-Team: A Multi-attention, Multi-decoder Approach to Morphological Analysis._ In SIGMORPHON.  
-    \[[paper](https://aclanthology.org/W19-4206.pdf) | [poster](../doc/sigmorphon2019_poster.pdf) | [code](https://bitbucket.org/ahmetustunn/morphology_in_context/) | [bib](../doc/sigmorphon2019.bib) | [tex](../doc/sigmorphon2019.tar.gz)\]
+    \[[paper](https://aclanthology.org/W19-4206.pdf) | [poster](../doc/sigmorphon2019_poster.pdf) | [code](https://bitbucket.org/ahmetustunn/morphology_in_context/) | [bib](https://aclanthology.org/W19-4206.bib) | [tex](../doc/sigmorphon2019.tar.gz)\]
 *   Aria Nourbakhsh, Frida Vermeer, Gijs Wiltvank and Rob van der Goot. 2019. _sthruggle at SemEval-2019 Task 5: An Ensemble Approach to HateSpeech Detection._ In SemEval.  
-    \[[paper](https://aclanthology.org/S19-2086.pdf) | [bib](../doc/semeval2019.bib) | [tex](../doc/semeval2019.tar.gz)\]
+    \[[paper](https://aclanthology.org/S19-2086.pdf) | [bib](https://aclanthology.org/S19-2086.bib) | [tex](../doc/semeval2019.tar.gz)\]
 *   Rob van der Goot. 2019. _Normalization and Parsing Algorithms for Uncertain Input._ PhD Thesis.  
     \[[thesis](https://pure.rug.nl/ws/portalfiles/portal/78256480/Complete_thesis.pdf) | [slides](../doc/thesis_slides.pdf) | [code](../doc/thesis.sh) | [errata](../doc/thesis.err.txt) | [bib](../doc/thesis.bib) | [tex](../doc/thesis.tar.gz)\]
 
@@ -131,31 +131,31 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 ----
 
 *   Rob van der Goot and Gertjan van Noord. 2018. _Modeling Input Uncertainty in A Neural Network Dependency Parser._ In EMNLP.  
-    \[[paper](https://aclanthology.org/D18-1542.pdf) | [poster](../doc/emnlp2018_poster.pdf) | [code](https://bitbucket.org/robvanderg/normpar) | [appendix](https://aclanthology.org/attachments/D18-1542.Attachment.pdf) | [bib](../doc/emnlp2018.bib) | [tex](../doc/emnlp2018.tar.gz)\]
+    \[[paper](https://aclanthology.org/D18-1542.pdf) | [poster](../doc/emnlp2018_poster.pdf) | [code](https://bitbucket.org/robvanderg/normpar) | [appendix](https://aclanthology.org/attachments/D18-1542.Attachment.pdf) | [bib](https://aclanthology.org/D18-1542.bib) | [tex](../doc/emnlp2018.tar.gz)\]
 *   Rob van der Goot, Nikola Ljubešić, Ian Matroos, Malvina Nissim and Barbara Plank. 2018. _Bleaching Text: Abstract Features for Cross-lingual Gender Prediction._ In ACL.  
-    \[[paper](https://aclanthology.org/P18-2061.pdf) | [slides](../doc/acl2018_slides.pdf) | [code](https://github.com/bplank/bleaching-text) | [bib](../doc/acl2018.bib) | [tex](../doc/acl2018.tar.gz)\]
+    \[[paper](https://aclanthology.org/P18-2061.pdf) | [slides](../doc/acl2018_slides.pdf) | [code](https://github.com/bplank/bleaching-text) | [bib](https://aclanthology.org/P18-2061.bib) | [tex](../doc/acl2018.tar.gz)\]
 *   Rob van der Goot, Rik van Noord and Gertjan van Noord. 2018. _A Taxonomy for In-depth Evaluation of Normalization for User Generated Content._ In LREC.  
-    \[[paper](https://aclanthology.org/L18-1109.pdf) | [poster](../doc/lrec2018_poster.pdf) | [slides](../doc/lrec2018_slides.pdf) | [data](https://bitbucket.org/robvanderg/normtax) | [bib](../doc/lrec2018.bib) | [tex](../doc/lrec2018.tar.gz)\]
+    \[[paper](https://aclanthology.org/L18-1109.pdf) | [poster](../doc/lrec2018_poster.pdf) | [slides](../doc/lrec2018_slides.pdf) | [data](https://bitbucket.org/robvanderg/normtax) | [bib](https://aclanthology.org/L18-1109.bib) | [tex](../doc/lrec2018.tar.gz)\]
 
 2017
 ----
 
 *   Malvina Nissim, Lasha Abzianidze, Kilian Evang, Rob van der Goot, Hessel Haagsma, Barbara Plank and Martijn Wieling. 2017. _Sharing is Caring: The Future of Shared Tasks._ In Computational Linguistics journal.  
-    \[[paper](https://aclanthology.org/J17-4007.pdf) | [data](https://bitbucket.org/robvanderg/sharing) | [bib](../doc/cl2017.bib) | [tex](../doc/cl2017.tar.gz)\]
+    \[[paper](https://aclanthology.org/J17-4007.pdf) | [data](https://bitbucket.org/robvanderg/sharing) | [bib](https://aclanthology.org/J17-4007.bib) | [tex](../doc/cl2017.tar.gz)\]
 *   Rob van der Goot and Gertjan van Noord. 2017. _MoNoise: Modeling Noise Using a Modular Normalization System._ In CLIN Journal  
     \[[paper](https://www.clinjournal.org/index.php/clinj/article/view/74/66) | [slides](../doc/clin27_slides.pdf) | [code](https://bitbucket.org/robvanderg/monoise) | [bib](https://www.clinjournal.org/index.php/clinj/citationstylelanguage/download/bibtex?submissionId=74&publicationId=66) | [tex](../doc/clin27.tar.gz)\]
 *   E.Tjong Kim Sang, M. Bollmann, R. Boschker, F. Casacuberta, F. Dietz, S. Dipper, M. Domingo, R. van der Goot, M. van Koppen, N. Ljubešić, R. Östling, F. Petran, E. Pettersson, Y. Scherrer, M. Schraagen, L. Sevens, J. Tiedemann, T. Vanallemeersch and K. Zervanou. 2017. _The CLIN27 Shared Task: Translating Historical Text to Contemporary Language for Improving Automatic Linguistic Annotation._ In CLIN Journal  
     \[[paper](https://www.clinjournal.org/index.php/clinj/article/view/68/61) | [bib](https://www.clinjournal.org/index.php/clinj/citationstylelanguage/download/bibtex?submissionId=68&publicationId=61)\]
 *   Rob van der Goot, Barbara Plank and Malvina Nissim. 2017. _To Normalize, or Not to Normalize: The Impact of Normalization on Part-of-Speech Tagging._ In WNUT.  
-    \[[paper](https://aclanthology.org/W17-4404.pdf) | [slides](../doc/wnut2017_slides.pdf) | [code](https://github.com/bplank/wnut-2017-pos-norm) | [code (updated)](https://bitbucket.org/robvanderg/chapter6/) | [bib](../doc/wnut2017.bib) | [tex](../doc/wnut2017.tar.gz)\]
+    \[[paper](https://aclanthology.org/W17-4404.pdf) | [slides](../doc/wnut2017_slides.pdf) | [code](https://github.com/bplank/wnut-2017-pos-norm) | [code (updated)](https://bitbucket.org/robvanderg/chapter6/) | [bib](https://aclanthology.org/W17-4404.bib) | [tex](../doc/wnut2017.tar.gz)\]
 *   Rob van der Goot and Gertjan van Noord. 2017. _Parser Adaptation for Social Media by Integrating Normalization._ In ACL.  
-    \[[paper](https://aclanthology.org/P17-2078.pdf) | [poster](../doc/acl2017_poster.pdf) | [slides](../doc/acl2017_slides.pdf) | [code](http://www.itu.dk/people/robv/data/acl17.tar.gz) | [bib](../doc/acl2017.bib) | [tex](../doc/acl2017.tar.gz)\]
+    \[[paper](https://aclanthology.org/P17-2078.pdf) | [poster](../doc/acl2017_poster.pdf) | [slides](../doc/acl2017_slides.pdf) | [code](http://www.itu.dk/people/robv/data/acl17.tar.gz) | [bib](https://aclanthology.org/P17-2078.pdf) | [tex](../doc/acl2017.tar.gz)\]
 
 2016
 ----
 
 *   Joachim Daiber and Rob van der Goot. 2016. _The Denoised Web Treebank: Evaluating Dependency Parsing under Noisy Input Conditions._ In LREC.  
-    \[[paper](https://aclanthology.org/L16-1102.pdf) | [poster](../doc/lrec2016_poster.pdf) | [data](http://jodaiber.github.io/DenoisedWebTreebank/) | [code](https://github.com/jodaiber/ithaka) | [bib](../doc/lrec2016.bib) | [tex](../doc/lrec2016.tar.gz)\]
+    \[[paper](https://aclanthology.org/L16-1102.pdf) | [poster](../doc/lrec2016_poster.pdf) | [data](http://jodaiber.github.io/DenoisedWebTreebank/) | [code](https://github.com/jodaiber/ithaka) | [bib](https://aclanthology.org/L16-1102.bib) | [tex](../doc/lrec2016.tar.gz)\]
 *   Rob van der Goot. 2016. _Normalizing Social Media Texts by Combining Word Embeddings and Edit Distances in a Random Forest Regressor._ In NormSoMe.  
     \[[paper](../doc/normsome2016.pdf) | [slides](../doc/normsome2016_slides.pdf) | [code](https://bitbucket.org/robvanderg/errcor) | [bib](../doc/normsome2016.bib) | [tex](../doc/normsome2016.tar.gz)\]
 
@@ -163,11 +163,11 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 ----
 
 *   Rob van der Goot and Gertjan van Noord. 2015. _ROB: Using Semantic Meaning to Recognize Paraphrases._ In SemEval.  
-    \[[paper](https://aclanthology.org/S15-2007.pdf) | [poster](../doc/semeval2015_poster.jpg) | [code](https://bitbucket.org/robvanderg/sem15) | [bib](../doc/semeval2015.bib) | [tex](../doc/semeval2015.tar.gz)\]
+    \[[paper](https://aclanthology.org/S15-2007.pdf) | [poster](../doc/semeval2015_poster.jpg) | [code](https://bitbucket.org/robvanderg/sem15) | [bib](https://aclanthology.org/S15-2007.bib) | [tex](../doc/semeval2015.tar.gz)\]
 
 2014
 ----
 
 *   Johannes Bjerva, Johan Bos, Rob van der Goot and Malvina Nissim. 2014. _The Meaning Factory: Formal Semantics for Recognizing Textual Entailment and Determining Semantic Similarity._ In SemEval.  
-    \[[paper](https://aclanthology.org/S14-2114.pdf) | [code](https://github.com/bjerva/semeval-relatedness) | [Master Thesis](../doc/masterthesis.pdf) | [bib](../doc/semeval2014.bib) | [tex](../doc/semeval2014.tar.gz) \]
+    \[[paper](https://aclanthology.org/S14-2114.pdf) | [code](https://github.com/bjerva/semeval-relatedness) | [Master Thesis](../doc/masterthesis.pdf) | [bib](https://aclanthology.org/S14-2114.bib) | [tex](../doc/semeval2014.tar.gz) \]
 
