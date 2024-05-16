@@ -7,6 +7,14 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 
 2024
 ----
+*   Miriam Winkler, Virginija Juozapaityte, Rob van der Goot and Barbara Plank. _Slot and Intent Detection Resources for Bavarian and Lithuanian: Assessing Translations vs Natural Queries to Digital Assistants._ in LREC-COLING
+    \[[poster](doc/lrec2024.3.poster.pdf)\]
+*   Elisa Bassignana, Viggo Unmack Gascou, Frida Nøhr Laustsen, Gustav Kristensen, Marie Haahr Petersen, Rob van der Goot and Barbara Plank. _How to Encode Domain Information in Relation Classification._ in LREC-COLING
+   \[[paper](https://arxiv.org/pdf/2404.13760) | [video](https://www.youtube.com/watch?v=J2BH6LeYxhA)]
+*   Maria Barrett, Max Müller-Eberstein, Elisa Bassignana, Amalie Brogaard Pauli, Mike Zhang and Rob van der Goot. _Can Humans Identify Domains?_ in LREC-COLING
+   \[[paper](https://arxiv.org/pdf/2404.01785) | [video](https://www.youtube.com/watch?v=MKFM1ZUTyi8) | [poster](doc/lrec2024.poster.2.pdf)\]
+*   Rob van der Goot, Zoey Liu and Max Müller-Eberstein. _Enough Is Enough! a Case Study on the Effect of Data Size for Evaluation Using Universal Dependencies._ in LREC-COLING
+   \[[poster](../doc/lrec2024.1.poster.pdf)\]
 *   Rob van der Goot. _Where are we Still Split on Tokenization?_ in EACL findings 
     \[[paper](https://aclanthology.org/2024.findings-eacl.9.pdf) | [code](https://bitbucket.org/robvanderg/tok) | [poster](../doc/eacl2024.poster.pdf) | [video](https://youtu.be/gF6NQL8oA4A) | [bib](https://aclanthology.org/2024.findings-eacl.9.bib)\]
 *   Axel Sorensen, Siyao Peng, Barbara Plank, and Rob Van Der Goot. _EEVEE: An Easy Annotation Tool for Natural Language Processing._ in LAW workshop 
@@ -23,9 +31,9 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 2023
 ----
 *   Max Müller-Eberstein, Rob van der Goot, Barbara Plank, and Ivan Titov. _Subspace Chronicles: How Linguistic Information Emerges, Shifts and Interacts during Language Model Training._ In EMNLP Findings.
-    \[[paper](https://arxiv.org/pdf/2310.16484.pdf) | [video](https://www.youtube.com/watch?v=tzdCfF1jfNc) | [code](https://github.com/mainlp/subspace-chronicles)\]
+    \[[paper](https://aclanthology.org/2023.findings-emnlp.879.pdf) | [video](https://www.youtube.com/watch?v=tzdCfF1jfNc) | [code](https://github.com/mainlp/subspace-chronicles)\ | [bib](https://aclanthology.org/2023.findings-emnlp.879.bib)]
 *   Robert Litschko, Max Müller-Eberstein, Rob van der Goot, Leon Weber, Barbara Plank. _Establishing Trustworthiness: Rethinking Tasks and Model Evaluation._ In EMNLP.
-    \[[paper](https://arxiv.org/pdf/2310.05442.pdf)\]
+    \[[paper](https://aclanthology.org/2023.emnlp-main.14.pdf) | [bib](https://aclanthology.org/2023.emnlp-main.14.bib)\]
 *   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Silver Syntax Pre-training for Cross-Domain Relation Extraction._ In ACL Findings. 
     \[[paper](https://aclanthology.org/2023.findings-acl.436.pdf) | [poster](https://elisabassignana.github.io/assets/posters/2023-ACL.pdf) | [code](https://github.com/mainlp/syntax-pre-training-for-RE) | [bib](https://aclanthology.org/2023.findings-acl.436.bib)\]
 *   Mike Zhang, Rob van der Goot, and Barbara Plank. _ESCOXLM-R: Multilingual Taxonomy-driven Pre-training for the Job Market Domain._ In ACL. 
