@@ -10,7 +10,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Miriam Winkler, Virginija Juozapaityte, Rob van der Goot and Barbara Plank. _Slot and Intent Detection Resources for Bavarian and Lithuanian: Assessing Translations vs Natural Queries to Digital Assistants._ in LREC-COLING
     \[[poster](../doc/lrec2024.3.poster.pdf)\]
 *   Elisa Bassignana, Viggo Unmack Gascou, Frida Nøhr Laustsen, Gustav Kristensen, Marie Haahr Petersen, Rob van der Goot and Barbara Plank. _How to Encode Domain Information in Relation Classification._ in LREC-COLING
-   \[[paper](https://arxiv.org/pdf/2404.13760) | [video](https://www.youtube.com/watch?v=J2BH6LeYxhA)]
+   \[[paper](https://arxiv.org/pdf/2404.13760) | [video](https://www.youtube.com/watch?v=J2BH6LeYxhA) | [poster](../doc/lrec2024.4.poster.pdf)]
 *   Maria Barrett, Max Müller-Eberstein, Elisa Bassignana, Amalie Brogaard Pauli, Mike Zhang and Rob van der Goot. _Can Humans Identify Domains?_ in LREC-COLING
    \[[paper](https://arxiv.org/pdf/2404.01785) | [video](https://www.youtube.com/watch?v=MKFM1ZUTyi8) | [poster](../doc/lrec2024.2.poster.pdf)\]
 *   Rob van der Goot, Zoey Liu and Max Müller-Eberstein. _Enough Is Enough! a Case Study on the Effect of Data Size for Evaluation Using Universal Dependencies._ in LREC-COLING
