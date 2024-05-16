@@ -14,7 +14,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Maria Barrett, Max Müller-Eberstein, Elisa Bassignana, Amalie Brogaard Pauli, Mike Zhang and Rob van der Goot. _Can Humans Identify Domains?_ in LREC-COLING
    \[[paper](https://arxiv.org/pdf/2404.01785) | [video](https://www.youtube.com/watch?v=MKFM1ZUTyi8) | [poster](../doc/lrec2024.2.poster.pdf)\]
 *   Rob van der Goot, Zoey Liu and Max Müller-Eberstein. _Enough Is Enough! a Case Study on the Effect of Data Size for Evaluation Using Universal Dependencies._ in LREC-COLING
-   \[[poster](../doc/lrec2024.1.poster.pdf)\ | [video](https://www.youtube.com/watch?v=0nr9SxJrytQ)]
+   \[[poster](../doc/lrec2024.1.poster.pdf) | [video](https://www.youtube.com/watch?v=0nr9SxJrytQ)\]
 *   Rob van der Goot. _Where are we Still Split on Tokenization?_ in EACL findings 
     \[[paper](https://aclanthology.org/2024.findings-eacl.9.pdf) | [code](https://bitbucket.org/robvanderg/tok) | [poster](../doc/eacl2024.poster.pdf) | [video](https://youtu.be/gF6NQL8oA4A) | [bib](https://aclanthology.org/2024.findings-eacl.9.bib)\]
 *   Axel Sorensen, Siyao Peng, Barbara Plank, and Rob Van Der Goot. _EEVEE: An Easy Annotation Tool for Natural Language Processing._ in LAW workshop 
@@ -55,7 +55,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 ----
 
 *   Max Müller-Eberstein, Rob van der Goot, and Barbara Plank. _Spectral Probing._ in EMNLP  
-    \[[paper](https://aclanthology.org/2022.emnlp-main.527.pdf)| [video](https://personads.me/x/emnlp-2022-video) | [poster](https://personads.me/work/rsrc/2022-spectral-poster.pdf) | [code](https://github.com/mainlp/spectral-probing) | [bib](https://aclanthology.org/2022.emnlp-main.527.bib)\]
+    \[[paper](https://aclanthology.org/2022.emnlp-main.527.pdf)| [video](https://www.youtube.com/watch?v=6O_OkZrFD6M) | [poster](https://mxij.me/research/rsrc/2022-spectral-poster.pdf) | [code](https://github.com/mainlp/spectral-probing) | [bib](https://aclanthology.org/2022.emnlp-main.527.bib)\]
 *   Dennis Ulmer, Elisa Bassignana, Max Müller-Eberstein, Daniel Varab, Mike Zhang, Rob van der Goot, Christian Hardmeier, and Barbara Plank. _Experimental Standards for Deep Learning in Natural Language Processing Research._ In Findings of EMNLP  
     \[[paper](https://aclanthology.org/2022.findings-emnlp.196.pdf) | [video](https://aclanthology.org/2022.findings-emnlp.196.mp4) | [code](https://github.com/Kaleidophon/experimental-standards-deep-learning-research) | [bib](https://aclanthology.org/2022.findings-emnlp.196.bib)\]
 *   Tanja Samardžić, Ximena Gutierrez-Vasques, Rob van der Goot, Max Müller-Eberstein, and Olga Pelloni. _On Language Spaces, Scales and Cross-Lingual Transfer of UD Parsers._ In CoNLL  
@@ -67,7 +67,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Rob van der Goot _MaChAmp at SemEval-2022 tasks 2, 3, 4, 6, 10, 11, and 12: Multi-task Multi-lingual Learning for a Pre-selected Set of Semantic Datasets._ In SemEval.  
     \[[paper](https://aclanthology.org/2022.semeval-1.233.pdf) | [video](https://www.bilibili.tv/en/video/2048776150) | [poster](../doc/semeval2022.poster.pdf) | [slides](../doc/semeval2022.slides.pdf) | [code](https://bitbucket.org/robvanderg/semeval2022) | [bib](https://aclanthology.org/2022.semeval-1.233.bib) | [tex](../doc/semeval2022.tar.gz)\]
 *   Max Müller-Eberstein, Rob van der Goot and Barbara Plank _Sort by Structure: Language Model Ranking as Dependency Probing._ In NAACL.  
-    \[[paper](https://aclanthology.org/2022.naacl-main.93.pdf) | [poster](https://personads.me/work/rsrc/2022-naacl-poster.pdf) | [video](https://personads.me/x/naacl-2022-video) | [bib](https://aclanthology.org/2022.naacl-main.93.bib) | [code](https://github.com/personads/depprobe)\]
+    \[[paper](https://aclanthology.org/2022.naacl-main.93.pdf) | [poster](https://mxij.me/research/rsrc/2022-depprobe-ranking-poster.pdf) | [video](https://www.youtube.com/watch?v=MXGCNZvqS1o) | [bib](https://aclanthology.org/2022.naacl-main.93.bib) | [code](https://github.com/personads/depprobe)\]
 *   Rob van der Goot, Max Müller-Eberstein and Barbara Plank _Frustratingly Easy Performance Improvements for Low-resource Setups: A Tale on BERT and Segment Embeddings._ In LREC.  
     \[[paper](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.152.pdf) | [poster](../doc/lrec2022.poster.pdf) | [video](http://www.lrec-conf.org/proceedings/lrec2022/media/posters/52.mp4) | [code](https://bitbucket.org/robvanderg/segmentembeds/src) | [bib](http://www.lrec-conf.org/proceedings/lrec2022/bib/2022.lrec-1.152.bib) | [tex](../doc/lrec2022.tar.gz)\]
 *   Max Müller-Eberstein, Rob van der Goot and Barbara Plank _Probing for Labeled Dependency Trees._ In ACL.  
