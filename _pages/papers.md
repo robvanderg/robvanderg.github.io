@@ -12,7 +12,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Elisa Bassignana, Viggo Unmack Gascou, Frida Nøhr Laustsen, Gustav Kristensen, Marie Haahr Petersen, Rob van der Goot and Barbara Plank. _How to Encode Domain Information in Relation Classification._ in LREC-COLING
    \[[paper](https://arxiv.org/pdf/2404.13760) | [video](https://www.youtube.com/watch?v=J2BH6LeYxhA)]
 *   Maria Barrett, Max Müller-Eberstein, Elisa Bassignana, Amalie Brogaard Pauli, Mike Zhang and Rob van der Goot. _Can Humans Identify Domains?_ in LREC-COLING
-   \[[paper](https://arxiv.org/pdf/2404.01785) | [video](https://www.youtube.com/watch?v=MKFM1ZUTyi8) | [poster](../doc/lrec2024.poster.2.pdf)\]
+   \[[paper](https://arxiv.org/pdf/2404.01785) | [video](https://www.youtube.com/watch?v=MKFM1ZUTyi8) | [poster](../doc/lrec2024.2.poster.pdf)\]
 *   Rob van der Goot, Zoey Liu and Max Müller-Eberstein. _Enough Is Enough! a Case Study on the Effect of Data Size for Evaluation Using Universal Dependencies._ in LREC-COLING
    \[[poster](../doc/lrec2024.1.poster.pdf)\ | [video](https://www.youtube.com/watch?v=0nr9SxJrytQ)]
 *   Rob van der Goot. _Where are we Still Split on Tokenization?_ in EACL findings 

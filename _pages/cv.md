@@ -42,6 +42,7 @@ Prizes
 
 Talks
 -------------
+* Interview Version2. 2024
 * LMU (2023). \[[slides](../doc/lmu2023.pdf)\]
 * DEIC (2023). \[[slides](../doc/deic2023.pdf) \| [video](https://deic.dk/en/news/2023-12-6/video-use-case-hpc-powered-tool-turbocharges-nlp-learning) \]
 * Multi\* workshop (2023). \[[slides](../doc/multistar2023.pdf)\]
@@ -56,7 +57,7 @@ Talks
 * Groningen MaChAmp (2021). \[[slides](../doc/groningen2021.pdf)\]
 * Mentoring EACL (2021). \[[slides](../doc/mentoring2021.pdf)\]
 * Mentoring ACL (2020). \[[slides](../doc/mentoring2021.pdf)\]
-* ROBustness in NLP (2019). \[[slides](../doc/robusntess2019.pdf)\]
+* ROBustness in NLP (2019). \[[slides](../doc/robustness.pdf)\]
 * PhD thesis (2019). \[[slides](../doc/phdthesis2019.pdf)\]
 * Interview de Taalstaat (2019, Dutch): <a href="https://www.nporadio1.nl/uitzendingen/de-taalstaat/60110a2a-292b-4895-aa02-5c3f7b3328c7/2019-03-30-de-taalstaat">
 <!--- * Welcome to ITU -->
@@ -147,7 +148,7 @@ Organizer
 *   [ROBustness in Parsing](../robustness/)
 *   [CLIN29](http://www.let.rug.nl/clin29/)
 *   [30 years Alfa-Informatica](http://www.let.rug.nl/30years/)
-*   [TabuDag 2015](https://www.let.rug.nl/tabudag/archive/2015)
+*   [TabuDag 2015](https://www.tabudag.nl/archive/2015/index.php)
 
 Grants
 ------

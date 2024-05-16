@@ -15,7 +15,7 @@ In the MultiLexNorm shared task (WNUT 2021), we made a first attempt at homogeni
 | most | social | pple | r   | troublsome |
 | most | social | people | are | troublesome |
 
-More examples and information about MultiLexNorm can be found on the [task website](http://noisy-text.github.io/2021/multi-lexnorm.html) and [overview paper](http://noisy-text.github.io/2021/multi-lexnorm.html/).
+More examples and information about MultiLexNorm can be found on the [task website](http://noisy-text.github.io/2021/multi-lexnorm.html) and [overview paper](http://noisy-text.github.io/2021/multi-lexnorm.html).
 
 On this page, I collect references to datasets that were not included in MultiLexNorm for a variety of reasons, some of these are word-based, not publicly available/sharable, they include translation/transcription, or I only found out about them after the shared task. Hopefully, the MultiLexNorm benchmark will be expanded in the future with more varied languages. Note that I focus on social media datasets here, there are also historical and medical datasets for the lexical normalization task.
 
@@ -30,7 +30,7 @@ On this page, I collect references to datasets that were not included in MultiLe
 | Greek | [Toska (2020)](https://www.diva-portal.org/smash/get/diva2:1499642/FULLTEXT01.pdf) |     |
 | Hindi-English | [Bhat et al. (2018)](https://aclanthology.org/N18-1090.pdf) | Includes transcription |
 | Hindi-English | [Makhija et al. (2020)](https://aclanthology.org/2020.coling-industry.13.pdf) |     |
-| Indonesian | [Kurnia & Yulianti (2020)](https://colips.org/conferences/ialp2020/proceedings/papers/IALP2020_P32.pdf) | There seems to be no word allignment |
+| Indonesian | [Kurnia & Yulianti (2020)](https://scholar.ui.ac.id/en/publications/statistical-machine-translation-approach-for-lexical-normalizatio) | There seems to be no word allignment |
 | Irish | [Cassidy et al. (2022)](https://aclanthology.org/2022.acl-long.473.pdf) |     |
 | Japanese | [Kaji & Kitsuregawa (2014)](https://aclanthology.org/D14-1011.pdf) |     |
 | Japanese | [2017](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=178802&file_id=1&file_no=1) |     |

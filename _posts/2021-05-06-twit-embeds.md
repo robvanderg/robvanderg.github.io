@@ -55,7 +55,7 @@ The sizes of the files, and the number of characters, words and tweets are:
 | Turkish | tr  | 11,400,083,503 | 1,461,947,731 | 133,557,943 | 11G |
 | Turkish-German | trde | 15,417,301,092 | 2,064,903,612 | 205,612,745 | 15G |
 
-The results of this procedure are hosted on: [http://www.itu.dk/people/robv/data/monoise/](http://www.itu.dk/people/robv/data/monoise/), note that smaller/older versions for most languages can be found on: [http://www.itu.dk/people/robv/data/monoise-old](http://www.itu.dk/people/robv/data/monoise/-old)
+The results of this procedure are hosted on: [http://www.itu.dk/people/robv/data/monoise/](http://www.itu.dk/people/robv/data/monoise/), note that smaller/older versions for most languages can be found on: [http://www.itu.dk/people/robv/data/monoise-old](http://www.itu.dk/people/robv/data/monoise-old)
 
 When using [Gensim](https://pypi.org/project/gensim/), there can be unicode incompatabilities in some of these models, set unicode_errors='ignore' when loading the embeddings. Thanks to [Elijah Rippeth](https://groups.google.com/g/multilexnorm/c/UTElCV6va4s) for this addition.
 
