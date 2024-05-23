@@ -8,13 +8,13 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 2024
 ----
 *   Miriam Winkler, Virginija Juozapaityte, Rob van der Goot and Barbara Plank. _Slot and Intent Detection Resources for Bavarian and Lithuanian: Assessing Translations vs Natural Queries to Digital Assistants._ in LREC-COLING
-    \[[poster](../doc/lrec2024.3.poster.pdf)\]
+    \[[paper](https://aclanthology.org/2024.lrec-main.1297.pdf) | [poster](../doc/lrec2024.3.poster.pdf) | [bib](https://aclanthology.org/2024.lrec-main.1297.bib)\]
 *   Elisa Bassignana, Viggo Unmack Gascou, Frida Nøhr Laustsen, Gustav Kristensen, Marie Haahr Petersen, Rob van der Goot and Barbara Plank. _How to Encode Domain Information in Relation Classification._ in LREC-COLING
-   \[[paper](https://arxiv.org/pdf/2404.13760) | [video](https://www.youtube.com/watch?v=J2BH6LeYxhA) | [poster](../doc/lrec2024.4.poster.pdf)]
+   \[[paper](https://aclanthology.org/2024.lrec-main.728.pdf) | [video](https://www.youtube.com/watch?v=J2BH6LeYxhA) | [poster](../doc/lrec2024.4.poster.pdf) | [bib](https://aclanthology.org/2024.lrec-main.728.bib)]
 *   Maria Barrett, Max Müller-Eberstein, Elisa Bassignana, Amalie Brogaard Pauli, Mike Zhang and Rob van der Goot. _Can Humans Identify Domains?_ in LREC-COLING
-   \[[paper](https://arxiv.org/pdf/2404.01785) | [video](https://www.youtube.com/watch?v=MKFM1ZUTyi8) | [poster](../doc/lrec2024.2.poster.pdf)\]
+   \[[paper](https://aclanthology.org/2024.lrec-main.245.pdf) | [video](https://www.youtube.com/watch?v=MKFM1ZUTyi8) | [poster](../doc/lrec2024.2.poster.pdf) | [bib](https://aclanthology.org/2024.lrec-main.245.bib)\]
 *   Rob van der Goot, Zoey Liu and Max Müller-Eberstein. _Enough Is Enough! a Case Study on the Effect of Data Size for Evaluation Using Universal Dependencies._ in LREC-COLING
-   \[[poster](../doc/lrec2024.1.poster.pdf) | [video](https://www.youtube.com/watch?v=0nr9SxJrytQ)\]
+   \[[paper](https://aclanthology.org/2024.lrec-main.544.pdf) | [poster](../doc/lrec2024.1.poster.pdf) | [video](https://www.youtube.com/watch?v=0nr9SxJrytQ)\ | [bib](https://aclanthology.org/2024.lrec-main.544.bib)]
 *   Rob van der Goot. _Where are we Still Split on Tokenization?_ in EACL findings 
     \[[paper](https://aclanthology.org/2024.findings-eacl.9.pdf) | [code](https://bitbucket.org/robvanderg/tok) | [poster](../doc/eacl2024.poster.pdf) | [video](https://youtu.be/gF6NQL8oA4A) | [bib](https://aclanthology.org/2024.findings-eacl.9.bib)\]
 *   Axel Sorensen, Siyao Peng, Barbara Plank, and Rob Van Der Goot. _EEVEE: An Easy Annotation Tool for Natural Language Processing._ in LAW workshop 
