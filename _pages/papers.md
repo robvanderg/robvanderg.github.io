@@ -20,11 +20,11 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Axel Sorensen, Siyao Peng, Barbara Plank, and Rob Van Der Goot. _EEVEE: An Easy Annotation Tool for Natural Language Processing._ in LAW workshop 
     \[[paper](https://aclanthology.org/2024.law-1.20.pdf) | [demo](https://axelsorensendev.github.io/Eevee/) | [code](https://github.com/AxelSorensenDev/Eevee) | [video](https://www.youtube.com/watch?v=HsOsfckvnQo) | [poster](../doc/law2024.poster.pdf) | [bib](https://aclanthology.org/2024.law-1.20.bib)\]
 *   Mike Zhang, Rob van der Goot, Min-Yen Kan, and Barbara Plank. _NNOSE: Nearest Neighbor Occupational Skill Extraction._ in EACL 
-    \[[paper](https://aclanthology.org/2024.eacl-long.35.pdf) | [code](https://github.com/mainlp/nnose) | [bib](https://aclanthology.org/2024.eacl-long.35.bib)\]
+    \[[paper](https://aclanthology.org/2024.eacl-long.35.pdf) | [video](https://aclanthology.org/2024.eacl-long.35.mp4) | [code](https://github.com/mainlp/nnose) | [bib](https://aclanthology.org/2024.eacl-long.35.bib)\]
 *   Mike Zhang, Rob van der Goot, and Barbara Plank. _Entity Linking in the Job Market Domain._ in EACL findings 
-    \[[paper](https://aclanthology.org/2024.findings-eacl.28.pdf) | [code](https://github.com/mainlp/el_esco) | [bib](https://aclanthology.org/2024.findings-eacl.28.bib)\]
+    \[[paper](https://aclanthology.org/2024.findings-eacl.28.pdf) | [video](https://aclanthology.org/2024.findings-eacl.28.mp4) | [code](https://github.com/mainlp/el_esco) | [bib](https://aclanthology.org/2024.findings-eacl.28.bib)\]
 *   Elena Senger, Mike Zhang, Rob van der Goot, and Barbara Plank. _Deep Learning-based Computational Job Market Analysis: A Survey on Skill Extraction and Classification from Job Postings._ In NLP4HR 
-    \[[paper](https://aclanthology.org/2024.nlp4hr-1.1.pdf) | [bib](https://aclanthology.org/2024.nlp4hr-1.1.bib)\]
+    \[[paper](https://aclanthology.org/2024.nlp4hr-1.1.pdf) | [video](https://aclanthology.org/2024.nlp4hr-1.1.mp4) | [bib](https://aclanthology.org/2024.nlp4hr-1.1.bib)\]
 *   Charlie Campanella and Rob van der Goot. _Big City Bias: Evaluating the Impact of Metropolitan Size on Computational Job Market Abilities of Language Models._ In NLP4HR 
     \[[paper](https://aclanthology.org/2024.nlp4hr-1.6.pdf) | [code](https://github.com/charlie-campanella/big-city-bias) | [bib](https://aclanthology.org/2024.nlp4hr-1.6.bib)\]
 
@@ -33,17 +33,17 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Max Müller-Eberstein, Rob van der Goot, Barbara Plank, and Ivan Titov. _Subspace Chronicles: How Linguistic Information Emerges, Shifts and Interacts during Language Model Training._ In EMNLP Findings.
     \[[paper](https://aclanthology.org/2023.findings-emnlp.879.pdf) | [video](https://www.youtube.com/watch?v=tzdCfF1jfNc) | [code](https://github.com/mainlp/subspace-chronicles)\ | [bib](https://aclanthology.org/2023.findings-emnlp.879.bib)]
 *   Robert Litschko, Max Müller-Eberstein, Rob van der Goot, Leon Weber, Barbara Plank. _Establishing Trustworthiness: Rethinking Tasks and Model Evaluation._ In EMNLP.
-    \[[paper](https://aclanthology.org/2023.emnlp-main.14.pdf) | [bib](https://aclanthology.org/2023.emnlp-main.14.bib)\]
+    \[[paper](https://aclanthology.org/2023.emnlp-main.14.pdf) | [video](https://aclanthology.org/2023.emnlp-main.14.mp4) | [bib](https://aclanthology.org/2023.emnlp-main.14.bib)\]
 *   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Silver Syntax Pre-training for Cross-Domain Relation Extraction._ In ACL Findings. 
-    \[[paper](https://aclanthology.org/2023.findings-acl.436.pdf) | [poster](https://elisabassignana.github.io/assets/posters/2023-ACL.pdf) | [code](https://github.com/mainlp/syntax-pre-training-for-RE) | [bib](https://aclanthology.org/2023.findings-acl.436.bib)\]
+    \[[paper](https://aclanthology.org/2023.findings-acl.436.pdf) | [video](https://aclanthology.org/2023.findings-acl.436.mp4) | [poster](https://elisabassignana.github.io/assets/posters/2023-ACL.pdf) | [code](https://github.com/mainlp/syntax-pre-training-for-RE) | [bib](https://aclanthology.org/2023.findings-acl.436.bib)\]
 *   Mike Zhang, Rob van der Goot, and Barbara Plank. _ESCOXLM-R: Multilingual Taxonomy-driven Pre-training for the Job Market Domain._ In ACL. 
-    \[[paper](https://aclanthology.org/2023.acl-long.662.pdf) | [code](https://github.com/mainlp/escoxlmr) | [bib](https://aclanthology.org/2023.acl-long.662.bib)\]
+    \[[paper](https://aclanthology.org/2023.acl-long.662.pdf) | [video](https://aclanthology.org/2023.acl-long.662.mp4) | [code](https://github.com/mainlp/escoxlmr) | [bib](https://aclanthology.org/2023.acl-long.662.bib)\]
 *   Lina Skerath, Paulina Toborek, Anita Zielińska, Maria Barrett, and Rob van der Goot. _Native Language Prediction from Gaze: a Reproducibility Study_ In ACL SRW.
     \[[paper](https://aclanthology.org/2023.acl-srw.26.pdf) | [poster](../doc/acl-srw2023_poster.pdf) | [code](https://github.com/linaskerath/ANLP_project) | [bib](https://aclanthology.org/2023.acl-srw.26.bib)\]
 *   Rob van der Goot. _MaChAmp at SemEval-2023 Tasks 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, and 12: On the Effectiveness of Intermediate Training on an Uncurated Collection of Datasets._ In SemEval  
     \[[paper](https://aclanthology.org/2023.semeval-1.32.pdf) | [video](https://www.youtube.com/watch?v=JJc7pOOlfKQ) | [poster](../doc/semeval2023_poster.pdf) | [code](https://bitbucket.org/robvanderg/semeval2023/src/master/) | [tex](../doc/semeval2023.tar.gz) | [bib](https://aclanthology.org/2023.semeval-1.32.bib)\]
 *   Noëmi Aepli, Çagrı Çöltekin, Rob van der Goot, Tommi Jauhiainen, Mourhaf Kazzaz, Nikola Ljubešic, Kai North, Barbara Plank, Yves Scherrer, and Marcos Zampieri. _Findings of the VarDial Evaluation Campaign 2023_ In VarDial  
-    \[[paper](https://aclanthology.org/2023.vardial-1.25.pdf) | [bib](https://aclanthology.org/2023.vardial-1.25.bib) | [website](https://sites.google.com/view/vardial-2023/shared-tasks#h.mj5vivaubw8r)\]
+    \[[paper](https://aclanthology.org/2023.vardial-1.25.pdf) | [video](https://aclanthology.org/2023.vardial-1.25.mp4) | [bib](https://aclanthology.org/2023.vardial-1.25.bib) | [website](https://sites.google.com/view/vardial-2023/shared-tasks#h.mj5vivaubw8r)\]
 *   Kia Kirstein Hansen and Rob van der Goot. _Cross-Domain Evaluation of POS Taggers: From Wall Street Journal to Fandom Wiki._  
     \[[paper](https://arxiv.org/pdf/2304.13989.pdf) | [data](https://github.com/kkirsteinhansen/elder-scrolls-fandom) \]      
 *   Kia Kirstein Hansen, Maria Barrett, Max Müller-Eberstein, Cathrine Damgaard, Trine Naja Eriksen, and Rob van der Goot. _DanTok: Domain Beats Language for Danish Social Media POS Tagging._ In NoDaLiDa  
@@ -59,7 +59,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 *   Dennis Ulmer, Elisa Bassignana, Max Müller-Eberstein, Daniel Varab, Mike Zhang, Rob van der Goot, Christian Hardmeier, and Barbara Plank. _Experimental Standards for Deep Learning in Natural Language Processing Research._ In Findings of EMNLP  
     \[[paper](https://aclanthology.org/2022.findings-emnlp.196.pdf) | [video](https://aclanthology.org/2022.findings-emnlp.196.mp4) | [code](https://github.com/Kaleidophon/experimental-standards-deep-learning-research) | [bib](https://aclanthology.org/2022.findings-emnlp.196.bib)\]
 *   Tanja Samardžić, Ximena Gutierrez-Vasques, Rob van der Goot, Max Müller-Eberstein, and Olga Pelloni. _On Language Spaces, Scales and Cross-Lingual Transfer of UD Parsers._ In CoNLL  
-    \[[paper](https://aclanthology.org/2022.conll-1.18.pdf) | [code](https://github.com/MorphDiv/transfer-lang) | [bib](https://aclanthology.org/2022.conll-1.18.bib)\]
+    \[[paper](https://aclanthology.org/2022.conll-1.18.pdf) | [video](https://aclanthology.org/2022.conll-1.18.mp4) | [code](https://github.com/MorphDiv/transfer-lang) | [bib](https://aclanthology.org/2022.conll-1.18.bib)\]
 *   Marcus Vielsted, Nikolaj Wallenius and Rob van der Goot. _Increasing Robustness for Cross-domain Dialogue Act Classification on Social Media Data._ In WNUT.  
     \[[paper](https://aclanthology.org/2022.wnut-1.20.pdf) | [video](https://www.bilibili.tv/en/video/2043807653) | [slides](../doc/wnut2022.slides.pdf) | [poster](../doc/wnut2022.poster.pdf) | [code & data](https://github.com/marcusvielsted/DialogueActClassification) | [tex](../doc/wnut2022.tar.gz) | [bib](https://aclanthology.org/2022.wnut-1.20.bib)\] **🏆Best paper award🏆**
 *   Sajawel Ahmed, Rob van der Goot, Misbahur Rehman, Carl Kruse, Ömer Özsoy, Alexander Mehler, and Gemma Roig. _Tafsir Dataset: A Novel Multi-Task Benchmark for Named Entity Recognition and Topic Modeling in Classical Arabic Literature._ In COLING.  
