@@ -7,25 +7,25 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
 
 2024
 ----
-*   Miriam Winkler, Virginija Juozapaityte, Rob van der Goot and Barbara Plank. _Slot and Intent Detection Resources for Bavarian and Lithuanian: Assessing Translations vs Natural Queries to Digital Assistants._ in LREC-COLING.
+*   Miriam Winkler, Virginija Juozapaityte, Rob van der Goot and Barbara Plank. _Slot and Intent Detection Resources for Bavarian and Lithuanian: Assessing Translations vs Natural Queries to Digital Assistants._ in LREC-COLING. 
     \[[paper](https://aclanthology.org/2024.lrec-main.1297.pdf) | [poster](../doc/lrec2024.3.poster.pdf) | [bib](https://aclanthology.org/2024.lrec-main.1297.bib)\]
-*   Elisa Bassignana, Viggo Unmack Gascou, Frida Nøhr Laustsen, Gustav Kristensen, Marie Haahr Petersen, Rob van der Goot and Barbara Plank. _How to Encode Domain Information in Relation Classification._ in LREC-COLING.
+*   Elisa Bassignana, Viggo Unmack Gascou, Frida Nøhr Laustsen, Gustav Kristensen, Marie Haahr Petersen, Rob van der Goot and Barbara Plank. _How to Encode Domain Information in Relation Classification._ in LREC-COLING. 
    \[[paper](https://aclanthology.org/2024.lrec-main.728.pdf) | [video](https://www.youtube.com/watch?v=J2BH6LeYxhA) | [poster](../doc/lrec2024.4.poster.pdf) | [bib](https://aclanthology.org/2024.lrec-main.728.bib)]
-*   Maria Barrett, Max Müller-Eberstein, Elisa Bassignana, Amalie Brogaard Pauli, Mike Zhang and Rob van der Goot. _Can Humans Identify Domains?_ in LREC-COLING.
+*   Maria Barrett, Max Müller-Eberstein, Elisa Bassignana, Amalie Brogaard Pauli, Mike Zhang and Rob van der Goot. _Can Humans Identify Domains?_ in LREC-COLING. 
    \[[paper](https://aclanthology.org/2024.lrec-main.245.pdf) | [video](https://www.youtube.com/watch?v=MKFM1ZUTyi8) | [poster](../doc/lrec2024.2.poster.pdf) | [bib](https://aclanthology.org/2024.lrec-main.245.bib)\]
-*   Rob van der Goot, Zoey Liu and Max Müller-Eberstein. _Enough Is Enough! a Case Study on the Effect of Data Size for Evaluation Using Universal Dependencies._ in LREC-COLING.
+*   Rob van der Goot, Zoey Liu and Max Müller-Eberstein. _Enough Is Enough! a Case Study on the Effect of Data Size for Evaluation Using Universal Dependencies._ in LREC-COLING. 
    \[[paper](https://aclanthology.org/2024.lrec-main.544.pdf) | [poster](../doc/lrec2024.1.poster.pdf) | [video](https://www.youtube.com/watch?v=0nr9SxJrytQ) | [bib](https://aclanthology.org/2024.lrec-main.544.bib)]
-*   Rob van der Goot. _Where are we Still Split on Tokenization?_ in EACL findings.
+*   Rob van der Goot. _Where are we Still Split on Tokenization?_ in EACL findings. 
     \[[paper](https://aclanthology.org/2024.findings-eacl.9.pdf) | [code](https://bitbucket.org/robvanderg/tok) | [poster](../doc/eacl2024.poster.pdf) | [video](https://youtu.be/gF6NQL8oA4A) | [bib](https://aclanthology.org/2024.findings-eacl.9.bib)\]
-*   Axel Sorensen, Siyao Peng, Barbara Plank, and Rob Van Der Goot. _EEVEE: An Easy Annotation Tool for Natural Language Processing._ in LAW workshop.
+*   Axel Sorensen, Siyao Peng, Barbara Plank, and Rob Van Der Goot. _EEVEE: An Easy Annotation Tool for Natural Language Processing._ in LAW workshop. 
     \[[paper](https://aclanthology.org/2024.law-1.20.pdf) | [demo](https://axelsorensendev.github.io/Eevee/) | [code](https://github.com/AxelSorensenDev/Eevee) | [video](https://www.youtube.com/watch?v=HsOsfckvnQo) | [poster](../doc/law2024.poster.pdf) | [bib](https://aclanthology.org/2024.law-1.20.bib)\]
-*   Mike Zhang, Rob van der Goot, Min-Yen Kan, and Barbara Plank. _NNOSE: Nearest Neighbor Occupational Skill Extraction._ in EACL.
+*   Mike Zhang, Rob van der Goot, Min-Yen Kan, and Barbara Plank. _NNOSE: Nearest Neighbor Occupational Skill Extraction._ in EACL. 
     \[[paper](https://aclanthology.org/2024.eacl-long.35.pdf) | [video](https://aclanthology.org/2024.eacl-long.35.mp4) | [code](https://github.com/mainlp/nnose) | [bib](https://aclanthology.org/2024.eacl-long.35.bib)\]
-*   Mike Zhang, Rob van der Goot, and Barbara Plank. _Entity Linking in the Job Market Domain._ in EACL findings.
+*   Mike Zhang, Rob van der Goot, and Barbara Plank. _Entity Linking in the Job Market Domain._ in EACL findings. 
     \[[paper](https://aclanthology.org/2024.findings-eacl.28.pdf) | [video](https://aclanthology.org/2024.findings-eacl.28.mp4) | [code](https://github.com/mainlp/el_esco) | [bib](https://aclanthology.org/2024.findings-eacl.28.bib)\]
-*   Elena Senger, Mike Zhang, Rob van der Goot, and Barbara Plank. _Deep Learning-based Computational Job Market Analysis: A Survey on Skill Extraction and Classification from Job Postings._ In NLP4HR.
+*   Elena Senger, Mike Zhang, Rob van der Goot, and Barbara Plank. _Deep Learning-based Computational Job Market Analysis: A Survey on Skill Extraction and Classification from Job Postings._ In NLP4HR. 
     \[[paper](https://aclanthology.org/2024.nlp4hr-1.1.pdf) | [video](https://aclanthology.org/2024.nlp4hr-1.1.mp4) | [bib](https://aclanthology.org/2024.nlp4hr-1.1.bib)\]
-*   Charlie Campanella and Rob van der Goot. _Big City Bias: Evaluating the Impact of Metropolitan Size on Computational Job Market Abilities of Language Models._ In NLP4HR.
+*   Charlie Campanella and Rob van der Goot. _Big City Bias: Evaluating the Impact of Metropolitan Size on Computational Job Market Abilities of Language Models._ In NLP4HR. 
     \[[paper](https://aclanthology.org/2024.nlp4hr-1.6.pdf) | [code](https://github.com/charlie-campanella/big-city-bias) | [bib](https://aclanthology.org/2024.nlp4hr-1.6.bib)\]
 
 2023
@@ -34,7 +34,7 @@ All presentation videos that I made can also be found on [Youtube](https://www.y
     \[[paper](https://aclanthology.org/2023.findings-emnlp.879.pdf) | [video](https://www.youtube.com/watch?v=tzdCfF1jfNc) | [code](https://github.com/mainlp/subspace-chronicles) | [bib](https://aclanthology.org/2023.findings-emnlp.879.bib)]
 *   Robert Litschko, Max Müller-Eberstein, Rob van der Goot, Leon Weber, Barbara Plank. _Establishing Trustworthiness: Rethinking Tasks and Model Evaluation._ In EMNLP.
     \[[paper](https://aclanthology.org/2023.emnlp-main.14.pdf) | [video](https://aclanthology.org/2023.emnlp-main.14.mp4) | [bib](https://aclanthology.org/2023.emnlp-main.14.bib)\]
-*   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Silver Syntax Pre-training for Cross-Domain Relation Extraction._ In ACL Findings
+*   Elisa Bassignana, Filip Ginter, Sampo Pyysalo, Rob van der Goot, and Barbara Plank. _Silver Syntax Pre-training for Cross-Domain Relation Extraction._ In ACL Findings.
     \[[paper](https://aclanthology.org/2023.findings-acl.436.pdf) | [video](https://aclanthology.org/2023.findings-acl.436.mp4) | [poster](https://elisabassignana.github.io/assets/posters/2023-ACL.pdf) | [code](https://github.com/mainlp/syntax-pre-training-for-RE) | [bib](https://aclanthology.org/2023.findings-acl.436.bib)\]
 *   Mike Zhang, Rob van der Goot, and Barbara Plank. _ESCOXLM-R: Multilingual Taxonomy-driven Pre-training for the Job Market Domain._ In ACL.
     \[[paper](https://aclanthology.org/2023.acl-long.662.pdf) | [video](https://aclanthology.org/2023.acl-long.662.mp4) | [code](https://github.com/mainlp/escoxlmr) | [bib](https://aclanthology.org/2023.acl-long.662.bib)\]
