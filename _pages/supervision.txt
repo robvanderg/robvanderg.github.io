@@ -1,0 +1,35 @@
+- The Proposal/agreement should be between 1 paragraph and 1 page in length,
+  the word “analysis” has to be in there.
+- By default, we meet once every other week, if you would like an additional
+  meeting, send an e-mail. Also, if you are not available or have nothing to
+  discuss, e-mail to skip the meeting. 
+- Rob's working times are often 07:00-15:00 
+- If you e-mail a draft one week before the deadline, you can get a full round
+  of feedback. 
+- There is the chance to present your project to the NLP group at ITU. Here you
+  can hear what other students are doing and receive additional feedback. 
+- There are no rules about the numbers of pages. In general, most projects end
+  up between 4-10 pages with the ACL style files
+  (https://github.com/acl-org/acl-style-files ). 
+- Target audience: your co-students. 
+- Rob will not give you deadlines; this is your project. 
+- For background reading I strongly recommend: https://web.stanford.edu/~jurafsky/slp3/ 
+- In NLP almost all our papers are available for free on
+  https://aclanthology.org/ . The highest quality is usually found in the *CL
+  conferences and EMNLP. Note that you should also use the citations (.bib files)
+  from here. 
+- Rob tries to answer e-mails within 2 working days, if that does not happen he
+  will e-mail that it takes longer. If he doesn't, he likely missed the e-mail
+  somehow; please send a reminder. 
+- We have a collection of good NLP projects done at ITU, Rob can share this folder
+  with you
+- There is a bachelors course “NLP and Deep Learning” in the spring, and a
+  masters course “Advanced NLP” in the fall. If you are not a data science
+  student, you can of course join any of the lectures there if they are
+  interesting/relevant for you. Ask Rob for the latest schedules if you are
+  interested in this. 
+- The above mentioened courses are occasionally recorded, Rob can share these
+  recordings background.
+- If you want Rob to prepare something for the meeting, e-mail him well in advance
+
+ 

@@ -8,6 +8,8 @@ Thesis project topics.
 
 Below I list some research ideas that I would like to supervise for a research project/thesis or collaborate on. These can also be seen as research directions that I'm interested in, so if you are interested in related projects feel free to contact me as well (robv@itu.dk).
 
+For more information about how I normally supervise see: [Supervision statement](supervision.txt)
+
 
 ### Shared tasks
 Shared tasks in NLP are organized competitions where you are provided with a dataset and compete with other teams. The test data is kep secret, and will be released at the same time for all participants, where you typically have approximately 1 week to upload your predictions. As a part of the shared task, you can also submit a paper. The dates of SemEval 2025 align well with the fall semester, and the tasks they organize usually provide a nice scope for a thesis project:
