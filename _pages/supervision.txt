@@ -1,3 +1,6 @@
+The following list describes how Rob normally supervises, if you would like 
+to deviate, please request this before the project starts.
+
 - The Proposal/agreement should be between 1 paragraph and 1 page in length,
   the word “analysis” has to be in there.
 - By default, we meet once every other week, if you would like an additional
