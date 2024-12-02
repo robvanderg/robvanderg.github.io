@@ -70,6 +70,21 @@ Talks
 
 Reviewer
 --------
+2025:
+* VarDial
+* NoDaLiDa
+* COLING 
+
+2024:
+* COLING
+* NEJLT
+* NoDaLiDa
+* VARDIAL
+* EACL SRW
+* LREC
+* EACL (Area Chair)
+* ARR
+
 2023:
 * ARR
 * AACL
