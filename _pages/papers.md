@@ -5,8 +5,19 @@ title: "Papers"
 
 All presentation videos that I made can also be found on [Youtube](https://www.youtube.com/channel/UCJSoIwAoJX0UU-yYY--1atA/videos) and [BiliBili](https://www.bilibili.tv/en/space/1954812733).
 
+2025
+----
+*   Yves Scherrer, Rob van der Goot and Petter Mæhlum. _Findings of the VarDial Evaluation Campaign 2025: The NorSID Shared Task on Norwegian Slot, Intent and Dialect Identification._ in VarDial.
+*   Rob van der Goot, Anette Jensen, Emil Allerslev Schledermann, Mikkel Wildner Kildeberg, Nicolaj Larsen, Mike Zhang, Elisa Bassignana. _MorSeD: Morphological Segmentation of Danish and its Effect on Language Modeling._ in NoDaLiDa.
+*   Mike Zhang, Max Müller-Eberstein, Elisa Bassignana and Rob van der Goot _SnakModel: Lessons Learned from Training an Open Danish Large Language Model._ in NoDaLiDa.
+*   Anika Harju and Rob van der Goot. _How to age BERT Well: Continuous Training for Historical Language Adaptation._ in LoResLM.
+*   Elena Senger, Yuri Campbell, Rob van der Goot and Barbara Plank. _Karrierewege: A Large Scale Career Path Prediction Dataset._ in COLING industry.
+*   Malthe Have Musaeus and Rob van der Goot. _Iterative Structured Knowledge Distillation: Optimizing Language Models Through Layer-by-Layer Distillation._ in COLING.
+*   Hamidreza Amirzadeh, Sadegh Jafari, Anika Harju and Rob van der Goot. _data2lang2vec: Data Driven Typological Features Completion._ in COLING.
+
 2024
 ----
+*   Rob van der Goot. _Finding the Right Language Model Goes a Long Way Towards Accurate Language Identification._ in FIRE.
 *   Miriam Winkler, Virginija Juozapaityte, Rob van der Goot and Barbara Plank. _Slot and Intent Detection Resources for Bavarian and Lithuanian: Assessing Translations vs Natural Queries to Digital Assistants._ in LREC-COLING. 
     \[[paper](https://aclanthology.org/2024.lrec-main.1297.pdf) | [poster](../doc/lrec2024.3.poster.pdf) | [bib](https://aclanthology.org/2024.lrec-main.1297.bib)\]
 *   Elisa Bassignana, Viggo Unmack Gascou, Frida Nøhr Laustsen, Gustav Kristensen, Marie Haahr Petersen, Rob van der Goot and Barbara Plank. _How to Encode Domain Information in Relation Classification._ in LREC-COLING. 
