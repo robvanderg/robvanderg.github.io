@@ -3,7 +3,6 @@ permalink: /papers/
 title: "Papers"
 ---
 
-All presentation videos that I made can also be found on [Youtube](https://www.youtube.com/channel/UCJSoIwAoJX0UU-yYY--1atA/videos) and [BiliBili](https://www.bilibili.tv/en/space/1954812733).
 
 2025
 ----

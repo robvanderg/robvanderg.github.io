@@ -26,6 +26,25 @@ When training an NLP model on a variety of datasets, from different sources (and
 
 These methods have shown promising results in isolated setups, but have never been consistently compared.
 
+### Cross-domain lexical normalization
+Lexical normalization is the task of converting non-standard language to standard language on the word level. For this task, most of the focus has been on data from Twitter. However, there are many other types of non-standard language. This project can ask two questions: 1) how does performance drop on other domains 2) how can we build more robust lexical normalization models. Most existing datasets can be found on:
+
+* <a href="https://aclanthology.org/2021.wnut-1.55/">MultiLexNorm: A Shared Task on Multilingual Lexical Normalization
+</a>
+* <a href="https://noisy-text.github.io/2025/multi-lexnorm.html">MultiLexNorm 2</a>
+
+This project includes data collection and annotation, but it should be noted that annotation for this task is relatively fast
+
+
+### Using agents for cultural-aware language adaptations of children television
+Cartoons can be a great resource for learning a language. However, they are
+often only available in a few languages. Adapting these to another language is
+expensive, as it requires understanding of the context, cultural aware
+translation (much of the language use is conversational, unlike most
+translation datasets), and text to speech. For each of these steps, a specific
+NLP model (i.e. agent) can be used. One main challenge is the evaluation, 
+where human judgements are probably necessary. 
+
 ### seq2seq versus sequence classification models
 
 Recently, sequence-to-sequence (seq2seq) have become more and more powerful. A recent paper has shown that seq2seq models can perform on-par with sequence classification models through conversion of tasks to sequence generation tasks. However, the comparison is not direct, so it would be interesting to make a more direct comparison of an auto-encoder language model versus a generative one.
