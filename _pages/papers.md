@@ -6,6 +6,8 @@ title: "Papers"
 
 2025
 ----
+*   Max Müller-Eberstein, Mike Zhang, Elisa Bassignana, Peter Brunsgaard Trolle, Rob van der Goot. _DAKULTUR: Evaluating the Cultural Awareness of Language Models for Danish with Native Speakers._ in C3NLP.
+*   Mehdi Parviz, Rudi Agius, Carsten Utoft Niemann, and Rob van der Goot. _Bias in Danish Medical Notes: Infection Classification of Long Texts Using Transformer and LSTM Architectures Coupled with BERT._ in CL4Health.
 *   Yves Scherrer, Rob van der Goot and Petter Mæhlum. _Findings of the VarDial Evaluation Campaign 2025: The NorSID Shared Task on Norwegian Slot, Intent and Dialect Identification._ in VarDial.
 *   Rob van der Goot, Anette Jensen, Emil Allerslev Schledermann, Mikkel Wildner Kildeberg, Nicolaj Larsen, Mike Zhang, Elisa Bassignana. _MorSeD: Morphological Segmentation of Danish and its Effect on Language Modeling._ in NoDaLiDa.
 *   Mike Zhang, Max Müller-Eberstein, Elisa Bassignana and Rob van der Goot _SnakModel: Lessons Learned from Training an Open Danish Large Language Model._ in NoDaLiDa.
