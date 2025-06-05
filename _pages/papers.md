@@ -6,6 +6,9 @@ title: "Papers"
 
 2025
 ----
+*   Mike Zhang and Rob van der Goot. _NLPnorth @ TalentCLEF 2025: Comparing Discriminative, Contrastive, and Prompt-Based Methods for Job Title and Skill Matching._ in CLEF
+*   Max Müller-Eberstein, Rob van der Goot, and Anna Rogers. _DECAF: A Dynamically Extensible Corpus Analysis Framework._ in ACL
+*   Rob van der Goot. _Identifying Open Challenges in Language Identification._ in ACL
 *   Max Müller-Eberstein, Mike Zhang, Elisa Bassignana, Peter Brunsgaard Trolle, Rob van der Goot. _DAKULTUR: Evaluating the Cultural Awareness of Language Models for Danish with Native Speakers._ in C3NLP.
 *   Mehdi Parviz, Rudi Agius, Carsten Utoft Niemann, and Rob van der Goot. _Bias in Danish Medical Notes: Infection Classification of Long Texts Using Transformer and LSTM Architectures Coupled with BERT._ in CL4Health.
 *   Yves Scherrer, Rob van der Goot and Petter Mæhlum. _Findings of the VarDial Evaluation Campaign 2025: The NorSID Shared Task on Norwegian Slot, Intent and Dialect Identification._ in VarDial.
