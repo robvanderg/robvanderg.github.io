@@ -3,14 +3,11 @@ to deviate, please request this before the project starts.
 
 - The Proposal/agreement should be between 1 paragraph and 1 page in length,
   the word “analysis” has to be in there.
-- By default, we meet once every other week, if you would like an additional
-  meeting, send an e-mail. Also, if you are not available or have nothing to
-  discuss, e-mail to skip the meeting. 
+- I have 30 minutes of time per week available for each project. You can choose
+  if you want to once every week, or have longer meetings once every two weeks.
 - Rob's working times are often 07:00-15:00 
 - If you e-mail a draft one week before the deadline, you can get a full round
-  of feedback. 
-- There is the chance to present your project to the NLP group at ITU. Here you
-  can hear what other students are doing and receive additional feedback. 
+  of feedback on the writing. 
 - There are no rules about the numbers of pages. In general, most projects end
   up between 4-10 pages with the ACL style files
   (https://github.com/acl-org/acl-style-files ). 
@@ -32,7 +29,6 @@ to deviate, please request this before the project starts.
   interesting/relevant for you. Ask Rob for the latest schedules if you are
   interested in this. 
 - The above mentioened courses are occasionally recorded, Rob can share these
-  recordings background.
-- If you want Rob to prepare something for the meeting, e-mail him well in advance
+  recording.
+- If you want Rob to prepare something for the meeting, e-mail him in advance
 
- 
