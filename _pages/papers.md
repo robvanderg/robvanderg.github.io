@@ -6,6 +6,9 @@ title: "Papers"
 
 2025
 ----
+*   Elena Senger, Yuri Campbell, Rob van der Goot, and Barbara Plank. _Toward more realistic career path prediction: evaluation and methods._ in Frontiers in Big Data.
+*   Olga Pelloni, Rob van der Goot, Peter Ranacher, Ivan Vulic and Tanja Samardzic. _Subword symmetry in natural languages
+._ in Royal Society Open Science.
 *   Mike Zhang and Rob van der Goot. _NLPnorth @ TalentCLEF 2025: Comparing Discriminative, Contrastive, and Prompt-Based Methods for Job Title and Skill Matching._ in CLEF
 *   Max Müller-Eberstein, Rob van der Goot, and Anna Rogers. _DECAF: A Dynamically Extensible Corpus Analysis Framework._ in ACL
 *   Rob van der Goot. _Identifying Open Challenges in Language Identification._ in ACL
