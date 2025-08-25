@@ -37,6 +37,17 @@ languages.
 Handling New Languages With Multilingual Language Models](https://aclanthology.org/2021.naacl-main.38.pdf)
 
 
+### Do the number of terminal symbols effect generalization in LMs?
+
+Hierarchical generalization in language models is often studied by training them on synthetic and controlled data. As the main focus in hierarchical generalization is syntax, these studies tend to use a limited set of terminals (i.e. words), which determines the vocabulary size of the synthetic data. However, as observed in
+[Targeted Syntactic Evaluation on the Chomsky Hierarchy](https://aclanthology.org/2024.lrec-main.1356/), generalization is impacted by the number of terminal symbols. I am interested in examining the relationship between terminal size and hierarchical generalization.
+
+### How do language models learn morphologically rich languages?
+
+Learning dynamics of language models on linguistic, especially syntactic, patterns are well documented in English. (
+[Language acquisition: do children and language models follow similar  learning stages?](https://aclanthology.org/2023.findings-acl.773.pdf), 
+[Subspace Chronicles: How Linguistic Information Emerges, Shifts and Interacts during Language Model Training](https://aclanthology.org/2023.findings-emnlp.879/)) English, however, represents only one common way of encoding syntactic information: via word order and function words such as prepositions. There are, however, families of languages that encode syntax via inflection or agglutination, such as Turkic or Slavic languages. These languages have different typologies, such as flexible word order and larger vocabulary size. I am interested in studying learning dynamics of language models on such languages. 
+
 
 ### Language model training for diverse languages
 Many benchmarks (and development) have focused on English (or other Latin languages). However, 
