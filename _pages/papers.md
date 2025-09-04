@@ -16,7 +16,7 @@ title: "Papers"
 *   Max Müller-Eberstein, Rob van der Goot, and Anna Rogers. _DECAF: A Dynamically Extensible Corpus Analysis Framework._ in ACL
     \[[paper](https://aclanthology.org/2025.acl-demo.34.pdf) | [code](https://github.com/nlpnorth/decaf) | [bib](https://aclanthology.org/2025.acl-demo.34.bib)\]
 *   Rob van der Goot. _Identifying Open Challenges in Language Identification._ in ACL
-    \[[paper](https://aclanthology.org/2025.acl-long.891.pdf) | [poster](../doc/acl2025.1.poster.pdf) | [slides](../doc/acl2025.1.slides.pdf) | [code](https://bitbucket.org/robvanderg/langid_problems) | [bib](https://aclanthology.org/2025.acl-long.891.bib)\]
+    \[[paper](https://aclanthology.org/2025.acl-long.891.pdf) | [video](https://www.youtube.com/watch?v=tH4x7PnNH5A) | [poster](../doc/acl2025.1.poster.pdf) | [slides](../doc/acl2025.1.slides.pdf) | [code](https://bitbucket.org/robvanderg/langid_problems) | [bib](https://aclanthology.org/2025.acl-long.891.bib)\]
 *   Max Müller-Eberstein, Mike Zhang, Elisa Bassignana, Peter Brunsgaard Trolle, Rob van der Goot. _DAKULTUR: Evaluating the Cultural Awareness of Language Models for Danish with Native Speakers._ in C3NLP.
     \[[paper](https://aclanthology.org/2025.c3nlp-1.5.pdf) | [slide](../doc/dakultur.slide.pdf) | [data](https://huggingface.co/datasets/NLPnorth/dakultur) | [bib](https://aclanthology.org/2025.c3nlp-1.5.bib)\]
 *   Mehdi Parviz, Rudi Agius, Carsten Utoft Niemann, and Rob van der Goot. _Bias in Danish Medical Notes: Infection Classification of Long Texts Using Transformer and LSTM Architectures Coupled with BERT._ in CL4Health.
