@@ -7,7 +7,7 @@ title: "Papers"
 2025
 ----
 *   Elena Senger, Yuri Campbell, Rob van der Goot, and Barbara Plank. _Toward more realistic career path prediction: evaluation and methods._ in Frontiers in Big Data.
-    \[[paper](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1564521/pdf) | [code](https://github.com/elenasenger/realistic-career-path-prediction) | [bib](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1564521/bibTex)\]
+    \[[paper](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1564521/pdf) | [code](https://github.com/elenasenger/realistic-career-path-prediction) | [bib](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1564521/bibtex)\]
 *   Olga Pelloni, Rob van der Goot, Peter Ranacher, Ivan Vulic and Tanja Samardzic. _Subword symmetry in natural languages._ in Royal Society Open Science.
     \[[paper](https://royalsocietypublishing.org/doi/epdf/10.1098/rsos.250295) | [code](https://github.com/MorphDiv/word_splits) | [bib](https://royalsocietypublishing.org/action/showCitFormats?doi=10.1098%2Frsos.250295&mobileUi=0)\]
 *   Mikkel Wildner Kildeberg, Emil Allerslev Schledermann, Nicolaj Larsen, and Rob van der Goot. _From Smør-re-brød to Subwords: Training LLMs on Danish, One Morpheme at a Time._ in Arxiv
@@ -22,9 +22,9 @@ title: "Papers"
 *   Mehdi Parviz, Rudi Agius, Carsten Utoft Niemann, and Rob van der Goot. _Bias in Danish Medical Notes: Infection Classification of Long Texts Using Transformer and LSTM Architectures Coupled with BERT._ in CL4Health.
     \[[paper](https://aclanthology.org/2025.cl4health-1.27.pdf) | [bib](https://aclanthology.org/2025.cl4health-1.27.bib)\]
 *   Yves Scherrer, Rob van der Goot and Petter Mæhlum. _Findings of the VarDial Evaluation Campaign 2025: The NorSID Shared Task on Norwegian Slot, Intent and Dialect Identification._ in VarDial.
-    \[[paper](https://aclanthology.org/2025.vardial-1.1.pdf) | [slides](../docvardial2025.1.slides.pdf) | [data](https://github.com/ltgoslo/NoMusic/tree/main/NorSID) | [bib](https://aclanthology.org/2025.vardial-1.1.bib)\]
+    \[[paper](https://aclanthology.org/2025.vardial-1.1.pdf) | [slides](../doc/vardial2025.1.slides.pdf) | [data](https://github.com/ltgoslo/NoMusic/tree/main/NorSID) | [bib](https://aclanthology.org/2025.vardial-1.1.bib)\]
 *   Rob van der Goot, Anette Jensen, Emil Allerslev Schledermann, Mikkel Wildner Kildeberg, Nicolaj Larsen, Mike Zhang, Elisa Bassignana. _MorSeD: Morphological Segmentation of Danish and its Effect on Language Modeling._ in NoDaLiDa.
-    \[[paper](https://aclanthology.org/2025.nodalida-1.23.pdf) | [poster](../doc/nodalida2025.1.poster.pdf) | [code/data](https://bitbucket.org/robvanderg/morsed) | [bib](https://aclanthology.org/2025.nodalida-1.23.pdf)\]
+    \[[paper](https://aclanthology.org/2025.nodalida-1.23.pdf) | [poster](../doc/nodalida2025.1.poster.pdf) | [code/data](https://bitbucket.org/robvanderg/morsed) | [bib](https://aclanthology.org/2025.nodalida-1.23.bib)\]
 *   Mike Zhang, Max Müller-Eberstein, Elisa Bassignana and Rob van der Goot _SnakModel: Lessons Learned from Training an Open Danish Large Language Model._ in NoDaLiDa.
     \[[paper](https://aclanthology.org/2025.nodalida-1.80.pdf) | [model](https://huggingface.co/NLPnorth/snakmodel-7b-base/) | [data](https://huggingface.co/datasets/NLPnorth/snakmodel-pretraining-data-v0.1) | [code](https://github.com/nlpnorth/snakmodel/) | [bib](https://aclanthology.org/2025.nodalida-1.80.bib)\]
 *   Anika Harju and Rob van der Goot. _How to age BERT Well: Continuous Training for Historical Language Adaptation._ in LoResLM.
