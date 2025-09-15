@@ -6,7 +6,8 @@ title: "Papers"
 
 2025
 ----
-*   Rob van der Goot, Esther Ploeger, Verena Blaschke, and Tanja Samardzic. _DistaLs: A Comprehensive Collection of Language Distance Measures._ In EMNLP Demo [[paper](https://bitbucket.org/robvanderg/distals/src/master/distals_paper.pdf) | [code](https://bitbucket.org/robvanderg/distals)]
+*   Rob van der Goot, Esther Ploeger, Verena Blaschke, and Tanja Samardzic. _DistaLs: A Comprehensive Collection of Language Distance Measures._ In EMNLP Demo.
+    \[[paper](https://bitbucket.org/robvanderg/distals/src/master/distals_paper.pdf) | [code](https://bitbucket.org/robvanderg/distals)\]
 *   Elena Senger, Yuri Campbell, Rob van der Goot, and Barbara Plank. _Toward more realistic career path prediction: evaluation and methods._ in Frontiers in Big Data.
     \[[paper](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1564521/pdf) | [code](https://github.com/elenasenger/realistic-career-path-prediction) | [bib](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1564521/bibtex)\]
 *   Olga Pelloni, Rob van der Goot, Peter Ranacher, Ivan Vulic and Tanja Samardzic. _Subword symmetry in natural languages._ in Royal Society Open Science.
