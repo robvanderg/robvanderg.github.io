@@ -6,8 +6,9 @@ title: "Papers"
 
 2025
 ----
-*   Arzu Burcu Güven Anna Rogers Rob van der Goot. _Do Syntactic Categories Help in Developmentally Motivated Curriculum Learning for Language Models?_ in BabyLM workshop.
-*   Elena Senger, Yuri Campbell, Rob van der Goot, Barbara Plank. _Crossing Domains without Labels: Distant Supervision for Term Extraction._ In EMNLP Industry.
+*  Weerayut Buaphet, Thanh-Nhi Nguyen, Risa Kondo, Tomoyuki Kajiwara, Yumin Kim, Jimin Lee, Hwanhee Lee, Holy Lovenia, Peerat Limkonchotiwat, Sarana Nutanong, and Rob Van der Goot. _MultiLexNorm++: A Unified Benchmark and a Generative Model for Lexical Normalization for Asian Languages_ In TALLIP.
+*   Arzu Burcu Güven, Anna Rogers, and Rob van der Goot. _Do Syntactic Categories Help in Developmentally Motivated Curriculum Learning for Language Models?_ in BabyLM workshop.
+*   Elena Senger, Yuri Campbell, Rob van der Goot, and Barbara Plank. _Crossing Domains without Labels: Distant Supervision for Term Extraction._ In EMNLP Industry.
 *   Rob van der Goot, Esther Ploeger, Verena Blaschke, and Tanja Samardzic. _DistaLs: A Comprehensive Collection of Language Distance Measures._ In EMNLP Demo.
     \[[paper](https://bitbucket.org/robvanderg/distals/src/master/distals_paper.pdf) | [code](https://bitbucket.org/robvanderg/distals)\]
 *   Elena Senger, Yuri Campbell, Rob van der Goot, and Barbara Plank. _Toward more realistic career path prediction: evaluation and methods._ in Frontiers in Big Data.
