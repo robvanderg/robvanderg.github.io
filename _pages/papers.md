@@ -8,11 +8,11 @@ title: "Papers"
 ----
 *  Weerayut Buaphet, Thanh-Nhi Nguyen, Risa Kondo, Tomoyuki Kajiwara, Yumin Kim, Jimin Lee, Hwanhee Lee, Holy Lovenia, Peerat Limkonchotiwat, Sarana Nutanong, and Rob Van der Goot. _MultiLexNorm++: A Unified Benchmark and a Generative Model for Lexical Normalization for Asian Languages_ In TALLIP.
 *   Arzu Burcu Güven, Anna Rogers, and Rob van der Goot. _Do Syntactic Categories Help in Developmentally Motivated Curriculum Learning for Language Models?_ in BabyLM workshop. 
-    \[[paper](https://aclanthology.org/2025.babylm-main.22.pdf) | [code](https://github.com/arzuburcuguven/syntactic-categorization) | [bib](https://aclanthology.org/2025.babylm-main.22.bib) \] 
+    \[[paper](https://aclanthology.org/2025.babylm-main.22.pdf) | [code](https://github.com/arzuburcuguven/syntactic-categorization) | [bib](https://aclanthology.org/2025.babylm-main.22.bib)\] 
 *   Elena Senger, Yuri Campbell, Rob van der Goot, and Barbara Plank. _Crossing Domains without Labels: Distant Supervision for Term Extraction._ In EMNLP Industry. 
-    \[[paper](https://aclanthology.org/2025.emnlp-industry.95.pdf) | [data](https://huggingface.co/datasets/ElenaSenger/SynTerm) | [model](https://huggingface.co/ElenaSenger/DiSTER-Llama-3-8B-Instruct) | [bib](https://aclanthology.org/2025.emnlp-industry.95.bib) \]
+    \[[paper](https://aclanthology.org/2025.emnlp-industry.95.pdf) | [data](https://huggingface.co/datasets/ElenaSenger/SynTerm) | [model](https://huggingface.co/ElenaSenger/DiSTER-Llama-3-8B-Instruct) | [bib](https://aclanthology.org/2025.emnlp-industry.95.bib)\]
 *   Rob van der Goot, Esther Ploeger, Verena Blaschke, and Tanja Samardzic. _DistaLs: A Comprehensive Collection of Language Distance Measures._ In EMNLP Demo.
-    \[[paper](https://aclanthology.org/2025.emnlp-demos.23.pdf) | [video](https://www.youtube.com/watch?v=SSk9xbssY2o) | [poster](../doc/emnlp2025.poster.pdf) | [demo](https://distals.streamlit.app/) | [code](https://bitbucket.org/robvanderg/distals) | [bib](https://aclanthology.org/2025.emnlp-demos.23.bib) \]
+    \[[paper](https://aclanthology.org/2025.emnlp-demos.23.pdf) | [video](https://www.youtube.com/watch?v=SSk9xbssY2o) | [poster](../doc/emnlp2025.poster.pdf) | [demo](https://distals.streamlit.app/) | [code](https://bitbucket.org/robvanderg/distals) | [bib](https://aclanthology.org/2025.emnlp-demos.23.bib)\]
 *   Elena Senger, Yuri Campbell, Rob van der Goot, and Barbara Plank. _Toward more realistic career path prediction: evaluation and methods._ in Frontiers in Big Data.
     \[[paper](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1564521/pdf) | [code](https://github.com/elenasenger/realistic-career-path-prediction) | [bib](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1564521/bibtex)\]
 *   Olga Pelloni, Rob van der Goot, Peter Ranacher, Ivan Vulic and Tanja Samardzic. _Subword symmetry in natural languages._ in Royal Society Open Science.
