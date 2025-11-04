@@ -19,7 +19,8 @@ title: "Papers"
     \[[paper](https://royalsocietypublishing.org/doi/epdf/10.1098/rsos.250295) | [code](https://github.com/MorphDiv/word_splits) | [bib](https://royalsocietypublishing.org/action/showCitFormats?doi=10.1098%2Frsos.250295&mobileUi=0)\]
 *   Mikkel Wildner Kildeberg, Emil Allerslev Schledermann, Nicolaj Larsen, and Rob van der Goot. _From Smør-re-brød to Subwords: Training LLMs on Danish, One Morpheme at a Time._ in Arxiv
     \[[paper](https://arxiv.org/pdf/2504.01540)]
-*   Mike Zhang and Rob van der Goot. _NLPnorth @ TalentCLEF 2025: Comparing Discriminative, Contrastive, and Prompt-Based Methods for Job Title and Skill Matching._ in CLEF \[[paper](https://arxiv.org/pdf/2506.19058) | [code](https://github.com/jjzha/talentclef-nlpnorth)\]
+*   Mike Zhang and Rob van der Goot. _NLPnorth @ TalentCLEF 2025: Comparing Discriminative, Contrastive, and Prompt-Based Methods for Job Title and Skill Matching._ in CLEF 
+    \[[paper](https://arxiv.org/pdf/2506.19058) | [code](https://github.com/jjzha/talentclef-nlpnorth)\]
 *   Max Müller-Eberstein, Rob van der Goot, and Anna Rogers. _DECAF: A Dynamically Extensible Corpus Analysis Framework._ in ACL
     \[[paper](https://aclanthology.org/2025.acl-demo.34.pdf) | [code](https://github.com/nlpnorth/decaf) | [bib](https://aclanthology.org/2025.acl-demo.34.bib)\]
 *   Rob van der Goot. _Identifying Open Challenges in Language Identification._ in ACL
