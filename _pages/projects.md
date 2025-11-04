@@ -6,32 +6,21 @@ title: "Projects"
 Thesis project topics.
 ----------------------
 
-Below I list some research ideas that I would like to supervise for a research project/thesis or collaborate on. These can also be seen as research directions that I'm interested in, so if you are interested in related projects feel free to contact me as well (robv@itu.dk).
+Below I list some research ideas that I would like to supervise for a research
+project/thesis or collaborate on. These can also be seen as research directions
+that I'm interested in, so if you are interested in related projects feel free
+to contact me as well (robv@itu.dk). Next semester (Spring 2026) I will be on 
+sabbatical, so I will have very limited supervision time. 
 
 For more information about how I normally supervise see: [Supervision statement](supervision.txt)
 
 
-### Word level language classification
-Language classification on sentence and paragraph level can be done with a high accuracy in many 
-setups. However, in many situations the label on the text level is a simplification, as languages
-can switch between (or even within) words, this is called code-switching. Most
-previous work on language identification for code-switched data is supervised,
-meaning that they assume training data annotated for language labels on the
-word level. The one exception I am aware of is the first paper in the list
-below, however, the scope is limited to Spanish-English. This project aims to 
-remove this assumption, so that the system does not know which languages it can
-expect in an utterance. 
-
-* [Much Gracias: Semi-supervised Code-switch Detection for
-Spanish-English: How far can we get?](https://aclanthology.org/2021.calcs-1.9.pdf)
-* [Data can be re-used from](https://arxiv.org/pdf/2507.18791)
-
-### Syllable level input to language models
-Since we have moved to subwords as inputs to NLP models, it is less clear how to
-obtain these subword units. Most models use statistically likely character sequences.
-However, these units are very irregular across languages. Therefore, it would be interesting
-to investigate the use of syllable level inputs to train language models in a variety of 
-languages.
+### Syllable/phoneme level input to language models
+Subwords are the most common input unit for language models. However, there is
+no concensus on what they should encapsulate. Making subwords align to
+syllables or phonemes could have beneficial effects for cross-lingual
+evaluations and coverage. Previous work has already shown that converting
+languages to the same script leads to better performance:
 
 * [When Being Unseen from mBERT is just the Beginning:
 Handling New Languages With Multilingual Language Models](https://aclanthology.org/2021.naacl-main.38.pdf)
@@ -67,86 +56,10 @@ setup (hyperparameters) for the (small) language model training as:
 * [DECAF](https://aclanthology.org/2025.acl-demo.34.pdf)
 * [MorSed](https://aclanthology.org/2025.nodalida-1.23.pdf)
 
-### Shared tasks
-Shared tasks in NLP are organized competitions where you are provided with a dataset and compete with other teams. The test data is kep secret, and will be released at the same time for all participants, where you typically have approximately 1 week to upload your predictions. As a part of the shared task, you can also submit a paper. The dates of SemEval 2026 align well with the fall semester, and the tasks they organize usually provide a nice scope for a thesis project:
-
-* SemEval 2026: [https://semeval.github.io/SemEval2026/tasks](https://semeval.github.io/SemEval2026/tasks)
-
-### Using agents for cultural-aware language adaptations of cartoons
-Cartoons and animated videos often contain dialogues which are in relatively
-simple language, but are heavily dependent on context, cultural, and they are
-often colloqial. They are also often released in multiple countries and
-languages.  This project aims to automate this process. This is likely not
-possible in an end-to-end fashion, so I would propose to use agents for each
-step. One main challenge is the evaluation, where human judgements are probably
-necessary. 
-
-### seq2seq versus sequence classification models
-
-Recently, sequence-to-sequence (seq2seq) have become more and more powerful. There are two main approaches to use generative models for classification task; one is to prompt them, and the other is to convert the generative language model to a discriminative model. However, the comparisons are not convincing to me. Therefore, it is time for a fairer comparison to see whether generative language model can truly replace discriminative language models.
-
-
-*  [Unleashing the True Potential of Sequence-to-Sequence Models for Sequence Tagging and Structure Parsing](https://aclanthology.org/2023.tacl-1.34.pdf)
-*  [LLM2Vec: Large Language Models Are Secretly Powerful Text Encoders](https://arxiv.org/pdf/2404.05961)
-
-
-### Early stopping strategies
-
-When training a neural model (in NLP), it is common to use a development split
-to decide when to stop training. However, this has some downsides (see: [We
-Need to Talk About train-dev-test
-Splits](https://aclanthology.org/2021.emnlp-main.368.pdf) ). There have been
-some alternative strategies proposed for model selection/early stopping. One
-strategy is to train for a specific pre-defined number of steps, another one is
-to look at train loss. However, to the best of my knowledge, no comparison of
-these approaches has been done.
-
-*  [Active Learning Helps Pretrained Models Learn the Intended Task](https://openreview.net/pdf?id=0Ww7UVEoNue)
-*  [Model Selection for Cross-Lingual Transfer](https://aclanthology.org/2021.emnlp-main.459.pdf)
-
 ### Translation, generation, or manual labour for instruction tuning
 
 Instruction tuning refers to the phase of language model training where the model learns how to respond to tasks. Many instruction tuning datasets have been created for English recently. However, for other languages there is usually (almost) no manually created data. In this case, people usually use translated instructions from English data, or instructions generated by larger, more accurate language models. However, a systematic comparison is lacking. This project will investigate the amounts of data and costs of creating data with the different approaches.
 
-
-### Active learning for POS tagging
-
-POS tagging is the task of classifying words into their syntactic category:
-
-| I    | see  | the | light |
-| PRON | VERB | DET | NOUN  |
-
-Current POS tagger are usually supervised, which means they rely on human-annotated training data. This data commonly exists of thousands of sentences. To make this process less costly, one can select a more informative sample of words to rely on, and instead only annotate this subsample. Previous work (see below) has shown that competetive performance can be obtained with as little as 400 words on English news data. However, it is unclear how this transfers to other languages/domains. In this project, the first step is to evaluate the existing method on a larger sample (i.e. the [Universal Dependencies dataset](https://universaldependencies.org/)), followed by possible improvements to the model.
-
-Related reading:
-
-*   [Simple Semi-Supervised POS Tagging](https://www.aclweb.org/anthology/W15-1511.pdf)
-
-
-### Cross-domain language identification
-
-Most language identification models are trained and evaluated on a single domain. A cross-domain dataset can however relatively easily be compiled, and allows for testing existing language identification models for robustness. Some existing resources for a variety of domains are listed below:
-
-*   [Accurate Language Identification of Twitter Messages](https://aclanthology.org/W14-1303.pdf)
-*   [MassiveSumm: a very large-scale, very multilingual, news summarisation dataset](https://aclanthology.org/2021.emnlp-main.797.pdf)
-*   [LTI LangID Corpus](http://www.cs.cmu.edu/~ralf/langid.html)
-*   [Fandom Wiki's](https://robvanderg.github.io/datasets/wikia/)
-
-
-### Strategies for Morphological Tagging
-
-Morphological tagging is the task of assigning labels to a sequence of tokens that describe them morphologically. This means that one word can have 0-n labels. There has been a variety of architectures proposed to solve this task, however it is unclear which method works best in which situation.
-
-In this project you can make use of the [Universal Dependencies](https://universaldependencies.org/) data, which has annotation for morphological tags for many languages. You can use the [MaChAmp](https://machamp-nlp.github.io/) toolkit, or implement a BiLSTM tagger yourself, and evaluate at least the three most common strategies:
-
-*   Predict the concatenation of the tags as one label (same as POS tagging, but with more labels)
-*   Predict morphological tags as a sequence (like machine translation)
-*   View the task as a multilabel prediction problem (Get a probability for each label, and set a cutoff threshold)
-
-Related reading:
-
-*   [The SIGMORPHON 2019 Shared Task: Morphological Analysis in Context and Cross-Lingual Transfer for Inflection](https://aclanthology.org/W19-4226/)
-*   [Multi-Team: A Multi-attention, Multi-decoder Approach to Morphological Analysis.](https://aclanthology.org/W19-4206)
 
 ### Simplify then solve
 There exist many variants of constructed languages, which are designed with specific purposes
@@ -156,4 +69,26 @@ If we are able to build a good machine translation model to these language varie
 then evaluate the performance of NLP models after translation. This project is probably mainly
 focused on (automatic) data creation/curation.
 
+
+### Predict best LM for task
+Huggingface provides a unified platform that stores language models along with
+some meta-data about them. In this project, you will aim to use as much of this
+meta-data as necessary to automatically predict performance on benchmarks. If
+accurate, the resulting tool will be very useful in the selection of language
+models in practice. You could use public benchmarks (e.g. MTEB, bigbench, HELM,
+MMLU, etc.) to obtain performances.
+
+### Predict best LM for task based on tokenizer
+The tokenizer of an LM can reveal quite a bit about how it is trained, so it 
+is to be expected that certain properties of the tokenizer are good predictors
+of performance. This project focuses on finding these properties.
+
+### Cross lingual morphological segmenter
+It has been shown that morphological segments are probably good input units 
+for language models. However, high quality segmenters are only available for
+a handful of languages. Most languages lack annotated data for this task, 
+hence, a cross-lingual approach will enable more diverse experimentation with
+morphs as inputs in language models. 
+
+* [The SIGMORPHON 2022 Shared Task on Morpheme Segmentation](https://aclanthology.org/2022.sigmorphon-1.11)
 

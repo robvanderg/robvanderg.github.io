@@ -47,6 +47,7 @@ title: "Papers"
 2024
 ----
 *   Rob van der Goot. _Finding the Right Language Model Goes a Long Way Towards Accurate Language Identification._ in FIRE.
+    \[[paper](https://ceur-ws.org/Vol-4054/T3-3.pdf) | [slides](../doc/fire2024.slides.pdf)\]
 *   Miriam Winkler, Virginija Juozapaityte, Rob van der Goot and Barbara Plank. _Slot and Intent Detection Resources for Bavarian and Lithuanian: Assessing Translations vs Natural Queries to Digital Assistants._ in LREC-COLING. 
     \[[paper](https://aclanthology.org/2024.lrec-main.1297.pdf) | [poster](../doc/lrec2024.3.poster.pdf) | [bib](https://aclanthology.org/2024.lrec-main.1297.bib)\]
 *   Elisa Bassignana, Viggo Unmack Gascou, Frida Nøhr Laustsen, Gustav Kristensen, Marie Haahr Petersen, Rob van der Goot and Barbara Plank. _How to Encode Domain Information in Relation Classification._ in LREC-COLING. 
