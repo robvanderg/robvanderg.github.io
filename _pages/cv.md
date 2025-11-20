@@ -68,99 +68,13 @@ Talks
 <!--- * Kroegcollege ASCI -->
 <!--- CLIN and CMC are missing: https://bitbucket.org/robvanderg/documents/src/master/website/index.htm  -->
 
-Reviewer
---------
-2025:
-* VarDial
-* NoDaLiDa
-* COLING 
-
-2024:
-* COLING
-* NEJLT
-* NoDaLiDa
-* VARDIAL
-* EACL SRW
-* LREC
-* EACL (Area Chair)
-* ARR
-
-2023:
-* ARR
-* AACL
-* ACL SRW
-* EACL (Area Chair)
-* EACL SRW
-* LREC/COLING
-* SemEval
-* ACL
-* NoDaLiDa
-* EMNLP (Area Chair)
-* VarDial
-
-2022:
-*   AACL
-*   EMNLP
-*   CONLL (Area Chair)
-*   ARR 
-
-2021:
-*   WNUT
-*   CONLL (Area Chair)
-*   EMNLP
-*   WNUT
-*   ARR
-*   ACL
-*   NoDaLiDa
-*   NAACL
-*   EACL
-
-2020
-*   PEOPLES
-*   COLING
-*   WNUT
-*   EMNLP
-*   AACL-IJCNLP
-*   ACL
-*   LREC
-*   Clin Journal
-
-2019
-*   NoDaLiDa
-*   EMNLP
-*   SemEval
-*   ACL
-*   NAACL
-
-2018
-*   EMNLP
-*   WNUT
-
-2015
-*   SemEval 2015
-
-Teaching
---------
-
-*   Advanced NLP (2023)
-*   2nd year project in NLP and deep learning (2023)
-*   Guest lecture RUG: How to win a shared task (2022)
-*   Advanced NLP (2022)
-*   2nd year project in NLP and deep learning (2022)
-*   2nd year project in NLP and deep learning (2021) (together with Barbara Plank)
-*   Supervising research project of three students (2020)
-*   Supervised one bachelor thesis (2020)
-*   2nd year project (2020) (together with Barbara Plank)
-*   Computationele Grammatica (2018-2019)
-*   Shared Task course (2018-2019)
-*   First supervisor for 5 Bachelor theses (2018-2019)
-*   First supervisor for 3 Master thesss (2018-2019)
-*   Organizing the Reading Group of Informatiekunde. Includes a Ma course, which helps students prepare for their master thesis. (2015-2018)
-*   Computationele Grammatica (2015-2016)
-*   Natuurlijke taalverwerking 1 (2014-2015) (together with Malvina Nissim)
 
 Organizer
 ---------
+*   [WNUT2025](https://noisy-text.github.io/2025/)
+*   [WNUT2024](https://noisy-text.github.io/2024/)
+*   [NorSID shared task](https://sites.google.com/view/vardial-2025/shared-tasks)
+*   [MultiLexNorm shared task](https://noisy-text.github.io/2021/multi-lexnorm.html)
 *   [SID4LR](https://sites.google.com/view/vardial-2023/shared-tasks)
 *   [MultiLexNorm](http://noisy-text.github.io/2021/multi-lexnorm.html)
 *   [ROBustness in Parsing](../robustness/)
@@ -168,9 +82,4 @@ Organizer
 *   [30 years Alfa-Informatica](http://www.let.rug.nl/30years/)
 *   [TabuDag 2015](https://www.tabudag.nl/archive/2015/index.php)
 
-Grants
-------
-
-*   Extension of PhD project for 8 months, at the [Nuance foundation](https://www.nuance.com/about-us/who-we-are.html)
-*   Grant for hosting a visitor (Ahmet Ustun)
 
