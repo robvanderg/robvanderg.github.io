@@ -2,6 +2,13 @@
 permalink: /papers/
 title: "Papers"
 ---
+2026
+----
+*   Rob van der Goot. _From Bytes to Subwords: Challenges of Input Representations in NLP._ In ACL-findings.
+*   Pedro Ortiz Suarez, Laurie Burchell1, Catherine Arnett, and more. _CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data._ In ACL.
+*   Thea K. R. Kristensen, Rob van der Goot. _TækTåk: Syntactic Analysis of Language Use on Danish TikTok._ In LREC.
+*   Kenneth Enevoldsen, Kristian Nørgaard Jensen, Jan Kostkan, Balázs Szabó, Márton Kardos, Kirsten Vad, Johan Heinsen, Andrea Blasi Núñez, Gianluca Barmina, Jacob Nielsen, Rasmus Larsen, Rob van der Goot, Peter Vahlstrup, Per Møldrup Dalum, Desmond Elliott, Lukas Galke Poech, Peter Schneider-Kamp and Kristoffer Nielbo. _Dynaword: From One-shot to Continuously Developed Datasets_. In LREC.
+
 
 
 2025
