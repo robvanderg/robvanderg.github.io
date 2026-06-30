@@ -13,61 +13,6 @@ to contact me as well (robv@itu.dk).
 
 For more information about how I normally supervise see: [Supervision statement](supervision.txt)
 
-
-### Cross-domain language classification
-Language classification is the task of given an input text, predicting which
-language it is written in. There has been a wide variety of benchmarks, models,
-and evaluation strategies (see the survey below). In many cases previous work
-reported near-perfect performance. However, recent work has shown that
-cross-domain language classification is still far from being solved. At the
-same time, language classification systems are almost only used in cross-domain
-settings. Hence, this project will look at cross-domain performance: how can we
-build more robust language classifiers. Recently, a web-crawl based humanly
-annotated dataset was released (CommonLID), which makes a perfect test dataset
-for this (as it is a popular target domain for language classifiers). 
-
-* [Automatic Language Identification in Texts: A Survey](https://www.jair.org/index.php/jair/article/view/11675)
-* [Identifying Open Challenges in Language Identification](https://aclanthology.org/2025.acl-long.891/)
-* [CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data](https://aclanthology.org/2026.acl-long.1527/)
-
-### Language classification per script
-Language classification models are often trained to distuingish hundreds to
-thousands of languages. However, they are not written in the same script, and
-it is inefficient to consider sub-spaces of the feature-space (as there is no
-overlap in features across scripts), both in accuracy and efficiency. This 
-project builds on existing benchmark and models, but separates them according
-to the script that was used, which leads to more efficient and accurate models, 
-and also can more clearly identify open issues (e.g. script X is mostly solved,
-but for script Y there is still a lot of work to do).
-
-* [Using a script to identify the script of a text](https://robvanderg.github.io/scripts/scripts/)
-* [Automatic Language Identification in Texts: A Survey](https://www.jair.org/index.php/jair/article/view/11675)
-
-
-### Multi-Language classification
-Languages can alternate within a text, or even a sentence or a word. At the same 
-time, a sentence can be acceptable in multiple (close) languages. These problems
-are not taken into account in common language classification system, but having
-these capabilities is crucial for data analysis, filtering, and processing. There
-has been little work in this direction, especially with a large open label set.
-
-* [MaskLID: Code-Switching Language Identification through Iterative Masking](https://aclanthology.org/2024.acl-short.43.pdf)
-* [Much Gracias: Semi-supervised Code-switch Detection for Spanish-English: How far can we get?](https://aclanthology.org/2021.calcs-1.9.pdf)
-* [Multi-label Scandinavian Language Identification (SLIDE)](https://aclanthology.org/2025.resourceful-1.33/)
-* [VarDial Evaluation Campaign 2024: Commonsense Reasoning in Dialects and Multi-Label Similar Language Identification](https://aclanthology.org/2024.vardial-1.1/)
-
-### Syllable/phoneme level input to language models
-
-Subwords are the most common input unit for language models. However, there is
-no concensus on what they should encapsulate. Making subwords align to
-syllables or phonemes could have beneficial effects for cross-lingual
-evaluations and coverage. Previous work has already shown that converting
-languages to the same script leads to better performance:
-
-* [When Being Unseen from mBERT is just the Beginning:
-Handling New Languages With Multilingual Language Models](https://aclanthology.org/2021.naacl-main.38.pdf)
-
-
 ### How do language models learn morphologically rich
 languages?[Permalink](https://robvanderg.github.io/projects/#how-do-language-models-learn-morphologically-rich-languages
 "Permalink")
@@ -100,6 +45,62 @@ hence, a cross-lingual approach will enable more diverse experimentation with
 morphs as inputs in language models. 
 
 * [The SIGMORPHON 2022 Shared Task on Morpheme Segmentation](https://aclanthology.org/2022.sigmorphon-1.11)
+
+### Cross-domain language classification
+Language classification is the task of given an input text, predicting which
+language it is written in. There has been a wide variety of benchmarks, models,
+and evaluation strategies (see the survey below). In many cases previous work
+reported near-perfect performance. However, recent work has shown that
+cross-domain language classification is still far from being solved. At the
+same time, language classification systems are almost only used in cross-domain
+settings. Hence, this project will look at cross-domain performance: how can we
+build more robust language classifiers. Recently, a web-crawl based humanly
+annotated dataset was released (CommonLID), which makes a perfect test dataset
+for this (as it is a popular target domain for language classifiers). 
+
+* [Automatic Language Identification in Texts: A Survey](https://www.jair.org/index.php/jair/article/view/11675)
+* [Identifying Open Challenges in Language Identification](https://aclanthology.org/2025.acl-long.891/)
+* [CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data](https://aclanthology.org/2026.acl-long.1527/)
+
+### Language classification per script
+Language classification models are often trained to distuingish hundreds to
+thousands of languages. However, they are not written in the same script, and
+it is inefficient to consider sub-spaces of the feature-space (as there is no
+overlap in features across scripts), both in accuracy and efficiency. This 
+project builds on existing benchmark and models, but separates them according
+to the script that was used, which leads to more efficient and accurate models, 
+and also can more clearly identify open issues (e.g. script X is mostly solved,
+but for script Y there is still a lot of work to do).
+
+* [Using a script to identify the script of a text](https://robvanderg.github.io/scripts/scripts/)
+* [Automatic Language Identification in Texts: A Survey](https://www.jair.org/index.php/jair/article/view/11675)
+
+
+### Multi-Language classification
+
+Languages can alternate within a text, or even a sentence or a word. At the same 
+time, a sentence can be acceptable in multiple (close) languages. These problems
+are not taken into account in common language classification system, but having
+these capabilities is crucial for data analysis, filtering, and processing. There
+has been little work in this direction, especially with a large open label set.
+
+* [MaskLID: Code-Switching Language Identification through Iterative Masking](https://aclanthology.org/2024.acl-short.43.pdf)
+* [Much Gracias: Semi-supervised Code-switch Detection for Spanish-English: How far can we get?](https://aclanthology.org/2021.calcs-1.9.pdf)
+* [Multi-label Scandinavian Language Identification (SLIDE)](https://aclanthology.org/2025.resourceful-1.33/)
+* [VarDial Evaluation Campaign 2024: Commonsense Reasoning in Dialects and Multi-Label Similar Language Identification](https://aclanthology.org/2024.vardial-1.1/)
+
+### Syllable/phoneme level input to language models
+
+Subwords are the most common input unit for language models. However, there is
+no concensus on what they should encapsulate. Making subwords align to
+syllables or phonemes could have beneficial effects for cross-lingual
+evaluations and coverage. Previous work has already shown that converting
+languages to the same script leads to better performance:
+
+* [When Being Unseen from mBERT is just the Beginning:
+Handling New Languages With Multilingual Language Models](https://aclanthology.org/2021.naacl-main.38.pdf)
+
+
 
 
 
