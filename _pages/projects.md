@@ -13,8 +13,7 @@ to contact me as well (robv@itu.dk).
 
 For more information about how I normally supervise see: [Supervision statement](supervision.txt)
 
-### How do language models learn morphologically rich
-languages?[Permalink](https://robvanderg.github.io/projects/#how-do-language-models-learn-morphologically-rich-languages
+### How do language models learn morphologically rich languages?[Permalink](https://robvanderg.github.io/projects/#how-do-language-models-learn-morphologically-rich-languages
 "Permalink")
 
 Learning dynamics of language models on linguistic, especially syntactic,
