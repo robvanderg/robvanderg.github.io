@@ -9,8 +9,7 @@ Thesis project topics.
 Below I list some research ideas that I would like to supervise for a research
 project/thesis or collaborate on. These can also be seen as research directions
 that I'm interested in, so if you are interested in related projects feel free
-to contact me as well (robv@itu.dk). Next semester (Spring 2026) I will be on 
-sabbatical, so I will have very limited supervision time. 
+to contact me as well (robv@itu.dk). 
 
 For more information about how I normally supervise see: [Supervision statement](supervision.txt)
 
