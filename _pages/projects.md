@@ -126,5 +126,11 @@ varieties, we can then evaluate the performance of NLP models after
 translation. This project is probably mainly focused on (automatic) data
 creation/curation.
 
+### Automatic language processing of language varieties
 
+More specifically, I would be interested in the automatic processing of
+colloqial language, or gen x/y/z slang. But also other types of languages could
+be interesting. For this project, you can select a language variety, and an
+NLP task (e.g. POS tagging, term explanation, generation), then we create a small
+test dataset, and try some approaches to solve the task on that dataset.
 
