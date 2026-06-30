@@ -13,13 +13,12 @@ to contact me as well (robv@itu.dk).
 
 For more information about how I normally supervise see: [Supervision statement](supervision.txt)
 
-### How do language models learn morphologically rich languages?[Permalink](https://robvanderg.github.io/projects/#how-do-language-models-learn-morphologically-rich-languages
-"Permalink")
+### How do language models learn morphologically rich languages?
 
 Learning dynamics of language models on linguistic, especially syntactic,
 patterns are well documented in English. ( [Language acquisition: do children
 and language models follow similar learning
-stages?](https://aclanthology.org/2023.findings-acl.773.pdf), [Subspace
+stages?](https://aclanthology.org/2023.findings-acl.773), [Subspace
 Chronicles: How Linguistic Information Emerges, Shifts and Interacts during
 Language Model Training](https://aclanthology.org/2023.findings-emnlp.879/))
 English, however, represents only one  way of encoding information, other
