@@ -5,9 +5,9 @@ title: "Papers"
 
 2026
 ----
-*   Rob van der Goot. _From Bytes to Subwords: Challenges of Input Representations in NLP._ In ACL-findings. \[[paper](https://aclanthology.org/2026.findings-acl.530.pdf) | [code](https://bitbucket.org/robvanderg/inputencodings/) | [bib](https://aclanthology.org/2026.findings-acl.530.bib)\]
-*   Pedro Ortiz Suarez, Laurie Burchell, Catherine Arnett, and more. _CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data._ In ACL. \[[paper](https://aclanthology.org/2026.acl-long.1527.pdf) | [src](https://github.com/commoncrawl/commonlid-eval) | [data](https://huggingface.co/datasets/commoncrawl/CommonLID) | [bib](https://aclanthology.org/2026.acl-long.1527.bib)\]
-*   Michal Rynowiecki, and Rob van der Goot. _Team BOBW (Best Of Both Worlds) at SemEval-2026 Task 3: Modular Cross-Attention Encoders for Dimensional Aspect-Based Sentiment Analysis_  In SemEval. \[[paper](https://aclanthology.org/2026.semeval-1.179.pdf) | [code]() | [bib](https://aclanthology.org/2026.semeval-1.179.bib)\]
+*   Rob van der Goot. _From Bytes to Subwords: Challenges of Input Representations in NLP._ In ACL-findings. \[[paper](https://aclanthology.org/2026.findings-acl.530.pdf) \| [code](https://bitbucket.org/robvanderg/inputencodings/) \| [bib](https://aclanthology.org/2026.findings-acl.530.bib)\]
+*   Pedro Ortiz Suarez, Laurie Burchell, Catherine Arnett, and more. _CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data._ In ACL. \[[paper](https://aclanthology.org/2026.acl-long.1527.pdf) \| [src](https://github.com/commoncrawl/commonlid-eval) \| [data](https://huggingface.co/datasets/commoncrawl/CommonLID) \| [bib](https://aclanthology.org/2026.acl-long.1527.bib)\]
+*   Michal Rynowiecki, and Rob van der Goot. _Team BOBW (Best Of Both Worlds) at SemEval-2026 Task 3: Modular Cross-Attention Encoders for Dimensional Aspect-Based Sentiment Analysis_  In SemEval. \[[paper](https://aclanthology.org/2026.semeval-1.179.pdf) \| [code]() \| [bib](https://aclanthology.org/2026.semeval-1.179.bib)\]
 *   Thea K. R. Kristensen and Rob van der Goot. _TækTåk: Syntactic Analysis of Language Use on Danish TikTok._ In LREC.
 *   Kenneth Enevoldsen, Kristian Nørgaard Jensen, Jan Kostkan, Balázs Szabó, Márton Kardos, Kirsten Vad, Johan Heinsen, Andrea Blasi Núñez, Gianluca Barmina, Jacob Nielsen, Rasmus Larsen, Rob van der Goot, Peter Vahlstrup, Per Møldrup Dalum, Desmond Elliott, Lukas Galke Poech, Peter Schneider-Kamp and Kristoffer Nielbo. _Dynaword: From One-shot to Continuously Developed Datasets_. In LREC.
 
@@ -15,7 +15,7 @@ title: "Papers"
 
 2025
 ----
-*   Weerayut Buaphet, Thanh-Nhi Nguyen, Risa Kondo, Tomoyuki Kajiwara, Yumin Kim, Jimin Lee, Hwanhee Lee, Holy Lovenia, Peerat Limkonchotiwat, Sarana Nutanong, and Rob Van der Goot. _MultiLexNorm++: A Unified Benchmark and a Generative Model for Lexical Normalization for Asian Languages_ In TALLIP \[[paper](https://dl.acm.org/doi/10.1145/3812651) | [code/data](https://github.com/WeerayutBu/MultiLexNormPP)\].
+*   Weerayut Buaphet, Thanh-Nhi Nguyen, Risa Kondo, Tomoyuki Kajiwara, Yumin Kim, Jimin Lee, Hwanhee Lee, Holy Lovenia, Peerat Limkonchotiwat, Sarana Nutanong, and Rob Van der Goot. _MultiLexNorm++: A Unified Benchmark and a Generative Model for Lexical Normalization for Asian Languages_ In TALLIP \[[paper](https://dl.acm.org/doi/10.1145/3812651) \| [code/data](https://github.com/WeerayutBu/MultiLexNormPP)\].
 *   Arzu Burcu Güven, Anna Rogers, and Rob van der Goot. _Do Syntactic Categories Help in Developmentally Motivated Curriculum Learning for Language Models?_ in BabyLM workshop. 
     \[[paper](https://aclanthology.org/2025.babylm-main.22.pdf) | [code](https://github.com/arzuburcuguven/syntactic-categorization) | [bib](https://aclanthology.org/2025.babylm-main.22.bib)\] 
 *   Elena Senger, Yuri Campbell, Rob van der Goot, and Barbara Plank. _Crossing Domains without Labels: Distant Supervision for Term Extraction._ In EMNLP Industry. 
