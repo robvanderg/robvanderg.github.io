@@ -2,6 +2,7 @@
 permalink: /papers/
 title: "Papers"
 ---
+
 2026
 ----
 *   Rob van der Goot. _From Bytes to Subwords: Challenges of Input Representations in NLP._ In ACL-findings. \[[paper](https://aclanthology.org/2026.findings-acl.530.pdf) | [code](https://bitbucket.org/robvanderg/inputencodings/) | [bib](https://aclanthology.org/2026.findings-acl.530.bib)\]
@@ -14,7 +15,7 @@ title: "Papers"
 
 2025
 ----
-*  Weerayut Buaphet, Thanh-Nhi Nguyen, Risa Kondo, Tomoyuki Kajiwara, Yumin Kim, Jimin Lee, Hwanhee Lee, Holy Lovenia, Peerat Limkonchotiwat, Sarana Nutanong, and Rob Van der Goot. _MultiLexNorm++: A Unified Benchmark and a Generative Model for Lexical Normalization for Asian Languages_ In TALLIP \[[paper](https://dl.acm.org/doi/10.1145/3812651) | [code/data](https://github.com/WeerayutBu/MultiLexNormPP)\].
+*   Weerayut Buaphet, Thanh-Nhi Nguyen, Risa Kondo, Tomoyuki Kajiwara, Yumin Kim, Jimin Lee, Hwanhee Lee, Holy Lovenia, Peerat Limkonchotiwat, Sarana Nutanong, and Rob Van der Goot. _MultiLexNorm++: A Unified Benchmark and a Generative Model for Lexical Normalization for Asian Languages_ In TALLIP \[[paper](https://dl.acm.org/doi/10.1145/3812651) | [code/data](https://github.com/WeerayutBu/MultiLexNormPP)\].
 *   Arzu Burcu Güven, Anna Rogers, and Rob van der Goot. _Do Syntactic Categories Help in Developmentally Motivated Curriculum Learning for Language Models?_ in BabyLM workshop. 
     \[[paper](https://aclanthology.org/2025.babylm-main.22.pdf) | [code](https://github.com/arzuburcuguven/syntactic-categorization) | [bib](https://aclanthology.org/2025.babylm-main.22.bib)\] 
 *   Elena Senger, Yuri Campbell, Rob van der Goot, and Barbara Plank. _Crossing Domains without Labels: Distant Supervision for Term Extraction._ In EMNLP Industry. 
