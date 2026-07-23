@@ -42,10 +42,11 @@ Prizes
 
 Talks
 -------------
-* University of Gothenburg (2024).
-* Hunan Normal University (2024).
-* AAU (2024).
-* AAU (2024).
+* DM (2026). \[[slides](../doc/DM2026.pdf)\]
+* University of Copenhagen (2026. \[[slides](../doc/KU2026.pdf)\]
+* University of Gothenburg (2024). \[[slides](../doc/gothenburg2024.pdf)\]
+* Hunan Normal University (2024). \[[slides](../doc/changsha2024.pdf)\]
+* AAU (2024). \[[slides](../doc/AAU2024.pdf)\]
 * LMU (2024). \[[slides](../doc/lmu2023.pdf)\]
 * DEIC (2023). \[[slides](../doc/deic2023.pdf) \| [video](https://deic.dk/en/news/2023-12-6/video-use-case-hpc-powered-tool-turbocharges-nlp-learning) \]
 * Multi\* workshop (2023). \[[slides](../doc/multistar2023.pdf)\]

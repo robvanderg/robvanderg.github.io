@@ -9,7 +9,7 @@ title: "Papers"
 *   Pedro Ortiz Suarez, Laurie Burchell, Catherine Arnett, and more. _CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data._ In ACL. \[[paper](https://aclanthology.org/2026.acl-long.1527.pdf) \| [src](https://github.com/commoncrawl/commonlid-eval) \| [data](https://huggingface.co/datasets/commoncrawl/CommonLID) \| [bib](https://aclanthology.org/2026.acl-long.1527.bib)\]
 *   Michal Rynowiecki, and Rob van der Goot. _Team BOBW (Best Of Both Worlds) at SemEval-2026 Task 3: Modular Cross-Attention Encoders for Dimensional Aspect-Based Sentiment Analysis_  In SemEval. \[[paper](https://aclanthology.org/2026.semeval-1.179.pdf) \| [code]() \| [bib](https://aclanthology.org/2026.semeval-1.179.bib)\]
 *   Thea K. R. Kristensen and Rob van der Goot. _TækTåk: Syntactic Analysis of Language Use on Danish TikTok._ In LREC.
-*   Kenneth Enevoldsen, Kristian Nørgaard Jensen, Jan Kostkan, Balázs Szabó, Márton Kardos, Kirsten Vad, Johan Heinsen, Andrea Blasi Núñez, Gianluca Barmina, Jacob Nielsen, Rasmus Larsen, Rob van der Goot, Peter Vahlstrup, Per Møldrup Dalum, Desmond Elliott, Lukas Galke Poech, Peter Schneider-Kamp and Kristoffer Nielbo. _Dynaword: From One-shot to Continuously Developed Datasets_. In LREC.
+*   Kenneth Enevoldsen, Kristian Nørgaard Jensen, Jan Kostkan, Balázs Szabó, Márton Kardos, Kirsten Vad, Johan Heinsen, Andrea Blasi Núñez, Gianluca Barmina, Jacob Nielsen, Rasmus Larsen, Rob van der Goot, Peter Vahlstrup, Per Møldrup Dalum, Desmond Elliott, Lukas Galke Poech, Peter Schneider-Kamp and Kristoffer Nielbo. _Dynaword: From One-shot to Continuously Developed Datasets_. In LREC. \[[data](https://huggingface.co/datasets/danish-foundation-models/danish-dynaword)\]
 
 
 
