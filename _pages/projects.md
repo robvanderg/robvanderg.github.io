@@ -87,6 +87,17 @@ has been little work in this direction, especially with a large open label set.
 * [Multi-label Scandinavian Language Identification (SLIDE)](https://aclanthology.org/2025.resourceful-1.33/)
 * [VarDial Evaluation Campaign 2024: Commonsense Reasoning in Dialects and Multi-Label Similar Language Identification](https://aclanthology.org/2024.vardial-1.1/)
 
+
+### Single language classification
+In many situations, we are just looking to find data in a single language, e.g.
+when we want to train an LLM. However, current language classification models
+are trained as multiclass classifiers, commonly covering 10-2,000 languages.
+This project proposes to rethink language classification as a binary problem, a
+sentence is either in a language or not. Analysis will be done on multiple
+languages and domains, comparing whether higher performance can be obtained
+against multi-class classifiers. Confidence scores should be reliable, so that
+the precision/recall tradeoff can be tuned.
+
 ### Syllable/phoneme level input to language models
 
 Subwords are the most common input unit for language models. However, there is
