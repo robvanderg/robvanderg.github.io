@@ -7,4 +7,6 @@ main:
     url: /blog/
   - title: "Projects"
     url: /projects/
+  - title: "Proposals"
+    url: /proposals/
 
