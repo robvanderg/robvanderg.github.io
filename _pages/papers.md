@@ -5,6 +5,8 @@ title: "Papers"
 
 2026
 ----
+* Niclas Claßen, Théo Sourget, Dovile Juodelyte, Rob van der Goot, and Veronika Cheplygina. _Robustness of transferability estimation metrics for medical imaging._ In BISCUIT. \[[paper](https://arxiv.org/abs/2608.09999)\]
+* Théo Sourget, Niclas Claßen, Jack Junchi Xu, Rob van der Goot, and Veronika Cheplygina. _Dataset Diversity Metrics and Impact on Classification Models._ In BISCUIT.
 *   Rob van der Goot. _From Bytes to Subwords: Challenges of Input Representations in NLP._ In ACL-findings. \[[paper](https://aclanthology.org/2026.findings-acl.530.pdf) \| [code](https://bitbucket.org/robvanderg/inputencodings/) \| [bib](https://aclanthology.org/2026.findings-acl.530.bib)\]
 *   Pedro Ortiz Suarez, Laurie Burchell, Catherine Arnett, and more. _CommonLID: Re-evaluating State-of-the-Art Language Identification Performance on Web Data._ In ACL. \[[paper](https://aclanthology.org/2026.acl-long.1527.pdf) \| [src](https://github.com/commoncrawl/commonlid-eval) \| [data](https://huggingface.co/datasets/commoncrawl/CommonLID) \| [bib](https://aclanthology.org/2026.acl-long.1527.bib)\]
 *   Michal Rynowiecki, and Rob van der Goot. _Team BOBW (Best Of Both Worlds) at SemEval-2026 Task 3: Modular Cross-Attention Encoders for Dimensional Aspect-Based Sentiment Analysis_  In SemEval. \[[paper](https://aclanthology.org/2026.semeval-1.179.pdf) \| [code]() \| [bib](https://aclanthology.org/2026.semeval-1.179.bib)\]
