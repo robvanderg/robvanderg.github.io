@@ -145,3 +145,12 @@ be interesting. For this project, you can select a language variety, and an
 NLP task (e.g. POS tagging, term explanation, generation), then we create a small
 test dataset, and try some approaches to solve the task on that dataset.
 
+### SemEval competitions
+
+SemEval hosts competitions on 11 varied NLP tasks, you can find more information 
+about them here: https://semeval.github.io/SemEval2027/tasks . You can participate 
+in your research project, which has the advantage that the data should be there
+and the task is already defined. This is also a disadvantage (more constrained), 
+and sometimes the data is not of very high quality. Of course, your own research
+paper should still have its own research question(s) and answer(s).
+
