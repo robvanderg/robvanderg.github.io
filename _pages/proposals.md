@@ -154,3 +154,13 @@ and the task is already defined. This is also a disadvantage (more constrained),
 and sometimes the data is not of very high quality. Of course, your own research
 paper should still have its own research question(s) and answer(s).
 
+### Remove whitespace information from vocabularies
+Current vocabularies of language models consist of 20-40% of duplicate
+subwords, the only difference between these duplicates is the information
+whether the subword is word-initial (indicated with a double hashtag, or another
+special character). Since the vocabulary takes up a large amount of the space of
+the full model, this is a undesirable inefficiency. If we could use a different
+strategy for encoding whitespaces we would gain in efficiency, and potentially
+also in performance, as we might increase the amount of relevant overlap.
+
+
