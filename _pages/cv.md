@@ -42,6 +42,7 @@ Prizes
 
 Talks
 -------------
+* GroNLP (2026). \[[slides](../doc/2026-gronlp.pdf)\]
 * DM (2026). \[[slides](../doc/DM2026.pdf)\]
 * University of Copenhagen (2026. \[[slides](../doc/KU2026.pdf)\]
 * University of Gothenburg (2024). \[[slides](../doc/gothenburg2024.pdf)\]
