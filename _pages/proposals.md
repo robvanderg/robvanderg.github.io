@@ -14,7 +14,6 @@ to contact me as well (robv@itu.dk).
 For more information about how I normally supervise see: [Supervision statement](supervision.txt)
 
 ### How do language models learn morphologically rich languages?
-
 Learning dynamics of language models on linguistic, especially syntactic,
 patterns are well documented in English. ( [Language acquisition: do children
 and language models follow similar learning
@@ -32,17 +31,18 @@ different sizes with multilingual linguistics datasets such as MultiBlimp and
 BLIMPPI and document how models progress on different aspect of the language.
 
 
+### The return of the UNK
+Byte level models have removed the need for special UNK tokens when previously
+unseen inputs are encountered. However, the underlying problems are not solved;
+when units of an input sequence are never seen, the model will have no
+representation (no matter whether it is in bytes, characters or words). In
+practice, this means that rare and unseen characters will elicitate unexpected
+behaviour. Hence, it would be interesting to bring back UNK tokens to represent
+these. In the past, designing UNK tokens for words was an important part of
+building NLP models, see e.g. the [Stanford
+parser](https://github.com/chbrown/stanford-parser/blob/master/edu/stanford/nlp/parser/lexparser/EnglishUnknownWordModel.java)).
+In this project, we would investiage UNK tokens for the character level.
 
-
-### Cross lingual morphological segmenter
-
-It has been shown that morphological segments are probably good input units 
-for language models. However, high quality segmenters are only available for
-a handful of languages. Most languages lack annotated data for this task, 
-hence, a cross-lingual approach will enable more diverse experimentation with
-morphs as inputs in language models. 
-
-* [The SIGMORPHON 2022 Shared Task on Morpheme Segmentation](https://aclanthology.org/2022.sigmorphon-1.11)
 
 ### Cross-domain language classification
 Language classification is the task of given an input text, predicting which
