@@ -5,6 +5,7 @@ title: "Papers"
 
 2026
 ----
+* Elena Senger, Yuri Campbell, Rob Van Der Goot, and Barbara Plank. _High Scores, Hidden Failures: Evaluating Codebook-Based LLM Content Analysis._ In EMNLP findings.  \[[paper](https://aclanthology.org/2026.findings-emnlp.88.pdf) | [code](https://github.com/elenasenger/high-scores-hidden-failures) | [bib](https://aclanthology.org/2026.findings-emnlp.88.bib) \]
 * Niclas Claßen, Théo Sourget, Dovile Juodelyte, Rob van der Goot, and Veronika Cheplygina. _Robustness of transferability estimation metrics for medical imaging._ In BISCUIT. \[[paper](https://arxiv.org/abs/2608.09999)\]
 * Théo Sourget, Niclas Claßen, Jack Junchi Xu, Rob van der Goot, and Veronika Cheplygina. _Dataset Diversity Metrics and Impact on Classification Models._ In BISCUIT.
 *   Rob van der Goot. _From Bytes to Subwords: Challenges of Input Representations in NLP._ In ACL-findings. \[[paper](https://aclanthology.org/2026.findings-acl.530.pdf) \| [code](https://bitbucket.org/robvanderg/inputencodings/) \| [bib](https://aclanthology.org/2026.findings-acl.530.bib)\]
@@ -12,12 +13,12 @@ title: "Papers"
 *   Michal Rynowiecki, and Rob van der Goot. _Team BOBW (Best Of Both Worlds) at SemEval-2026 Task 3: Modular Cross-Attention Encoders for Dimensional Aspect-Based Sentiment Analysis_  In SemEval. \[[paper](https://aclanthology.org/2026.semeval-1.179.pdf) \| [code]() \| [bib](https://aclanthology.org/2026.semeval-1.179.bib)\]
 *   Thea K. R. Kristensen and Rob van der Goot. _TækTåk: Syntactic Analysis of Language Use on Danish TikTok._ In LREC.
 *   Kenneth Enevoldsen, Kristian Nørgaard Jensen, Jan Kostkan, Balázs Szabó, Márton Kardos, Kirsten Vad, Johan Heinsen, Andrea Blasi Núñez, Gianluca Barmina, Jacob Nielsen, Rasmus Larsen, Rob van der Goot, Peter Vahlstrup, Per Møldrup Dalum, Desmond Elliott, Lukas Galke Poech, Peter Schneider-Kamp and Kristoffer Nielbo. _Dynaword: From One-shot to Continuously Developed Datasets_. In LREC. \[[data](https://huggingface.co/datasets/danish-foundation-models/danish-dynaword)\]
+*   Weerayut Buaphet, Thanh-Nhi Nguyen, Risa Kondo, Tomoyuki Kajiwara, Yumin Kim, Jimin Lee, Hwanhee Lee, Holy Lovenia, Peerat Limkonchotiwat, Sarana Nutanong, and Rob Van der Goot. _MultiLexNorm++: A Unified Benchmark and a Generative Model for Lexical Normalization for Asian Languages_ In TALLIP \[[paper](https://dl.acm.org/doi/10.1145/3812651) \| [code/data](https://github.com/WeerayutBu/MultiLexNormPP)\].
 
 
 
 2025
 ----
-*   Weerayut Buaphet, Thanh-Nhi Nguyen, Risa Kondo, Tomoyuki Kajiwara, Yumin Kim, Jimin Lee, Hwanhee Lee, Holy Lovenia, Peerat Limkonchotiwat, Sarana Nutanong, and Rob Van der Goot. _MultiLexNorm++: A Unified Benchmark and a Generative Model for Lexical Normalization for Asian Languages_ In TALLIP \[[paper](https://dl.acm.org/doi/10.1145/3812651) \| [code/data](https://github.com/WeerayutBu/MultiLexNormPP)\].
 *   Arzu Burcu Güven, Anna Rogers, and Rob van der Goot. _Do Syntactic Categories Help in Developmentally Motivated Curriculum Learning for Language Models?_ in BabyLM workshop. 
     \[[paper](https://aclanthology.org/2025.babylm-main.22.pdf) | [code](https://github.com/arzuburcuguven/syntactic-categorization) | [bib](https://aclanthology.org/2025.babylm-main.22.bib)\] 
 *   Elena Senger, Yuri Campbell, Rob van der Goot, and Barbara Plank. _Crossing Domains without Labels: Distant Supervision for Term Extraction._ In EMNLP Industry. 
